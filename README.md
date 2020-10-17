@@ -3,5 +3,6 @@ https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=
 Automate the Boring Stuff with Python
 https://automatetheboringstuff.com/2e/
 https://www.pythoncheatsheet.org/
+
 The Ultimate Python Resource hub
 https://ayushirawat.com/the-ultimate-python-resource-hub
