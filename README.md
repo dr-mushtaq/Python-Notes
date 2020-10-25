@@ -8,3 +8,6 @@ https://www.pythoncheatsheet.org/
 
 The Ultimate Python Resource hub
 https://ayushirawat.com/the-ultimate-python-resource-hub
+
+File Handling in Python; Read, Write, Create, Append, Open Files
+https://skilllx.com/file-handling-in-python-read-write-create-append-open-files/?fbclid=IwAR0sPMIifrXmXjIIdcYaPImr5nOhFKNAlRyU6Cw4zgqppkUjFmQxpd4n5Gs
