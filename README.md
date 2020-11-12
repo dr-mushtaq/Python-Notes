@@ -13,3 +13,5 @@ File Handling in Python; Read, Write, Create, Append, Open Files
 https://skilllx.com/file-handling-in-python-read-write-create-append-open-files/?fbclid=IwAR0sPMIifrXmXjIIdcYaPImr5nOhFKNAlRyU6Cw4zgqppkUjFmQxpd4n5Gs
 18 Python scripts that help you write code faster
 https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3DnIgwXkgVXVpuNs0ohrWgd8zZBZF-zwpZzZqhoWiV-cOCiMy4i6PoyXM
+How to connect Python with MySQL database?
+https://www.youtube.com/watch?v=_fu2z-6SbSU
