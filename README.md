@@ -15,3 +15,6 @@ https://skilllx.com/file-handling-in-python-read-write-create-append-open-files/
 https://morioh.com/p/4f4b74ba17cc?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3DnIgwXkgVXVpuNs0ohrWgd8zZBZF-zwpZzZqhoWiV-cOCiMy4i6PoyXM
 How to connect Python with MySQL database?
 https://www.youtube.com/watch?v=_fu2z-6SbSU
+
+Comprehensive Python Beautiful Soup Web Scraping Tutorial! (find/find_all, css select, scrape table)
+https://www.youtube.com/watch?v=GjKQ6V_ViQE
