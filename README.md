@@ -21,3 +21,4 @@ https://www.youtube.com/watch?v=GjKQ6V_ViQE
 
 Generating Dashboards using Python Dash Framework
 https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA
+1. Shahzad
