@@ -26,7 +26,7 @@ https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEa
 This is a sample file for our Machine Course
 
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
-2. [Sklearn](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn)
+2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
  * [Graph Algorithms](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn/Graph%20Algorithms)
  * [Unsupervised Learning](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn/Unsupervised%20Learning)
    *  [Anomaly_Detection](https://github.com/hussain0048/Machine-Learning/blob/master/Sklearn/Unsupervised%20Learning/Anomaly_Detection.ipynb)
