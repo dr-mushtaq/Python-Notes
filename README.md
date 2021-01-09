@@ -25,7 +25,7 @@ https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEa
 ## Tabl of Content
 This is a sample file for our Machine Course
 
-1. [MLAndrew](https://github.com/hussain0048/Machine-Learning/tree/master/ML(Andrew))
+1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Sklearn](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn)
  * [Graph Algorithms](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn/Graph%20Algorithms)
  * [Unsupervised Learning](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn/Unsupervised%20Learning)
