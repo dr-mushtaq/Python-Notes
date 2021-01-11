@@ -22,11 +22,12 @@ https://www.youtube.com/watch?v=GjKQ6V_ViQE
 Generating Dashboards using Python Dash Framework
 https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA
 
-## Tabl of Content
+## Table of Content
 This is a sample file for our Machine Course
 
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
+ * Python solved Projects
    * [Audio-book.py](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)
    * [Chatboot.py](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)
    * [Fastapi-webapp.py](https://github.com/hussain0048/Python/blob/master/Projects/Fastapi-webapp.py)
