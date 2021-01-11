@@ -36,9 +36,9 @@ This is a sample file for our Machine Course
    * [reddit_bot.py](https://github.com/hussain0048/Python/blob/master/Projects/reddit_bot.py)
    * [spelingCorrection.py](https://github.com/hussain0048/Python/blob/master/Projects/spelingCorrection.py)
    * [try_and_catach.py](https://github.com/hussain0048/Python/blob/master/Projects/try_and_catach.py)
-    * Python Projects need to be solve
+  * Python Projects need to be solve
       * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
-       * Impotant Python resourses
+  * Impotant Python resourses
         *[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/)
     
  * [Supervised Learning](https://github.com/hussain0048/Machine-Learning/tree/master/Sklearn/supervised%20algorithm)
