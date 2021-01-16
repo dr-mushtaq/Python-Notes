@@ -25,7 +25,7 @@ This is a sample file for our Machine Course
 
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
- * Python solved Projects
+3. Python solved Projects
    * [Audio-book.py](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)
    * [Chatboot.py](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)
    * [Fastapi-webapp.py](https://github.com/hussain0048/Python/blob/master/Projects/Fastapi-webapp.py)
@@ -36,10 +36,10 @@ This is a sample file for our Machine Course
    * [reddit_bot.py](https://github.com/hussain0048/Python/blob/master/Projects/reddit_bot.py)
    * [spelingCorrection.py](https://github.com/hussain0048/Python/blob/master/Projects/spelingCorrection.py)
    * [try_and_catach.py](https://github.com/hussain0048/Python/blob/master/Projects/try_and_catach.py)
-  3. Python Projects need to be solve
+  4. Python Projects need to be solve
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
-  4. Impotant Python resourses
+  5. Impotant Python resourses
         *[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/)
     
 
