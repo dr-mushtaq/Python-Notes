@@ -39,11 +39,12 @@ This is a sample file for our Machine Course
   4. Python Projects need to be solve
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
-     * * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [Shutdown Computer with Voice in Python](https://www.youtube.com/watch?v=bFaOZFMi3J8)
+     * [A Simple Spelling & Grammar Checker using Python](https://www.youtube.com/watch?v=mbV7gIsFOi0)
+     * [How To Send For Free SMS Using Python With Twilio [ updated ]](https://www.youtube.com/watch?v=0BHsz-J3XSY)
   5. Impotant Python resourses
-    *[Shutdown Computer with Voice in Python](https://www.youtube.com/watch?v=bFaOZFMi3J8)
-    *[A Simple Spelling & Grammar Checker using Python](https://www.youtube.com/watch?v=mbV7gIsFOi0)
-    *[How To Send For Free SMS Using Python With Twilio [ updated ]](https://www.youtube.com/watch?v=0BHsz-J3XSY)
+   
 
     
 
