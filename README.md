@@ -43,6 +43,9 @@ This is a sample file for our Machine Course
      * [Shutdown Computer with Voice in Python](https://www.youtube.com/watch?v=bFaOZFMi3J8)
      * [A Simple Spelling & Grammar Checker using Python](https://www.youtube.com/watch?v=mbV7gIsFOi0)
      * [How To Send For Free SMS Using Python With Twilio [ updated ]](https://www.youtube.com/watch?v=0BHsz-J3XSY)
+     * [How to Convert Speech to Text in Python]](https://morioh.com/p/339e45f0f43b?f=5c21fb01c16e2556b555ab32&fbclid=IwAR1dEfcb1yFe30nK6Pd3m3nZznSgpOjih7iWhY7hNFWqKa9BV4Qd1draa7w)
+     * [Transcribe Video to Text with Python and Watson in 15 Minutes] (https://morioh.com/p/9268c022b79f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR03pqOw0uiFSc4GhD0IkrFppl8EUnqbKhMXKWDFHiychiAm3etFRBV01nk)
+
   5. Impotant Python resourses
    
 
