@@ -47,6 +47,9 @@ This is a sample file for our Machine Course
      * [Transcribe Video to Text with Python and Watson in 15 Minutes](https://morioh.com/p/9268c022b79f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR03pqOw0uiFSc4GhD0IkrFppl8EUnqbKhMXKWDFHiychiAm3etFRBV01nk)
      * [Create Your Own Security Camera Using Python](https://www.youtube.com/watch?v=RJ_Dh6wFMpY)
      * [Create Your Own Translator Using Python](https://www.youtube.com/watch?v=nBMrG6-Y_K4)
+     * [How to Convert any Python File to .EXE](https://www.youtube.com/watch?v=UZX5kH72Yx4)
+     * [Create a Simple Voice Assistant That Sends Email using Python ( 20 lines )](https://www.youtube.com/watch?v=IRqUgsVmyus) -Shzad
+
 
   5. Impotant Python resourses
    
