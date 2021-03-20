@@ -49,6 +49,7 @@ This is a sample file for our Machine Course
      * [Create Your Own Translator Using Python](https://www.youtube.com/watch?v=nBMrG6-Y_K4)
      * [How to Convert any Python File to .EXE](https://www.youtube.com/watch?v=UZX5kH72Yx4)
      * [Create a Simple Voice Assistant That Sends Email using Python ( 20 lines )](https://www.youtube.com/watch?v=IRqUgsVmyus) -Shzad
+     * [Quickly build Explainable AI dashboards in Python (explainerdashboard library](https://www.youtube.com/watch?v=ZgypAMRcmw8)
 
 
   5. Impotant Python resourses
