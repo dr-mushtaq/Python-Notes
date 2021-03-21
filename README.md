@@ -36,7 +36,7 @@ This is a sample file for our Machine Course
    * [reddit_bot.py](https://github.com/hussain0048/Python/blob/master/Projects/reddit_bot.py)
    * [spelingCorrection.py ](https://github.com/hussain0048/Python/blob/master/Projects/spelingCorrection.py)
    * [try_and_catach.py](https://github.com/hussain0048/Python/blob/master/Projects/try_and_catach.py)
-  4. Python Projects need to be solve
+  4. Python Projects need to be solve.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
