@@ -25,17 +25,16 @@ This is a sample file for our Machine Course
 
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
-  * [Create a Simple Voice Assistant.py](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)
-4. Python solved Projects
-   * [Audio-book.py](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)
+   * [Create a Simple Voice Assistant.py](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)
+   * [Autocorrect.py](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)
+   * [Audio_book.py](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)
    * [Chatboot.py](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)
    * [Fastapi-webapp.py](https://github.com/hussain0048/Python/blob/master/Projects/Fastapi-webapp.py)
    * [GUI-Calculator.py](https://github.com/hussain0048/Python/blob/master/Projects/GUI-Calculator.py)
    * [To_Send_Email_Using_Python.ipynb](https://github.com/hussain0048/Python/blob/master/Projects/To_Send_Email_Using_Python.ipynb)
    * [qr.py](https://github.com/hussain0048/Python/blob/master/Projects/qr.py)
-   * [readme](https://github.com/hussain0048/Python/blob/master/Projects/readme)
    * [reddit_bot.py](https://github.com/hussain0048/Python/blob/master/Projects/reddit_bot.py)
-   * [spelingCorrection.py](https://github.com/hussain0048/Python/blob/master/Projects/spelingCorrection.py)
+   * [spelingCorrection.py ](https://github.com/hussain0048/Python/blob/master/Projects/spelingCorrection.py)
    * [try_and_catach.py](https://github.com/hussain0048/Python/blob/master/Projects/try_and_catach.py)
   4. Python Projects need to be solve
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
