@@ -14,7 +14,7 @@ This is a sample file for our Machine Course
    * [reddit_bot.py](https://github.com/hussain0048/Python/blob/master/Projects/reddit_bot.py)
    * [spelingCorrection.py ](https://github.com/hussain0048/Python/blob/master/Projects/spelingCorrection.py)
    * [try_and_catach.py](https://github.com/hussain0048/Python/blob/master/Projects/try_and_catach.py)
-  4. Python Projects need to be solve.
+  4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
@@ -27,9 +27,8 @@ This is a sample file for our Machine Course
      * [Create Your Own Translator Using Python](https://www.youtube.com/watch?v=nBMrG6-Y_K4)
      * [How to Convert any Python File to .EXE](https://www.youtube.com/watch?v=UZX5kH72Yx4)
      * [Quickly build Explainable AI dashboards in Python (explainerdashboard library](https://www.youtube.com/watch?v=ZgypAMRcmw8)
-
-
-  5. Impotant Python resourses
+     * [Learn How to Build a Self-Driving Car System with Python](https://laconicml.com/self-driving-car-system-python/?fbclid=IwAR0dOsPBJb-AKWN5gRpMBQxOpsyC8pcgrabu_eKRigth_RYcB0lJmEbY5Fs)
+  5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [The Ultimate Python Resource hub](https://ayushirawat.com/the-ultimate-python-resource-hub)
      * [File Handling in Python; Read, Write, Create, Append, Open Files](https://skilllx.com/file-handling-in-python-read-write-create-append-open-files/?fbclid=IwAR0sPMIifrXmXjIIdcYaPImr5nOhFKNAlRyU6Cw4zgqppkUjFmQxpd4n5Gs)
