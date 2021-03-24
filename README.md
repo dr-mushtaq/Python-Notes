@@ -28,6 +28,7 @@ This is a sample file for our Machine Course
      * [How to Convert any Python File to .EXE](https://www.youtube.com/watch?v=UZX5kH72Yx4)
      * [Quickly build Explainable AI dashboards in Python (explainerdashboard library](https://www.youtube.com/watch?v=ZgypAMRcmw8)
      * [Learn How to Build a Self-Driving Car System with Python](https://laconicml.com/self-driving-car-system-python/?fbclid=IwAR0dOsPBJb-AKWN5gRpMBQxOpsyC8pcgrabu_eKRigth_RYcB0lJmEbY5Fs)
+     * [Screen Recorder in Python](https://www.youtube.com/watch?v=08a3PikBSl8)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [The Ultimate Python Resource hub](https://ayushirawat.com/the-ultimate-python-resource-hub)
