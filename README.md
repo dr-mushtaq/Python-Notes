@@ -32,6 +32,8 @@ This is a sample file for our Machine Course
      * [Screen Recorder in Python](https://www.youtube.com/watch?v=08a3PikBSl8)
      * [Create Your Own Browser Using Python | Python Project | PyQt5](https://www.youtube.com/watch?v=z-5bZ8EoKu4)
      * [Live Speech to Text with Watson Speech to Text and Python | FREE Speech to Text API](https://www.youtube.com/watch?v=YCyuZM454_I)
+     * [How To Create a Simple Web Server Using Python and the http.server Module](https://www.youtube.com/watch?v=kogOfxg1c_g&ab_channel=ConorBailey)
+     * [Python Project || Build A Mobile App With Python 🔥 kivy python tutorial](https://www.youtube.com/watch?v=ORGYmVvUmEY&ab_channel=Tech2etc)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [The Ultimate Python Resource hub](https://ayushirawat.com/the-ultimate-python-resource-hub)
