@@ -16,6 +16,7 @@ This is a sample file for our Machine Course
    * [try_and_catach.py](https://github.com/hussain0048/Python/blob/master/Projects/try_and_catach.py)
   4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [Build a Weather App in Excel by using Python](https://www.youtube.com/watch?v=m0UPBRJdsas&ab_channel=CodingIsFun)
      * [Voice based sentiment analysis using python](https://www.youtube.com/watch?v=euOw1DGqEpo&ab_channel=AKPython)
      * [Send Daily Push Notifications to Your Phone Using Python](https://www.youtube.com/watch?v=tbzPcKRZlHg&ab_channel=CodingIsFun)
      * [Make a News App with Python | News API | Python Project for Beginners](https://www.youtube.com/watch?v=gXl88MaxueY&ab_channel=CodingWithEvan)
