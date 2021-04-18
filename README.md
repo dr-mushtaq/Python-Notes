@@ -46,6 +46,7 @@ This is a sample file for our Machine Course
      * [Comprehensive Python Beautiful Soup Web Scraping Tutorial! (find/find_all, css select, scrape table](https://www.youtube.com/watch?v=GjKQ6V_ViQE)
      * [Generating Dashboards using Python Dash Framework](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
      * [AK Python Projects](https://www.youtube.com/channel/UCeXk5cf5uP1TEBkzhHyhINg)
+     * [techprofree](https://www.techprofree.com/category/projects/python/)
    
 
     
