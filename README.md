@@ -42,6 +42,7 @@ This is a sample file for our Machine Course
      * [Python Project || Build A Mobile App With Python 🔥 kivy python tutorial](https://www.youtube.com/watch?v=ORGYmVvUmEY&ab_channel=Tech2etc)
      * [120 Python Projects with Source Code](https://medium.com/coders-camp/120-python-projects-with-source-code-c913bb95bab8)
      * [Python GUI Development With PySimpleGUI](https://www.youtube.com/watch?v=-_z2RPAH0Qk&ab_channel=RealPython)
+     * [How to Create a Chrome Plugin using Python](https://morioh.com/p/0e3b33fe9851?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3E1ST6L1SGY1ticAE5162wJWYk421PSpAUFq6k97iO9MCo695bcVbB2m8)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [The Ultimate Python Resource hub](https://ayushirawat.com/the-ultimate-python-resource-hub)
