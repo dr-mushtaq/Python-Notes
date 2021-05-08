@@ -26,7 +26,7 @@ This is a sample file for our Machine Course
      * [How to find Wifi Passwords using python 2021](https://www.youtube.com/watch?v=A19jp81_9Lc&ab_channel=TechHub)
      * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
      * [Convert PY to EXE Automaticall](https://www.youtube.com/watch?v=OZSZHmWSOeM&ab_channel=PyTutorials)
-     * [Build a Weather App in Excel by using Python](https://www.youtube.com/watch?v=m0UPBRJdsas&ab_channel=CodingIsFun
+     * [Build a Weather App in Excel by using Python](https://www.youtube.com/watch?v=m0UPBRJdsas&ab_channel=CodingIsFun)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * f=5c21fb01c16e2556b555ab32&fbclid=IwAR1dEfcb1yFe30nK6Pd3m3nZznSgpOjih7iWhY7hNFWqKa9BV4Qd1draa7w)
