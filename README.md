@@ -44,6 +44,7 @@ This is a sample file for our Machine Course
      * [Python GUI Development With PySimpleGUI](https://www.youtube.com/watch?v=-_z2RPAH0Qk&ab_channel=RealPython)
      * [How to Create a Chrome Plugin using Python](https://morioh.com/p/0e3b33fe9851?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3E1ST6L1SGY1ticAE5162wJWYk421PSpAUFq6k97iO9MCo695bcVbB2m8)
      * [Let's Create a Python Package Together for Computer Vision | CVZone](https://www.youtube.com/watch?v=sfG7nRDNEO0&ab_channel=Murtaza%27sWorkshop-RoboticsandAI)
+     * [Convert Speech to Text in Python Using speech_recognition Module](https://www.youtube.com/watch?v=tFA1fUzOSBw&ab_channel=PythonPool)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [The Ultimate Python Resource hub](https://ayushirawat.com/the-ultimate-python-resource-hub)
