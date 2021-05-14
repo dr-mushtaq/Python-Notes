@@ -23,6 +23,7 @@ This is a sample file for our Machine Course
    * [Create Your Own Translator Using Python](https://www.youtube.com/watch?v=nBMrG6-Y_K4)
   4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [How to create a smart attendance system using python](https://www.youtube.com/watch?v=o9-cY0R7VME&ab_channel=Iknowpython)
      * [How to find Wifi Passwords using python 2021](https://www.youtube.com/watch?v=A19jp81_9Lc&ab_channel=TechHub)
      * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
      * [Convert PY to EXE Automaticall](https://www.youtube.com/watch?v=OZSZHmWSOeM&ab_channel=PyTutorials)
