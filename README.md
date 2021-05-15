@@ -21,11 +21,12 @@ This is a sample file for our Machine Course
    * [How To Send For Free SMS Using Python With Twilio [ updated ]](https://www.youtube.com/watch?v=0BHsz-J3XSY)
    * [How to Convert Speech to Text in Python](https://morioh.com/p/339e45f0f43b?
    * [Create Your Own Translator Using Python](https://www.youtube.com/watch?v=nBMrG6-Y_K4)
+   * [Convert Speech to Text in Python Using speech_recognition Module](https://www.youtube.com/watch?v=tFA1fUzOSBw&ab_channel=PythonPool)
+   * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
   4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [How to create a smart attendance system using python](https://www.youtube.com/watch?v=o9-cY0R7VME&ab_channel=Iknowpython)
      * [How to find Wifi Passwords using python 2021](https://www.youtube.com/watch?v=A19jp81_9Lc&ab_channel=TechHub)
-     * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
      * [Convert PY to EXE Automaticall](https://www.youtube.com/watch?v=OZSZHmWSOeM&ab_channel=PyTutorials)
      * [Build a Weather App in Excel by using Python](https://www.youtube.com/watch?v=m0UPBRJdsas&ab_channel=CodingIsFun)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
@@ -44,7 +45,6 @@ This is a sample file for our Machine Course
      * [Python GUI Development With PySimpleGUI](https://www.youtube.com/watch?v=-_z2RPAH0Qk&ab_channel=RealPython)
      * [How to Create a Chrome Plugin using Python](https://morioh.com/p/0e3b33fe9851?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3E1ST6L1SGY1ticAE5162wJWYk421PSpAUFq6k97iO9MCo695bcVbB2m8)
      * [Let's Create a Python Package Together for Computer Vision | CVZone](https://www.youtube.com/watch?v=sfG7nRDNEO0&ab_channel=Murtaza%27sWorkshop-RoboticsandAI)
-     * [Convert Speech to Text in Python Using speech_recognition Module](https://www.youtube.com/watch?v=tFA1fUzOSBw&ab_channel=PythonPool)
      * [Realtime chat application using python](https://www.youtube.com/watch?v=djV-2WjHruQ&ab_channel=Iknowpython)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
