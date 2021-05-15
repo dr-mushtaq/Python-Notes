@@ -30,7 +30,6 @@ This is a sample file for our Machine Course
      * [Build a Weather App in Excel by using Python](https://www.youtube.com/watch?v=m0UPBRJdsas&ab_channel=CodingIsFun)
      * [Generating Dashboards using Python Dash Framework-Khattak](https://morioh.com/p/f39c21382d8f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR0Tjr7SEaBE11u4Mqpr3ATLoE3cZ24N0olveDX6XP-s5McPurAHQTHJOOA)
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
-     * f=5c21fb01c16e2556b555ab32&fbclid=IwAR1dEfcb1yFe30nK6Pd3m3nZznSgpOjih7iWhY7hNFWqKa9BV4Qd1draa7w)
      * [Transcribe Video to Text with Python and Watson in 15 Minutes](https://morioh.com/p/9268c022b79f?f=5c21fb01c16e2556b555ab32&fbclid=IwAR03pqOw0uiFSc4GhD0IkrFppl8EUnqbKhMXKWDFHiychiAm3etFRBV01nk)
      * [Create Your Own Security Camera Using Python](https://www.youtube.com/watch?v=RJ_Dh6wFMpY) 
      * [How to Convert any Python File to .EXE](https://www.youtube.com/watch?v=UZX5kH72Yx4)
