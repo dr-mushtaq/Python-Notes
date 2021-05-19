@@ -25,6 +25,8 @@ This is a sample file for our Machine Course
    * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
   4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [How to Create Home surveillance system using Python](https://www.youtube.com/watch?v=lwPPPsI-_g8&ab_channel=Iknowpython)
+     * [Build A Mobile App With Python 🔥 Kivy Python Tutorial || Python Project](https://www.youtube.com/watch?v=utc0l3ITpNQ&ab_channel=SamCodes)
      * [How to create a smart attendance system using python](https://www.youtube.com/watch?v=o9-cY0R7VME&ab_channel=Iknowpython)
      * [How to find Wifi Passwords using python 2021](https://www.youtube.com/watch?v=A19jp81_9Lc&ab_channel=TechHub)
      * [Convert PY to EXE Automaticall](https://www.youtube.com/watch?v=OZSZHmWSOeM&ab_channel=PyTutorials)
