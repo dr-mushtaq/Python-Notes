@@ -19,7 +19,7 @@ This is a sample file for our Machine Course
    * [Shutdown Computer with Voice in Python](https://www.youtube.com/watch?v=bFaOZFMi3J8)
    * [A Simple Spelling & Grammar Checker using Python](https://www.youtube.com/watch?v=mbV7gIsFOi0)
    * [How To Send For Free SMS Using Python With Twilio [ updated ]](https://www.youtube.com/watch?v=0BHsz-J3XSY)
-   * [How to Convert Speech to Text in Python](https://morioh.com/p/339e45f0f43b?
+   * [How to Convert Speech to Text in Python](https://morioh.com/p/339e45f0f43b?)
    * [Create Your Own Translator Using Python](https://www.youtube.com/watch?v=nBMrG6-Y_K4)
    * [Convert Speech to Text in Python Using speech_recognition Module](https://www.youtube.com/watch?v=tFA1fUzOSBw&ab_channel=PythonPool)
    * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
