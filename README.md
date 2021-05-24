@@ -25,6 +25,7 @@ This is a sample file for our Machine Course
    * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
   4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [15 Python GUI Projects with Source Code](https://medium.com/coders-camp/15-python-gui-projects-with-source-code-da403ba14864)
      * [Draw multiple pattern using Python Turtle](https://www.youtube.com/watch?v=ojL41F1AhWc&ab_channel=SkillUpwithGenie)
      * [Web Scraping Python App That Tracks Amazon Prices & Sends Email Alert! | BeautifulSoup - Requests](https://www.youtube.com/watch?v=qUcMpxTH-pU&list=PLWnON6N0wn-E2T0utO1aFMV6pUxZ_zMpW&index=2&ab_channel=SamCodesSamCodes)
      * [How to Create Home surveillance system using Python](https://www.youtube.com/watch?v=lwPPPsI-_g8&ab_channel=Iknowpython)
