@@ -55,6 +55,7 @@ This is a sample file for our Machine Course
      * [Realtime chat application using python](https://www.youtube.com/watch?v=djV-2WjHruQ&ab_channel=Iknowpython)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
+     * [Web code](https://www.youtube.com/channel/UCKJnF_GhwvmXqtGh9LePXpg/featured)
      *  [Coding Lifestyle 4u](https://www.youtube.com/channel/UCG6ztZE3zK2aZeJZKnvohkg)
      * [The Ultimate Python Resource hub](https://ayushirawat.com/the-ultimate-python-resource-hub)
      * [File Handling in Python; Read, Write, Create, Append, Open Files](https://skilllx.com/file-handling-in-python-read-write-create-append-open-files/?fbclid=IwAR0sPMIifrXmXjIIdcYaPImr5nOhFKNAlRyU6Cw4zgqppkUjFmQxpd4n5Gs)
