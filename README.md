@@ -25,6 +25,7 @@ This is a sample file for our Machine Course
    * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
   4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
+     * [Build a Python Module and Share it with Pip Install](https://www.youtube.com/watch?v=FkmtmYFTlYE&ab_channel=DataScienceGarageDataScienceGarage)
      * [Python GUI App Using Tkinter - Step by Step Tutorial](https://www.youtube.com/watch?v=Evwrt2q5vqw&ab_channel=SamCodes)
      * [How to make a Discord Bot using Python 2021! (Discord.py)](https://www.youtube.com/watch?v=J7KEY3l5YTk&ab_channel=SamCodes)
      * [15 Python GUI Projects with Source Code](https://medium.com/coders-camp/15-python-gui-projects-with-source-code-da403ba14864)
@@ -66,6 +67,7 @@ This is a sample file for our Machine Course
      * [AK Python Projects](https://www.youtube.com/channel/UCeXk5cf5uP1TEBkzhHyhINg)
      * [techprofree](https://www.techprofree.com/category/projects/python/)
      * [130+ Python Projects with Source Code](https://medium.com/coders-camp/130-python-projects-with-source-code-61f498591bb)
+     * [Data Science Garage](https://www.youtube.com/channel/UCLhx5RCmUl3cOti6vJq0DPA)
    
 
     
