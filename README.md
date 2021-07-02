@@ -54,6 +54,7 @@ This is a sample file for our Machine Course
      * [How to Create a Chrome Plugin using Python](https://morioh.com/p/0e3b33fe9851?f=5c21fb01c16e2556b555ab32&fbclid=IwAR3E1ST6L1SGY1ticAE5162wJWYk421PSpAUFq6k97iO9MCo695bcVbB2m8)
      * [Let's Create a Python Package Together for Computer Vision | CVZone](https://www.youtube.com/watch?v=sfG7nRDNEO0&ab_channel=Murtaza%27sWorkshop-RoboticsandAI)
      * [Realtime chat application using python](https://www.youtube.com/watch?v=djV-2WjHruQ&ab_channel=Iknowpython)
+     * [12 Beginner Python Projects - Coding Course](https://www.youtube.com/watch?v=8ext9G7xspg&ab_channel=freeCodeCamp.org)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [Web code](https://www.youtube.com/channel/UCKJnF_GhwvmXqtGh9LePXpg/featured)
@@ -68,6 +69,7 @@ This is a sample file for our Machine Course
      * [techprofree](https://www.techprofree.com/category/projects/python/)
      * [130+ Python Projects with Source Code](https://medium.com/coders-camp/130-python-projects-with-source-code-61f498591bb)
      * [Data Science Garage](https://www.youtube.com/channel/UCLhx5RCmUl3cOti6vJq0DPA)
+    
    
 
     
