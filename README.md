@@ -55,6 +55,7 @@ This is a sample file for our Machine Course
      * [Let's Create a Python Package Together for Computer Vision | CVZone](https://www.youtube.com/watch?v=sfG7nRDNEO0&ab_channel=Murtaza%27sWorkshop-RoboticsandAI)
      * [Realtime chat application using python](https://www.youtube.com/watch?v=djV-2WjHruQ&ab_channel=Iknowpython)
      * [12 Beginner Python Projects - Coding Course](https://www.youtube.com/watch?v=8ext9G7xspg&ab_channel=freeCodeCamp.org)
+     * [How to Create Home surveillance system using Python](https://www.youtube.com/watch?v=lwPPPsI-_g8&ab_channel=Iknowpython)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [Web code](https://www.youtube.com/channel/UCKJnF_GhwvmXqtGh9LePXpg/featured)
