@@ -57,6 +57,7 @@ This is a sample file for our Machine Course
      * [Realtime chat application using python](https://www.youtube.com/watch?v=djV-2WjHruQ&ab_channel=Iknowpython)
      * [12 Beginner Python Projects - Coding Course](https://www.youtube.com/watch?v=8ext9G7xspg&ab_channel=freeCodeCamp.org)
      * [How to Create Home surveillance system using Python](https://www.youtube.com/watch?v=lwPPPsI-_g8&ab_channel=Iknowpython)
+     * [165+ Python Projects with Source Code](https://medium.com/coders-camp/130-python-projects-with-source-code-61f498591bb)
   5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [Web code](https://www.youtube.com/channel/UCKJnF_GhwvmXqtGh9LePXpg/featured)
