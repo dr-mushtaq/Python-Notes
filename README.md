@@ -1,6 +1,7 @@
 ## **Table of Content**
 This document is comprised of excellent machine learning concept, materials, resources and projects | Happy Learning
 ### **Module 01: Basics**
+================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
    * [Create a Simple Voice Assistant.py](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)
@@ -24,7 +25,9 @@ This document is comprised of excellent machine learning concept, materials, res
    * [Convert Speech to Text in Python Using speech_recognition Module](https://www.youtube.com/watch?v=tFA1fUzOSBw&ab_channel=PythonPool)
    * [Python Auto Clicker](https://www.youtube.com/watch?v=eamTeszpeZ4&ab_channel=PyTutorials)
 ### **Module 02: Projects that needs to be solved**
-  4. **Python Projects need to be solve**.
+================================================================
+
+4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [I know python](https://www.youtube.com/c/Iknowpython/playlists)
      * [Build a Python Module and Share it with Pip Install](https://www.youtube.com/watch?v=FkmtmYFTlYE&ab_channel=DataScienceGarageDataScienceGarage)
@@ -60,7 +63,9 @@ This document is comprised of excellent machine learning concept, materials, res
      * [How to Create Home surveillance system using Python](https://www.youtube.com/watch?v=lwPPPsI-_g8&ab_channel=Iknowpython)
      * [165+ Python Projects with Source Code](https://medium.com/coders-camp/130-python-projects-with-source-code-61f498591bb)
 ### **Module 03: Important Python Language Resources**
-  5. **Impotant Python resourses**
+================================================================
+
+5. **Impotant Python resourses**
      * [Python Programming Interview Questions – Get Hired as Python Developer](https://techvidvan.com/tutorials/python-programming-interview-questions/?fbclid=IwAR3OFuWqR2vqPHwXPvbFE5UYvegwnlcX9aCkzmAuG17f_Fg9y94ND-IG7Wg)
      * [Web code](https://www.youtube.com/channel/UCKJnF_GhwvmXqtGh9LePXpg/featured)
      *  [Coding Lifestyle 4u](https://www.youtube.com/channel/UCG6ztZE3zK2aZeJZKnvohkg)
