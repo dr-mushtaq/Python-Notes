@@ -1,5 +1,15 @@
-## **Table of Content**
-This document is comprised of excellent machine learning concept, materials, resources and projects | Happy Learning
+**About**
+
+This repository is related to all about Python  - an A-Z guide to the world of Data Science. This supplement contains the implementation of Python from Basic to advance level.
+                                      Follow Coursesteach for more content 😊
+
+                              https://coursesteach.com/
+## Course 01  - [**📚🧑‍🎓📺 Introduction of Python **](https://coursesteach.com/course/view.php?id=4)
+
+## 📚Chapter: 1  - [**Introduction**](https://coursesteach.com/course/view.php?id=4)
+ - [**What is mean by programming(Python Part1)**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61)-
+
+
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
