@@ -4,7 +4,7 @@ This repository is related to all about Python  - an A-Z guide to the world of D
                                       Follow Coursesteach for more content 😊
 
                               https://coursesteach.com/
-## Course 01  - [**📚🧑‍🎓📺 Introduction of Python **](https://coursesteach.com/course/view.php?id=4)
+## Course 01  - [**📚🧑‍🎓📺 Introduction of Python**](https://coursesteach.com/course/view.php?id=4)
 
 ## 📚Chapter: 1  - [**Introduction**](https://coursesteach.com/course/view.php?id=4)
  - [**What is mean by programming(Python Part1)**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61)-
