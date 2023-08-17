@@ -9,6 +9,8 @@ Contribution: We would love your help in making this repository even better! If 
 
 Together, let's make this the best AI learning hub website! 🚀
 
+
+
 [**📝Notebook**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
 
 ## Course 01  - [**📚🧑‍🎓📺Introduction of Python**](https://coursesteach.com/course/view.php?id=4)
