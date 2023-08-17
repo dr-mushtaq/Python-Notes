@@ -12,6 +12,7 @@ Together, let's make this the best AI learning hub website! 🚀
 
 ## 📚Chapter: 1  - [**Introduction**](https://coursesteach.com/course/view.php?id=4)
  - [**What is mean by programming(Python Part1)(Tutorial)**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61)
+ - [**What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1)
  - [**Python Basic Complete Python Notbook(Code)**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
 
 
