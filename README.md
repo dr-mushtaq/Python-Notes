@@ -20,7 +20,8 @@ Together, let's make this the best AI learning hub website! 🚀
  - [**What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1)
  - [**Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)
  - [**Python Basic Complete Python Notbook(Code)**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
-
+## 📚Chapter: 2  - [**Variables and types**](https://coursesteach.com/course/view.php?id=4)
+ - [**Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120)
 
 ### **Module 01: Basics**
 ================================================================
