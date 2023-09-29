@@ -24,6 +24,9 @@ Together, let's make this the best AI learning hub website! 🚀
  - [**Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120)
 ## 📚Chapter: 3 - [**Operators**](https://coursesteach.com/course/view.php?id=4)[|Code|](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
  - [**Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b)
+## Course 02 -    [**📚🧑‍🎓📺Machine Learning Libraries**](https://coursesteach.com/course/view.php?id=176&section=0#section-16)
+ - [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e)
+
 
 ### **Module 01: Basics**
 ================================================================
