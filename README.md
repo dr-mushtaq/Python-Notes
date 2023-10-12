@@ -42,8 +42,9 @@ Together, let's make this the best AI learning hub website! 🚀
 
 ## Course 02 -    [**📚🧑‍🎓📺Machine Learning Libraries**](https://coursesteach.com/course/view.php?id=176&section=0#section-16)
 ## 📚Chapter: 1  - [**Introduction**]()
- - [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e)
-
+| Tutorial | Video | Code |
+|---|---|---|
+| [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e) | Content 2 | Content 3 |
 
 ### **Module 01: Basics**
 ================================================================
