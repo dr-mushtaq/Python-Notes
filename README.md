@@ -10,9 +10,6 @@ Contribution: We would love your help in making this repository even better! If 
 Together, let's make this the best AI learning hub website! 🚀
 
 
-
-[**📝Notebook**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
-
 ## Course 01  - [**📚🧑‍🎓📺Introduction of Python**](https://coursesteach.com/course/view.php?id=4)
 
 ## 📚Chapter: 1  - [**Introduction**](https://coursesteach.com/course/view.php?id=4)
@@ -33,15 +30,16 @@ Together, let's make this the best AI learning hub website! 🚀
 
 | Tutorial | Video | Code |
 |---|---|---|
-|  [**Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b) | Content 2 | Content 3 |
+|  [**Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
 ## 📚Chapter: 4 - [**String**](https://coursesteach.com/course/view.php?id=4)
 
-| Tutorial | Video | String |
+| Tutorial | Video | Code |
 |---|---|---|
-| [**Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7) | Content 2 | Content 3 |
+| [**Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
- - 
+
+
 ## Course 02 -    [**📚🧑‍🎓📺Machine Learning Libraries**](https://coursesteach.com/course/view.php?id=176&section=0#section-16)
 ## 📚Chapter: 1  - [**Introduction**]()
  - [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e)
