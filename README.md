@@ -19,8 +19,6 @@ Together, let's make this the best AI learning hub website! 🚀
 | [**2- What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1) | Content 5 | Content 6 |
 |[**3- Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)|---|---|
 
-
- - [**Python Basic Complete Python Notbook(Code)**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
 ## 📚Chapter: 2  - [**Variables and types**](https://coursesteach.com/course/view.php?id=4)
 | Tutorial | Video | Code |
 |---|---|---|
