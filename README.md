@@ -27,7 +27,7 @@ Together, let's make this the best AI learning hub website! 🚀
 ## 📚Chapter: 2  - [**Variables and types**](https://coursesteach.com/course/view.php?id=4)
 | Tutorial | Video | Code |
 |---|---|---|
-| [**1- Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120) | Content 2 | Content 3 |
+| [**1- Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]([https://github.com/hussain0048/Machine-Learning/blob/master/Simple_Linear_Regression_using_scikit_learn.ipynb](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)) |
 
 ## 📚Chapter: 3 - [**Operators**](https://coursesteach.com/course/view.php?id=4)
 
