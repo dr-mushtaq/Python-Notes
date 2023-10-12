@@ -35,8 +35,13 @@ Together, let's make this the best AI learning hub website! 🚀
 |---|---|---|
 |  [**Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b) | Content 2 | Content 3 |
 
-## 📚Chapter: 4 - [**String**](https://coursesteach.com/course/view.php?id=4)[|Code|](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
- - [**Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7)
+## 📚Chapter: 4 - [**String**](https://coursesteach.com/course/view.php?id=4)
+
+| Tutorial | Video | String |
+|---|---|---|
+| [**Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7) | Content 2 | Content 3 |
+
+ - 
 ## Course 02 -    [**📚🧑‍🎓📺Machine Learning Libraries**](https://coursesteach.com/course/view.php?id=176&section=0#section-16)
 ## 📚Chapter: 1  - [**Introduction**]()
  - [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e)
