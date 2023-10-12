@@ -16,9 +16,13 @@ Together, let's make this the best AI learning hub website! 🚀
 ## Course 01  - [**📚🧑‍🎓📺Introduction of Python**](https://coursesteach.com/course/view.php?id=4)
 
 ## 📚Chapter: 1  - [**Introduction**](https://coursesteach.com/course/view.php?id=4)
- - [**What is mean by programming(Python Part1)(Tutorial)**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61)
- - [**What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1)
- - [**Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)
+| Tutorial | Video | Code |
+|---|---|---|
+| [**1- What is mean by programming(Python Part1)(Tutorial)**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | Content 2 | Content 3 |
+| [**2- What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1) | Content 5 | Content 6 |
+|[**3- Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)|---|---|
+
+
  - [**Python Basic Complete Python Notbook(Code)**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
 ## 📚Chapter: 2  - [**Variables and types**](https://coursesteach.com/course/view.php?id=4)[|Code|](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
  - [**Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120)
