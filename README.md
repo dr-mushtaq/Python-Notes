@@ -25,7 +25,7 @@ Together, let's make this the best AI learning hub website! 🚀
 
  - [**Python Basic Complete Python Notbook(Code)**](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
 ## 📚Chapter: 2  - [**Variables and types**](https://coursesteach.com/course/view.php?id=4)[|Code|](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb)
-| Header 1 | Header 2 | Header 3 |
+| Tutorial | Video | Code |
 |---|---|---|
 | [**1- Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120) | Content 2 | Content 3 |
 
