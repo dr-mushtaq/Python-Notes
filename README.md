@@ -36,6 +36,12 @@ Together, let's make this the best AI learning hub website! 🚀
 |---|---|---|
 | [**Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
+## 📚Chapter: 5 - [**Control Statment**](https://coursesteach.com/course/view.php?id=4)
+
+| Tutorial | Video | Code |
+|---|---|---|
+| [**Understanding Control Flow in Python**](https://medium.com/@Coursesteach/python-part-7-22ead370332d) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+
 
 
 ## Course 02 -    [**📚🧑‍🎓📺Machine Learning Libraries**](https://coursesteach.com/course/view.php?id=176&section=0#section-16)
