@@ -49,6 +49,10 @@ Together, let's make this the best AI learning hub website! 🚀
 | Tutorial | Video | Code |
 |---|---|---|
 | [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+## 📚Chapter: 2  - [**NumPy**]()
+| Tutorial | Video | Code |
+|---|---|---|
+| [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 
 ### **Module 01: Basics**
 ================================================================
