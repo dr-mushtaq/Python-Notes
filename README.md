@@ -49,6 +49,13 @@ Together, let's make this the best AI learning hub website! 🚀
 |---|---|---|
 | [**Loops and Iterables**](https://medium.com/@Coursesteach/python-part-8-loops-and-iterables-9c82bb10e69d) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
+## 📚Chapter: 7 - **Function**
+
+| Tutorial | Video | Code |
+|---|---|---|
+| [**Function**](https://medium.com/@Coursesteach/python-part-9-function-d0cddfb8f79e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+
+
 
 ## Course 02 - **📚🧑‍🎓📺Machine Learning Libraries**
 ## 📚Chapter: 1  - **Introduction**
