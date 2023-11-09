@@ -1,6 +1,6 @@
 **About**
 
-This repository is related to all about Python  - an A-Z guide to the world of Data Science. This supplement contains the implementation of Python from Basic to advance level.
+This repository is related to all about Python  - an A-Z guide to the world of Data Science. This supplement contains the implementation of Python from Basic to advanced level.
                                       Follow Coursesteach for more content 😊
 
                               https://coursesteach.com/
