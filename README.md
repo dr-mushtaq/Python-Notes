@@ -153,6 +153,17 @@ Together, let's make this the best AI learning hub website! 🚀
      * [techprofree](https://www.techprofree.com/category/projects/python/)
      * [130+ Python Projects with Source Code](https://medium.com/coders-camp/130-python-projects-with-source-code-61f498591bb)
      * [Data Science Garage](https://www.youtube.com/channel/UCLhx5RCmUl3cOti6vJq0DPA)
+  
+       ## **Contributors**
+We would love your help in making this repository even better! If you know of an amazing AI course that isn't listed here, or if you have any suggestions for improvement in any course content, feel free to open an issue or submit a course contribution request.
+
+                       Together, let's make this the best AI learning hub website! 🚀
+
+Thanks goes to these wonderful people 
+
+<a href="https://github.com/hussain0048/Machine-Learning/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hussain0048/Machine-Learning" />
+</a>
     
    
 
