@@ -162,7 +162,7 @@ We would love your help in making this repository even better! If you know of an
 Thanks goes to these wonderful people 
 
 <a href="https://github.com/hussain0048/Machine-Learning/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hussain0048/Machine-Learning" />
+  <img src="https://contrib.rocks/image?repo=hussain0048/Python" />
 </a>
     
    
