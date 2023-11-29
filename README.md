@@ -19,11 +19,8 @@ Together, let's make this the best AI learning hub website! 🚀
 | [**2- What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1) | Content 5 | Content 6 |
 |[**3- Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)|---|---|
 |[**4- Best Free Resources to Learn Python**](https://medium.com/@Coursesteach/best-free-resources-to-learn-python-ba9def93c9ed)|---|---|
-
-## 📚Chapter: 2  - **Variables and types**
-| Tutorial | Video | Code |
-|---|---|---|
-| [**1- Understanding Variables and Types in Python(Tutorial)**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**5- Understanding Variables and Types in Python**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**6-Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
 ## 📚Chapter: 3 - **Operators**
 
