@@ -28,14 +28,10 @@ Together, let's make this the best AI learning hub website! 🚀
 
 
 ## Course 02 - **📚🧑‍🎓📺Machine Learning Libraries**
-## 📚Chapter: 1  - **Introduction**
 | Tutorial | Video | Code |
 |---|---|---|
-| [**Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
-## 📚Chapter: 2  - **NumPy**
-| Tutorial | Video | Code |
-|---|---|---|
-| [**NumPy (Beginner level)**](https://medium.com/@Coursesteach/machine-learning-libraries-part-2-a1057ffd26dc) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+| [**1- Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+| [**2- NumPy (Beginner level)**](https://medium.com/@Coursesteach/machine-learning-libraries-part-2-a1057ffd26dc) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 
 ### **Module 01: Basics**
 ================================================================
