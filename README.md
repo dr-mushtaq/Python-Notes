@@ -61,6 +61,13 @@ Together, let's make this the best AI learning hub website! 🚀
 |---|---|---|
 | [**Dictionaries**](https://medium.com/@Coursesteach/python-part-10-dictionaries-fd1b625b0b0c) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
+## 📚Chapter: 9 - **List**
+
+| Tutorial | Video | Code |
+|---|---|---|
+| [**List**](https://medium.com/@Coursesteach/python-part-11-14955f9853fa) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+
+
 
 
 ## Course 02 - **📚🧑‍🎓📺Machine Learning Libraries**
