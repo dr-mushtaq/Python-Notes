@@ -15,7 +15,7 @@ Together, let's make this the best AI learning hub website! 🚀
 ## 📚Chapter: 1  - **Introduction**
 | Tutorial | Video | Code |
 |---|---|---|
-| [**1- What is mean by programming(Python Part1)(Tutorial)**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | Content 2 | Content 3 |
+| [**1- What is mean by programming**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | Content 2 | Content 3 |
 | [**2- What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1) | Content 5 | Content 6 |
 |[**3- Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)|---|---|
 |[**4- Best Free Resources to Learn Python**](https://medium.com/@Coursesteach/best-free-resources-to-learn-python-ba9def93c9ed)|---|---|
