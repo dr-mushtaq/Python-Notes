@@ -11,8 +11,6 @@ Together, let's make this the best AI learning hub website! 🚀
 
 
 ## Course 01  - **📚🧑‍🎓📺Introduction of Python**
-
-## 📚Chapter: 1  - **Introduction**
 | Tutorial | Video | Code |
 |---|---|---|
 | [**1- What is mean by programming**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | Content 2 | Content 3 |
@@ -21,50 +19,12 @@ Together, let's make this the best AI learning hub website! 🚀
 |[**4- Best Free Resources to Learn Python**](https://medium.com/@Coursesteach/best-free-resources-to-learn-python-ba9def93c9ed)|---|---|
 | [**5- Understanding Variables and Types in Python**](https://medium.com/@Coursesteach/python-part-4-b96c2bec0120) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 | [**6-Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 3 - **Operators**
-
-| Tutorial | Video | Code |
-|---|---|---|
-|  [**Understanding Operators in Python: A Comprehensive Guide**](https://medium.com/@Coursesteach/python-part-5-3f5b6aa4a03b) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 4 - **String**
-
-| Tutorial | Video | Code |
-|---|---|---|
-| [**Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 5 - **Control Statment**
-
-| Tutorial | Video | Code |
-|---|---|---|
-| [**Understanding Control Flow in Python**](https://medium.com/@Coursesteach/python-part-7-22ead370332d) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 6 - **Loops and Iterables**
-
-| Tutorial | Video | Code |
-|---|---|---|
-| [**Loops and Iterables**](https://medium.com/@Coursesteach/python-part-8-loops-and-iterables-9c82bb10e69d) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 7 - **Function**
-
-| Tutorial | Video | Code |
-|---|---|---|
-| [**Function**](https://medium.com/@Coursesteach/python-part-9-function-d0cddfb8f79e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 8 - **Dictionaries**
-
-| Tutorial | Video | Code |
-|---|---|---|
-| [**Dictionaries**](https://medium.com/@Coursesteach/python-part-10-dictionaries-fd1b625b0b0c) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-## 📚Chapter: 9 - **List**
-
-| Tutorial | Video | Code |
-|---|---|---|
-| [**List**](https://medium.com/@Coursesteach/python-part-11-14955f9853fa) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
-
-
+| [**7-Understanding string in Python**](https://medium.com/@Coursesteach/python-part-6-f4e57b18c4c7) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**8- Understanding Control Flow in Python**](https://medium.com/@Coursesteach/python-part-7-22ead370332d) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**9- Loops and Iterables**](https://medium.com/@Coursesteach/python-part-8-loops-and-iterables-9c82bb10e69d) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**10-Function**](https://medium.com/@Coursesteach/python-part-9-function-d0cddfb8f79e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**11- Dictionaries**](https://medium.com/@Coursesteach/python-part-10-dictionaries-fd1b625b0b0c) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**11- List**](https://medium.com/@Coursesteach/python-part-11-14955f9853fa) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 
 
 ## Course 02 - **📚🧑‍🎓📺Machine Learning Libraries**
