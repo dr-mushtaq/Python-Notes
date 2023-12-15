@@ -9,7 +9,7 @@ Contribution: We would love your help in making this repository even better! If 
 
 Together, let's make this the best AI learning hub website! 🚀
 
-                                                                                    Star this repo if you find it useful ⭐
+                                  Star this repo if you find it useful ⭐
 
 
 ## Course 01  - **📚🧑‍🎓📺Introduction of Python**
