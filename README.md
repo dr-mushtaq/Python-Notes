@@ -38,7 +38,7 @@ Together, let's make this the best AI learning hub website! 🚀
 | Tutorial | Video | Code |
 |---|---|---|
 | [**1- Exploring the Power of Machine Learning Libraries in Python**](https://medium.com/@Coursesteach/machine-learning-libraries-part-1-4884d49e339e) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
-| [**2- NumPy (Beginner level -Create Array)**](https://medium.com/@Coursesteach/machine-learning-libraries-part-2-a1057ffd26dc) |[1](https://drive.google.com/file/d/1_dSVDwaec1RDo9Jcww3-jGEJGIdgzJM1/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+| [**2- NumPy-Create Array**](https://medium.com/@Coursesteach/machine-learning-libraries-part-2-a1057ffd26dc) |[1](https://drive.google.com/file/d/1_dSVDwaec1RDo9Jcww3-jGEJGIdgzJM1/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 </details>
 
 <details> 
