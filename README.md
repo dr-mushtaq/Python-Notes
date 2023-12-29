@@ -17,7 +17,6 @@ Together, let's make this the best AI learning hub website! 🚀
 
 <details> 
 <summary> <h2>Course 01 - 📚Introduction of Python </h2> </summary>
-## 📚Chapter: 1  - **NumPy**
 | Tutorial | Video | Code |
 |---|---|---|
 | [**🌐1- What is mean by programming**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | [1](https://drive.google.com/file/d/14W8sjxmIOLewAPz5PlgGeaxc3G0PsWYZ/view?usp=sharing)[-2](https://drive.google.com/file/d/1V4rLwbD3hldPwRgufnKIOLNCRORXsZZu/view?usp=sharing) | Content 3 |
@@ -37,6 +36,8 @@ Together, let's make this the best AI learning hub website! 🚀
 
 <details> 
 <summary> <h2>Course 02 - 📚Machine Learning Libraries </h2> </summary>
+
+## 📚Chapter: 1  - **NumPy**
 
 | Tutorial | Video | Code |
 |---|---|---|
