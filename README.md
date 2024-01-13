@@ -20,7 +20,8 @@ Together, let's make this the best AI learning hub website! 🚀
   
 | Tutorial | Video | Code |
 |---|---|---|
-| [**🌐1- What is mean by programming**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | [1](https://drive.google.com/file/d/14W8sjxmIOLewAPz5PlgGeaxc3G0PsWYZ/view?usp=sharing)[-2](https://drive.google.com/file/d/1V4rLwbD3hldPwRgufnKIOLNCRORXsZZu/view?usp=sharing) | Content 3 |
+| [**🌐1- Anaconda and Vscode configuration for Python**](https://medium.com/@Coursesteach/anaconda-and-vscode-configuration-b353db76165d) | -- | Content 3 |
+[**🌐1- What is mean by programming**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | [1](https://drive.google.com/file/d/14W8sjxmIOLewAPz5PlgGeaxc3G0PsWYZ/view?usp=sharing)[-2](https://drive.google.com/file/d/1V4rLwbD3hldPwRgufnKIOLNCRORXsZZu/view?usp=sharing) | Content 3 |
 | [**🌐2- What is Python**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1) | [1](https://drive.google.com/file/d/1c-jWg1rvIFbWOKxyuMhX8bubVlxbVP1C/view?usp=sharing) | Content 6 |
 |[**🌐3- Python integrated development environment (IDE)**](https://medium.com/@Coursesteach/python-part-3-f018ec721c32)|---|---|
 |[**🌐4- Best Free Resources to Learn Python**](https://medium.com/@Coursesteach/best-free-resources-to-learn-python-ba9def93c9ed)|---|---|
