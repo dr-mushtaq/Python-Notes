@@ -47,6 +47,7 @@ Together, let's make this the best AI learning hub website! 🚀
 | [**🌐2- NumPy-Create Array**](https://medium.com/@Coursesteach/machine-learning-libraries-part-2-a1057ffd26dc) |[1](https://drive.google.com/file/d/1_dSVDwaec1RDo9Jcww3-jGEJGIdgzJM1/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**🌐3- NumPy-Arithmetic Operation**](https://medium.com/@Coursesteach/machine-learning-libraries-part-3-numpy-arithmetic-operation-a569d2d6e6f4) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**🌐4- NumPy-Basics operations**](https://medium.com/@Coursesteach/machine-learning-libraries-part-4-basics-operations-c358511610c1) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+| [**🌐5- NumPy for Statistical Analysis**](https://medium.com/@Coursesteach/machine-learning-libraries-part-5-numpy-for-statistical-analysis-a01084da2b04) |[1](https://drive.google.com/file/d/1Hdmrt3YVg-n2-_5oA5zztc8fN78JYEg_/view?usp=sharing)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 </details>
 
 <details> 
