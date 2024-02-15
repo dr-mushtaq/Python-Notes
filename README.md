@@ -34,6 +34,7 @@ Together, let's make this the best AI learning hub website! 🚀
 | [**🌐11- Dictionaries**](https://medium.com/@Coursesteach/python-part-10-dictionaries-fd1b625b0b0c) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 | [**🌐11- List**](https://medium.com/@Coursesteach/python-part-11-14955f9853fa) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 | [**🌐12-Classes and Objects**](https://medium.com/@Coursesteach/python-part-12-classes-and-objects-86e3ceba515b) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**🌐13-Modules**](https://medium.com/@Coursesteach/python-part-13-modules-67fb6af59301)| Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 </details>
 
 <details> 
