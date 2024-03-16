@@ -1,6 +1,6 @@
 ## **Welcome to Python 👋🛒**
 <p align="center">
-<img src="https://github.com/hussain0048/Computer-Vision-/blob/main/Computer%20Vision.png"></a>
+<img src="https://github.com/hussain0048/Python-Notes/blob/master/Orange%20%26%20Purple%20Geometric%20Tehnology%20Linkdln%20Banner%20(1).png"></a>
 </p>
 This repository is related to all about Python  - an A-Z guide to the world of Python in Data Science. This supplement contains the implementation of Python from Basic to advanced level.
 
