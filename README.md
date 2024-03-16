@@ -5,10 +5,6 @@
 This repository is related to all about Python  - an A-Z guide to the world of Python in Data Science. This supplement contains the implementation of Python from Basic to advanced level.
 
 🙏 Special thanks 🙏 to our Virtual University of Pakistan students, reviewers, and content contributors, notably [**Dr Said Nabi**](https://www.linkedin.com/in/dr-said-nabi-7783b916/)
-
-                                      Follow Coursesteach for more content 😊
-
-                              https://coursesteach.com/
                               
 Contribution: We would love your help in making this repository even better! If you know of an amazing Python course that isn't listed here, or if you have any suggestions for improvement in any repository content, feel free to open an issue or submit a repository contribution request.
 
