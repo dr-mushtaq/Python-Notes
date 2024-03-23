@@ -28,6 +28,7 @@ This repository is related to all about Python  - an A-Z guide to the world of P
 | [**🌐12-Classes and Objects**](https://medium.com/@Coursesteach/python-part-12-classes-and-objects-86e3ceba515b) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 | [**🌐13-Modules**](https://medium.com/@Coursesteach/python-part-13-modules-67fb6af59301)| [1](https://drive.google.com/file/d/1j7hY_A9Y0XEGttb97PBQh3o8-ZXJQUnv/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 | [**🌐14-Packages**](https://medium.com/@Coursesteach/python-part-14-packages-e0206e76c07f)| [1](https://drive.google.com/file/d/1fsQCz7rSnBe4HDGofD322VTLbLmveoA6/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
+| [**🌐15-File handling**](https://medium.com/@Coursesteach/python-part-15-file-handling-7caf50e6fa83)| --| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/9_20_21Python_Basic.ipynb) |
 </details>
 
 <details> 
