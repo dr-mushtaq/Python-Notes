@@ -8,7 +8,7 @@ This repository is related to all about Python  - an A-Z guide to the world of P
 
                                   Star this repo if you find it useful ⭐
 <details> 
-<summary> <h2>Course 01 - 📚Introduction of Python </h2> </summary>
+<summary> <h2>Course 01 - 🐍Introduction of Python </h2> </summary>
   
 | Tutorial | Video | Code |
 |---|---|---|
