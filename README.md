@@ -158,7 +158,21 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
      * [Data Science Garage](https://www.youtube.com/channel/UCLhx5RCmUl3cOti6vJq0DPA)
        </details>
   
-       ## **✨Top Contributors**
+## 💻 [Workflow](https://www.youtube.com/watch?v=LuWAw-RBPys):
+
+- Fork the repository
+
+- Clone your forked repository using terminal or gitbash.
+
+- Make changes to the cloned repository
+
+- Add, Commit and Push
+
+- Then in Github, in your cloned repository find the option to make a pull request 
+
+> print("Start contributing for Python")
+
+        ## **✨Top Contributors**
 We would love your help in making this repository even better! If you know of an amazing Python course that isn't listed here, or if you have any suggestions for improvement in any course content, feel free to open an issue or submit a course contribution request.
 
                        Together, let's make this the best AI learning hub website! 🚀
