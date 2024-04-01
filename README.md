@@ -157,8 +157,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
      * [130+ Python Projects with Source Code](https://medium.com/coders-camp/130-python-projects-with-source-code-61f498591bb)
      * [Data Science Garage](https://www.youtube.com/channel/UCLhx5RCmUl3cOti6vJq0DPA)
        </details>
-  
-## 💻 [Workflow](https://www.youtube.com/watch?v=LuWAw-RBPys):
+
+  ## 💻 [Workflow](https://www.youtube.com/watch?v=LuWAw-RBPys):
 
 - Fork the repository
 
@@ -170,11 +170,12 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
 - Then in Github, in your cloned repository find the option to make a pull request 
 
-> print("Start contributing for Python")
+> print("Start contributing for Machine Learning")
+  
 
 
 
-        ## **✨Top Contributors**
+ ## **✨Top Contributors**
 We would love your help in making this repository even better! If you know of an amazing Python course that isn't listed here, or if you have any suggestions for improvement in any course content, feel free to open an issue or submit a course contribution request.
 
                        Together, let's make this the best AI learning hub website! 🚀
