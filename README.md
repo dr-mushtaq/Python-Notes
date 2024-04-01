@@ -170,7 +170,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
 - Then in Github, in your cloned repository find the option to make a pull request 
 
-> print("Start contributing for Machine Learning")
+> print("Start contributing for Python")
   
 
 
