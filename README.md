@@ -1,6 +1,6 @@
 ## **A-Z Guide to Python in Data Science 👋🛒**
 <p align="center">
-<img src="https://github.com/hussain0048/Python-Notes/blob/master/Orange%20%26%20Purple%20Geometric%20Tehnology%20Linkdln%20Banner%20(1).png"></a>
+<img src="https://github.com/hussain0048/Python-Notes/blob/master/CoursesTeach%20New%20Banner%20Image%20.jpg"></a>
 </p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
