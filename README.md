@@ -4,11 +4,11 @@
 </p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
-**Overview**
+## **Overview👋🛒**
 
 The A-Z Guide to Python in Data Science is your go-to resource for mastering Python's applications in the field of Data Science. Whether you're a novice looking to build a solid foundation or an experienced practitioner aiming to enhance your skills, this repository caters to learners at all levels.
 
-**Features**
+## **Features👋🛒**
 
 **1- Comprehensive Coverage:** Delve into the vast landscape of Python in Data Science, encompassing fundamental concepts, libraries, tools, and advanced techniques essential for data analysis, visualization, machine learning, and more.
 
@@ -18,7 +18,7 @@ The A-Z Guide to Python in Data Science is your go-to resource for mastering Pyt
 
 **4- Supplementary Resources:** Access additional resources, including articles, tutorials, datasets, and recommended readings, to supplement your learning journey and stay updated with the latest developments in Python and Data Science.
 
-**Contents**
+## **Contents👋🛒**
 
 **1- Foundations**: Explore basic Python syntax, data types, control structures, functions, and object-oriented programming principles.
 
@@ -26,9 +26,9 @@ The A-Z Guide to Python in Data Science is your go-to resource for mastering Pyt
 
 **3- Machine Learning with Python:** Dive into the world of machine learning using libraries like scikit-learn and TensorFlow/Keras, covering topics such as regression, classification, clustering, and neural networks.
 
-**Contributing**
+## **Contributing🙌**
 
-Contributions are welcome! Whether it's fixing a bug, enhancing existing content, or adding new material, your contributions can help improve the learning experience for others. Please refer to the CONTRIBUTING.md file for guidelines on how to contribute.
+Contributions are welcome! Whether it's fixing a bug, enhancing existing content, or adding new material, your contributions can help improve the learning experience for others. Please contact me on **skype:themushtaq48, email:mushtaqmsit@gmail.com** for guidelines on how to contribute.
 
 
 🙏 Special thanks 🙏 to our Virtual University of Pakistan students, reviewers, and content contributors, notably [**Dr Said Nabi**](https://www.linkedin.com/in/dr-said-nabi-7783b916/)
