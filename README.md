@@ -72,6 +72,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐5- NumPy for Statistical Analysis**](https://medium.com/@Coursesteach/machine-learning-libraries-part-5-numpy-for-statistical-analysis-a01084da2b04) |[1](https://drive.google.com/file/d/1Hdmrt3YVg-n2-_5oA5zztc8fN78JYEg_/view?usp=sharing)[-2](https://drive.google.com/file/d/1sDVKjdi1q3TCT6JDk1v13ST_7FiwgRWS/view?usp=drive_link)[-3](https://drive.google.com/file/d/1CXJ1A7Gi1AQw1KY6r1M2a2E8AG5RcMwO/view?usp=sharing)[-4](https://drive.google.com/file/d/1kg3Fi6UuV99bUS3smzfkazzM3RcxAOM9/view?usp=sharing)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**🌐5- NumPy for Linear Algebra**](https://medium.com/@Coursesteach/machine-learning-libraries-part-6-numpy-for-linear-algebra-468d6d1f7ea4) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 </details>
+| [**🌐6- NumPy for Data Cleaning**](https://medium.com/@Coursesteach/machine-learning-libraries-part-7-numpy-for-data-cleaning-c08a829c5280) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+</details>
 
 <details> 
 <summary> <h2>Resources - 📚Other Best Free Resources to Learn Python </h2> </summary>
