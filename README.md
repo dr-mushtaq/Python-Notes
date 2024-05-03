@@ -31,7 +31,7 @@ The A-Z Guide to Python in Data Science is your go-to resource for mastering Pyt
 Contributions are welcome! Whether it's fixing a bug, enhancing existing content, or adding new material, your contributions can help improve the learning experience for others. Please contact me on **skype:themushtaq48, email:mushtaqmsit@gmail.com** for guidelines on how to contribute.
 
 
-🙏 Special thanks 🙏 to our Virtual University of Pakistan students, reviewers, and content contributors, notably [**Dr Said Nabi**](https://www.linkedin.com/in/dr-said-nabi-7783b916/)
+🙏 Special thanks 🙏 to our Virtual University of Pakistan students ([**Mr Saad Abbasi**](https://github.com/saadkhalidabbasi)), reviewers, and content contributors, notably [**Dr Said Nabi**](https://www.linkedin.com/in/dr-said-nabi-7783b916/)
 
                                   Star this repo if you find it useful ⭐
 <details> 
