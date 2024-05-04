@@ -59,7 +59,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 </details>
 
 <details> 
-<summary> <h2>Course 02 - 📚Machine Learning Libraries </h2> </summary>
+<summary> <h2>Course 02 - 🛠️Machine Learning Libraries </h2> </summary>
 
 ## 📚Chapter: 1  - **NumPy**
 
