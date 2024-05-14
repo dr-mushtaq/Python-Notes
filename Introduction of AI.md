@@ -1,12 +1,12 @@
 ## **Introduction to Artificial Intelligence (AI) 👋🛒**
-<p align="center">
-<img src="https://github.com/hussain0048/Python-Notes/blob/master/CoursesTeach%20New%20Banner%20Image%20.jpg"></a>
-</p>
-Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
-## **Overview👋🛒**
+## **1.1 - Why We used AI👋🛒**
 
-The A-Z Guide to Python in Data Science is your go-to resource for mastering Python's applications in the field of Data Science. Whether you're a novice looking to build a solid foundation or an experienced practitioner aiming to enhance your skills, this repository caters to learners at all levels.
+In traditional programming, when aiming to implement new functionalities or automate tasks, software development is typically required. This involves writing code containing a predetermined set of instructions, such as if-then-else statements, to direct the computer’s actions. Consequently, to accomplish a variety of tasks, a corresponding number of rules must be provided to the computer, posing a significant challenge. This limitation highlights that conventional programming approaches lack generalizability.
+
+if you haven’t done it by yourself, requires laying out in excruciating detail every single step that you want the computer to do in order to achieve your goal. Now, if you want to do something that you don’t know how to do, then this is going to be a great challenge. Basically, regular programming is pretty limited and can’t make decisions on its own. That’s why we need generalized programming, which is more than just a programmer and can make decisions from our perspective.
+
+So, basically, this Arthur Samuel had a challenge in 1956. He wanted to teach a computer to beat him at checkers. Like, how do you even do that? Well, he came up with a plan. He had the computer play against itself over and over again, like thousands of times, until it learned how to play checkers really well. And guess what? It actually worked! By 1962, the computer had even beaten the Connecticut state champion. Pretty impressive, right?
 
 ## **Features👋🛒**
 
