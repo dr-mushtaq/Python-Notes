@@ -1,4 +1,4 @@
-## **A-Z Guide to Python in Data Science 👋🛒**
+## **Introduction to Artificial Intelligence (AI) 👋🛒**
 <p align="center">
 <img src="https://github.com/hussain0048/Python-Notes/blob/master/CoursesTeach%20New%20Banner%20Image%20.jpg"></a>
 </p>
