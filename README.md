@@ -74,6 +74,13 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐6- NumPy for Data Cleaning**](https://medium.com/@Coursesteach/machine-learning-libraries-part-7-numpy-for-data-cleaning-c08a829c5280) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 </details>
 
+## 📚Chapter: 2  - **Pandas**
+
+| Tutorial | Video | Code |
+|---|---|---|
+| [**🌐1- Introduction of Pandas**](https://medium.com/@Coursesteach/machine-learning-libraries-part-8-introduction-of-pandas-88e2bfdc9687) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+</details>
+
 
 <details> 
 <summary> <h2>Resources - 📚Other Best Free Resources to Learn Python </h2> </summary>
