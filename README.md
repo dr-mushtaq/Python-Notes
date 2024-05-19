@@ -79,7 +79,6 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | Tutorial | Video | Code |
 |---|---|---|
 | [**🌐1- Introduction of Pandas**](https://medium.com/@Coursesteach/machine-learning-libraries-part-8-introduction-of-pandas-88e2bfdc9687) | Content 2 | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
-</details>
 
 
 <details> 
