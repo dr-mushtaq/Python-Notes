@@ -179,8 +179,10 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 - Then in Github, in your cloned repository find the option to make a pull request 
 
 > print("Start contributing for Python")
+>
+## **🔍Explore**
+ Explore cutting-edge tools and Python libraries, access insightful slides and source code, and tap into a wealth of free online courses from top universities and organizations. Connect with like-minded individuals on Reddit, Facebook, and beyond, and stay updated with our YouTube channel and GitHub repository. Don’t wait — enroll now and unleash your [**Introduction of Python**](https://coursesteach.com/enrol/index.php?id=4)!”
   
-
 
 
  ## **✨Top Contributors**
