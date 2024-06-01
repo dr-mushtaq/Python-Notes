@@ -78,8 +78,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
 | Tutorial | Video | Code |
 |---|---|---|
-| [**🌐1- Introduction of Pandas**](https://medium.com/@Coursesteach/machine-learning-libraries-part-8-introduction-of-pandas-88e2bfdc9687) |[1](https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=1)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
-| [**🌐2-Pandas Data Structures**](https://medium.com/@Coursesteach/machine-learning-libraries-part-9-pandas-data-structures-defc746efb8d) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+| [**🌐1- Introduction of Pandas**](https://medium.com/@Coursesteach/machine-learning-libraries-part-8-introduction-of-pandas-88e2bfdc9687) |[1](https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=1)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |
+| [**🌐2-Pandas Data Structures**](https://medium.com/@Coursesteach/machine-learning-libraries-part-9-pandas-data-structures-defc746efb8d) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |
 </details>
 
 <details> 
