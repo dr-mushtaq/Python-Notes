@@ -35,7 +35,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
                                   Star this repo if you find it useful ⭐
 <details> 
-<summary> <h2>Getting Started-Course 01 - 🐍Introduction of Python </h2> </summary>
+<summary> <h2>📕 Getting Started-Course 01 - 🐍Introduction of Python </h2> </summary>
   
 | Tutorial | Video | Code |
 |---|---|---|
