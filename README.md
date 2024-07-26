@@ -8,6 +8,8 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 
 The A-Z Guide to Python in Data Science is your go-to resource for mastering Python's applications in the field of Data Science. Whether you're a novice looking to build a solid foundation or an experienced practitioner aiming to enhance your skills, this repository caters to learners at all levels.
 
+<a href="https://app.commanddash.io/agent?github=https://github.com/hussain0048/Python-Notes"><img src="https://img.shields.io/badge/AI-Code%20Gen-EB9FDA"></a>
+
 ## **Features👋🛒**
 
 **1- Comprehensive Coverage:** Delve into the vast landscape of Python in Data Science, encompassing fundamental concepts, libraries, tools, and advanced techniques essential for data analysis, visualization, machine learning, and more.
