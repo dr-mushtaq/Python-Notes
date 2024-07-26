@@ -1,4 +1,5 @@
 ## **A-Z Guide to Python in Data Science 👋🛒**
+<a href="https://app.commanddash.io/agent?github=https://github.com/hussain0048/Python-Notes"><img src="https://img.shields.io/badge/AI-Code%20Gen-EB9FDA"></a>
 <p align="center">
 <img src="https://github.com/hussain0048/Python-Notes/blob/master/CoursesTeach%20New%20Banner%20Image%20.jpg"></a>
 </p>
@@ -8,7 +9,6 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 
 The A-Z Guide to Python in Data Science is your go-to resource for mastering Python's applications in the field of Data Science. Whether you're a novice looking to build a solid foundation or an experienced practitioner aiming to enhance your skills, this repository caters to learners at all levels.
 
-<a href="https://app.commanddash.io/agent?github=https://github.com/hussain0048/Python-Notes"><img src="https://img.shields.io/badge/AI-Code%20Gen-EB9FDA"></a>
 
 ## **Features👋🛒**
 
