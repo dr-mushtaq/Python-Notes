@@ -42,7 +42,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 [![](https://img.shields.io/badge/Medium-000000?&style=plastic&logo=medium&logoColor=white)](https://medium.com/@Coursesteach)
 [![](https://img.shields.io/badge/LinkedIn-0A66C2?style=plastic&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/90909828/admin/dashboard/)
 [![](https://img.shields.io/badge/Twitter-darkgreen?&style=plastic&logo=twitter&logoColor=white)](https://twitter.com/Mushtaq03361498)
-[![](https://img.shields.io/badge/Instagram-32012F?style=plastic&logo=instagram&logoColor=white)](https://www.instagram.com/TirendazAcademy)
+[![](https://img.shields.io/badge/whatsapp-32012F?style=plastic&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/L9URPRThBEa7GFl0mlwggg)
 [![](https://img.shields.io/badge/Kaggle-darkblue?style=plastic&logo=Kaggle&logoColor=white)](https://www.kaggle.com/organizations/courseteach/invite/4c839a825abc44c9a1aebd8e9cc8d94c)
 
 
