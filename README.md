@@ -94,6 +94,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | Tutorial | Video | Code |
 |---|---|---|
 | [**🌐1-Skimpy**](https://medium.com/@Coursesteach/machine-learning-libraries-part-8-introduction-of-pandas-88e2bfdc9687) |[1](https://www.youtube.com/watch?v=MlnjfTDQY_0)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+| [**🌐2-Sweetviz**](https://medium.com/@Coursesteach/machine-learning-libraries-part-14-sweetviz-8d2265718d5c) |[1](https://www.youtube.com/watch?v=MlnjfTDQY_0)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 
 </details>
 
