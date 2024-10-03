@@ -32,11 +32,11 @@ The A-Z Guide to Python in Data Science is your go-to resource for mastering Pyt
 
 Contributions are welcome! Whether it's fixing a bug, enhancing existing content, or adding new material, your contributions can help improve the learning experience for others. Please contact me on **skype:themushtaq48, email:mushtaqmsit@gmail.com** for guidelines on how to contribute.
 
- Also please subscribe to my [youtube channel!](https://www.youtube.com/@coursesteach-mv5si)
+ Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
 
  ## **📬Contact**
    
-   If you want to contact me, you can reach me through social handles.
+   If you want to contact me, you can reach me through following social handles.
    
 [![](https://img.shields.io/badge/YouTube-FF0000?style=plastic&logo=youtube&logoColor=white)](https://www.youtube.com/@coursesteach-mv5si/videos)
 [![](https://img.shields.io/badge/Medium-000000?&style=plastic&logo=medium&logoColor=white)](https://medium.com/@Coursesteach)
