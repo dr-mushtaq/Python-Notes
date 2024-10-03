@@ -49,7 +49,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 🙏 Special thanks 🙏 to our Virtual University of Pakistan students ([**Mr Saad Abbasi**](https://github.com/saadkhalidabbasi)), reviewers, and content contributors, notably [**Dr Said Nabi**](https://www.linkedin.com/in/dr-said-nabi-7783b916/)
 
                                   Star this repo if you find it useful ⭐
-                                  Also please subscribe to my [youtube channel!](https://www.youtube.com/@coursesteach-mv5si)
+                                  Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
 <details> 
 <summary> <h2>📕 Getting Started-Course 01 - 🐍Introduction of Python </h2> </summary>
   
