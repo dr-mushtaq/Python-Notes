@@ -110,6 +110,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐5-Pandas Profiling**](https://medium.com/@Coursesteach/machine-learning-libraries-part-14-sweetviz-8d2265718d5c) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐6-Chartify**](https://medium.com/@Coursesteach/machine-learning-libraries-part-14-sweetviz-8d2265718d5c) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐7-pygwalker**](https://medium.com/@Coursesteach/machine-learning-libraries-part-13-skimpy-3bd78c24babb) |[1](https://www.youtube.com/watch?v=3WjWeH3HIMo)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+| [**🌐8-Vizard**](https://medium.com/@Coursesteach/machine-learning-libraries-part-14-others-automatic-libraries-for-data-explorations-05514cd4f692) |[1](https://www.youtube.com/watch?v=3WjWeH3HIMo)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 
 </details>
 
