@@ -114,6 +114,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐9-Matplotlib**](https://medium.com/@Coursesteach/machine-learning-libraries-part-15-matplotlib-01487db01969) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐10-seaborn**](https://medium.com/@Coursesteach/machine-learning-libraries-part-16-seaborn-82a14d276ed4) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐11-plotly.express**](https://medium.com/@Coursesteach/machine-learning-libraries-part-17-plotly-express-fc27a7d0dc66) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+| [**🌐12-ydata-profiling**](https://medium.com/@Coursesteach/machine-learning-libraries-part-13-skimpy-3bd78c24babb) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 
 
 </details>
