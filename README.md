@@ -117,6 +117,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐12-ydata-profiling**](https://medium.com/@Coursesteach/machine-learning-libraries-part-13-skimpy-3bd78c24babb) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐13-Vega-Altair**](https://medium.com/@Coursesteach/how-to-create-interactive-charts-in-python-using-vega-altair-ml-libraries-18-9dd17792cc12) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐14-PyVista**](https://medium.com/@Coursesteach/step-by-step-guide-to-building-stunning-3d-charts-with-pyvista-library-ml-libraries-19-b8a757ca46d0) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+| [**🌐15-Wordcloud**](https://medium.com/@Coursesteach/top-others-python-libraries-for-effective-exploratory-data-analysis-eda-in-2024-ml-libraries-e274a40d9385) |[-1](https://www.youtube.com/watch?v=8uh8fIZ5Mb0)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 
 
 </details>
