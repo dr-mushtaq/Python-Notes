@@ -120,6 +120,12 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐15-Wordcloud**](https://medium.com/@Coursesteach/top-others-python-libraries-for-effective-exploratory-data-analysis-eda-in-2024-ml-libraries-e274a40d9385) |[-1](https://www.youtube.com/watch?v=8uh8fIZ5Mb0)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**🌐16-hvPlot**](https://medium.com/@Coursesteach/top-others-python-libraries-for-effective-exploratory-data-analysis-eda-in-2024-ml-libraries-e274a40d9385) |[-1](https://www.youtube.com/watch?v=LreoqSzybE4)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 
+## 📚Chapter: 5  - **Model Explanation**
+
+| Tutorial | Video | Code |
+|---|---|---|
+| [**🌐1-ExplainerDashboard**](https://medium.com/@Coursesteach/explainerdashboard-tutorial-visualizing-decision-tree-models-in-python-ml-libraries-21-8b10324c65c3) |[1](https://www.youtube.com/watch?v=ZgypAMRcmw8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+
 
 </details>
 
