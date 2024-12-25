@@ -124,7 +124,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
 | Tutorial | Video | Code |
 |---|---|---|
-| [**🌐1-ExplainerDashboard**](https://medium.com/@Coursesteach/explainerdashboard-tutorial-visualizing-decision-tree-models-in-python-ml-libraries-21-8b10324c65c3) |[1](https://www.youtube.com/watch?v=ZgypAMRcmw8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+| [**🌐1-ExplainerDashboard**](https://medium.com/@Coursesteach/explainerdashboard-tutorial-visualizing-decision-tree-models-in-python-ml-libraries-21-8b10324c65c3) |[1](https://www.youtube.com/watch?v=ZgypAMRcmw8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 
 
 </details>
