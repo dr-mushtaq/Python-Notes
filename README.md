@@ -129,6 +129,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐3-InterpretML**](https://medium.com/@Coursesteach/understanding-the-interpretml-library-in-python-a-comprehensive-guide-a0b454d078ac) |[1](https://www.youtube.com/watch?v=WwBeKMQ0-I8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 | [**🌐4-Dalex**](https://medium.com/@Coursesteach/dalex-python-library-unlocking-machine-learning-model-interpretability-with-explanatory-analysis-ce8d9dbfc1aa) |[1](https://www.youtube.com/watch?v=sezHr78xxoM)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 |**🌐5-LINE**|[1](https://www.youtube.com/watch?v=dQ_jvRkzN1Q)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
+|**🌐6-eli5 library**|[1](https://www.youtube.com/watch?v=s-yT5Is1G1A)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
+
 
 
 
