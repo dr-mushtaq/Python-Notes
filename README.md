@@ -131,6 +131,12 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |**🌐5-LINE**|[1](https://www.youtube.com/watch?v=dQ_jvRkzN1Q)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 |**🌐6-eli5 library**|[1](https://www.youtube.com/watch?v=s-yT5Is1G1A)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 
+## 📚Chapter: 6  - **Auto Machine Learning**
+
+| Tutorial | Video | Code |
+|---|---|---|
+| [**🌐1-Pycaret Introduction**](https://mushtaqmsit.substack.com/p/pycaret-a-low-code-machine-learning) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
+
 
 
 
