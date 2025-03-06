@@ -135,7 +135,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
 | Tutorial | Video | Code |
 |---|---|---|
-| [**🌐1-Pycaret Introduction**](https://mushtaqmsit.substack.com/p/pycaret-a-low-code-machine-learning) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
+| [**🌐1-Pycaret Introduction**](https://mushtaqmsit.substack.com/p/pycaret-a-low-code-machine-learning) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_.ipynb) |
 
 
 
