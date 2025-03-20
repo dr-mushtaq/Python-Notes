@@ -136,7 +136,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | Tutorial | Video | Code |
 |---|---|---|
 | [**🌐1-Pycaret Introduction**](https://mushtaqmsit.substack.com/p/pycaret-a-low-code-machine-learning) |[1](https://www.youtube.com/watch?v=4Rn4YMLUjGc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_.ipynb) |
-| [**🌐2-Classification**](https://mushtaqmsit.substack.com/p/classification-using-pycaret-a-beginners) |[1](https://www.youtube.com/watch?v=4Rn4YMLUjGc)[-2(https://www.youtube.com/watch?v=2xAgLKUN6Xs)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_.ipynb) |
+| [**🌐2-Classification**](https://mushtaqmsit.substack.com/p/classification-using-pycaret-a-beginners) |[1](https://www.youtube.com/watch?v=4Rn4YMLUjGc)[-2](https://www.youtube.com/watch?v=2xAgLKUN6Xs)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_.ipynb) |
 
 
 
