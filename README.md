@@ -154,8 +154,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 ### 🔹Week 0-**Chapter 1:Solved Projects**
 | Title | Description|Code|
 |---|---|---|
-|[**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|
-|[**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|
+|**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|
+|**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|
 
 ### **Module 01: Basics**
 ================================================================
