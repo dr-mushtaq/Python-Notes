@@ -155,13 +155,12 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | Title | Description|Code|
 |---|---|---|
 |[**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|
+|[**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|
 
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
-   * [Create a Simple Voice Assistant.py](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)
-   * [Autocorrect.py](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)
    * [Audio_book.py](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)
    * [Chatboot.py](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)
    * [Fastapi-webapp.py](https://github.com/hussain0048/Python/blob/master/Projects/Fastapi-webapp.py)
