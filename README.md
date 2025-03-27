@@ -151,6 +151,11 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 <details> 
 <summary> <h2>📕 Resources - Other Best Free Resources to Learn Python </h2> </summary>
 
+### 🔹Week 0-**Chapter 1:Solved Projects**
+| Title | Description|Code|
+|---|---|---|
+|[**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|
+
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
