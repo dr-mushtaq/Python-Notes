@@ -157,7 +157,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|Completed|
 |**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|Completed|
 |**✅3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
-|**✅4-Chatboot**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Completed|
+|**✅4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 
 ### **Module 01: Basics**
 ================================================================
