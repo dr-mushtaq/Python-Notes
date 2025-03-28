@@ -151,18 +151,19 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 <details> 
 <summary> <h2>📕 Resources - Other Best Free Resources to Learn Python </h2> </summary>
 
-### 🔹Week 0-**Chapter 1:Python Projects**
+### 🔹Python Projects**
 | Title | Description|Code|Status|
 |---|---|---|---|
 |**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|Completed|
 |**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|Completed|
+|**✅3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
+|**✅4-Chatboot**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Completed|
 
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
 2. [Projects](https://github.com/hussain0048/Python/tree/master/Projects)
-   * [Audio_book.py](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)
-   * [Chatboot.py](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)
+
    * [Fastapi-webapp.py](https://github.com/hussain0048/Python/blob/master/Projects/Fastapi-webapp.py)
    * [GUI-Calculator.py](https://github.com/hussain0048/Python/blob/master/Projects/GUI-Calculator.py)
    * [To_Send_Email_Using_Python.ipynb](https://github.com/hussain0048/Python/blob/master/Projects/To_Send_Email_Using_Python.ipynb)
