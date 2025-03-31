@@ -51,8 +51,10 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
                                   Star this repo if you find it useful ⭐
                                   Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
 <details> 
-<summary> <h2>📕 Getting Started-Course 01 - 🐍Basic of Python </h2> </summary>
-  
+<summary> <h2>📕 Getting Started-Course 01 - 🐍Python </h2> </summary>
+
+##📚 Python Basics
+ 
 | Tutorial | Video▶️ | Code |
 |---|---|---|
 | [**✅1- Setup Environment for Python**](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code) | [1](https://www.youtube.com/watch?v=wdp7smAtqZI&list=PL4cUxeGkcC9goeb7U1FXFdNszWetCmhfB&index=1) | Content 3 |
