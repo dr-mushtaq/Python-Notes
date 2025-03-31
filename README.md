@@ -51,7 +51,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
                                   Star this repo if you find it useful ⭐
                                   Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
 <details> 
-<summary> <h2>📕 Getting Started-Course 01 - 🐍Introduction of Python </h2> </summary>
+<summary> <h2>📕 Getting Started-Course 01 - 🐍Basic of Python </h2> </summary>
   
 | Tutorial | Video▶️ | Code |
 |---|---|---|
