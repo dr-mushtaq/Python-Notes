@@ -153,6 +153,11 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 <details> 
 <summary> <h2>📕 Resources - Other Best Free Resources to Learn Python </h2> </summary>
 
+## 👁️ Chapter1: - **Free Courses**
+| Title/link| Description | Reading Status |
+|---|---|---|
+|[**✅ 1-Harvard CS50’s Introduction to Programming with Python**](https://www.youtube.com/watch?v=nLRL_NcnK-4)|by Eddy Shyu,Cousera,Goog| InProgress|
+
 ### 🔹Python Projects**
 | Title | Description|Code|Status|
 |---|---|---|---|
