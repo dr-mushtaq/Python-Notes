@@ -157,6 +157,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | Title/link| Description | Reading Status |
 |---|---|---|
 |[**✅ 1-Harvard CS50’s Introduction to Programming with Python**](https://www.youtube.com/watch?v=nLRL_NcnK-4)|by Eddy Shyu,Cousera,Goog| InProgress|
+|[**✅ 2-Python Cheat Sheet**](https://vivitoa.github.io/python-cheat-sheet/#file-handling)|by Eddy Shyu,Cousera,Goog| Pending|
 
 ### 🔹Python Projects**
 | Title | Description|Code|Status|
