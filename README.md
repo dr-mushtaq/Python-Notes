@@ -169,6 +169,14 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |**✅3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
 |**✅4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 
+### 🔹**Important Webites**
+| Title | Description|Code|Status|
+|---|---|---|---|
+|[**✅1-PyCaret offical website**](https://pycaret.gitbook.io/docs/get-started/tutorials)|Offical website of Pycaret for learning|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|Completed|
+|**2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|Completed|
+|**3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
+|**4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
+
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
