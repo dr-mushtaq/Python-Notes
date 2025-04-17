@@ -158,8 +158,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |[**✅ 3-Getting Started with Streamlit**](https://www.pythonguis.com/tutorials/getting-started-with-streamlit/?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-693-april-3-2025&_bhlid=4a484e014be2ce61d1f1d95aa1e9f9745c2fa17e)|Stramlite, Other GUI library| Pending|
 
 ### 🔹Python Projects**
-| Title | Description|Code|Status|
-|---|---|---|---|
+| Title | Description|Code|Status|Completed On|Author|
+|---|---|---|---|---|---|
 |**✅1-Create a Simple Voice Assistant**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|Completed|
 |**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|Completed|
 |**✅3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
