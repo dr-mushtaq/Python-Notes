@@ -175,9 +175,9 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |**4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 
 ## 👁️ Chapter5: - **Github Repository**
-| Title/link| Description | Status |
-|---|---|---|
-|[**✅ 1- Computer Science courses with video lectures**](https://github.com/Developer-Y/cs-video-courses?fbclid=IwZXh0bgNhZW0CMTAAAR2J9tEPD3kPegVzCWQ0WkBYSS6go_0G0PjRSaNojiOjDG85ccS45lZGyBE_aem_Ack4D65TusReJ6ybfh6ZIy9MXZ6ezPKugIzvqWZO2HtMW1C4Y38SpzlpjSzB4pr4-X4tFDusPKaI4SeieXZKMIcn)|It is Videos and github| Pending|
+| Title/link| Description | Status |Feedback|
+|---|---|---|---|
+|[**✅ 1- Best-of Machine Learning with Python**](https://github.com/ml-tooling/best-of-ml-python?tab=readme-ov-file#data-visualization)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
 
 ### **Module 01: Basics**
 ================================================================
