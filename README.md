@@ -164,6 +164,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |**✅2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|Completed|
 |**✅3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
 |**✅4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
+|**✅5-[**Build a Python Module and Share it with Pip Install**](https://www.youtube.com/watch?v=FkmtmYFTlYE&ab_channel=DataScienceGarageDataScienceGarage)|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 
 ### 🔹**Important Webites**
 | Title | Description|Code|Status|
@@ -200,7 +201,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 4. **Python Projects need to be solve**.
      * [Python Projects You Can Build](https://realpython.com/tutorials/projects/)
      * [I know python](https://www.youtube.com/c/Iknowpython/playlists)
-     * [Build a Python Module and Share it with Pip Install](https://www.youtube.com/watch?v=FkmtmYFTlYE&ab_channel=DataScienceGarageDataScienceGarage)
+     * 
      * [Python GUI App Using Tkinter - Step by Step Tutorial](https://www.youtube.com/watch?v=Evwrt2q5vqw&ab_channel=SamCodes)
      * [How to make a Discord Bot using Python 2021! (Discord.py)](https://www.youtube.com/watch?v=J7KEY3l5YTk&ab_channel=SamCodes)
      * [15 Python GUI Projects with Source Code](https://medium.com/coders-camp/15-python-gui-projects-with-source-code-da403ba14864)
