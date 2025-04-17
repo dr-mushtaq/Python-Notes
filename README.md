@@ -174,6 +174,11 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 |**3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
 |**4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 
+## 👁️ Chapter5: - **Github Repository**
+| Title/link| Description | Status |
+|---|---|---|
+|[**✅ 1- Computer Science courses with video lectures**](https://github.com/Developer-Y/cs-video-courses?fbclid=IwZXh0bgNhZW0CMTAAAR2J9tEPD3kPegVzCWQ0WkBYSS6go_0G0PjRSaNojiOjDG85ccS45lZGyBE_aem_Ack4D65TusReJ6ybfh6ZIy9MXZ6ezPKugIzvqWZO2HtMW1C4Y38SpzlpjSzB4pr4-X4tFDusPKaI4SeieXZKMIcn)|It is Videos and github| Pending|
+
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
