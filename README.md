@@ -50,6 +50,19 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
                                   Star this repo if you find it useful ⭐
                                   Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
+## 📬 Stay Updated with Weekly Python Lessons!
+
+Never miss a tutorial! Get weekly insights, updates, and bonus content straight to your inbox.  
+**Join hundreds of Python learners on Substack.**
+
+👉 [**Subscribe to Our Python Newsletter**](https://substack.com/@coursesteach) ✨
+
+💡 Optional Badge (to make it pop)
+
+[![Subscribe on Substack](https://img.shields.io/badge/Subscribe-Substack-orange?style=for-the-badge&logo=substack)](https://substack.com/@coursesteach)
+
+
+
 <details> 
 <summary> <h2>📕 Getting Started-Course 01 - 🐍Python </h2> </summary>
 
