@@ -148,14 +148,15 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 ## 📚Chapter: 6  - **Auto Machine Learning**
 
-| Tutorial | Video | Code |
-|---|---|---|
+| Tutorial | Video | Code |Status|
+|---|---|---|---|
 | [**✅1-Pycaret Introduction**](https://mushtaqmsit.substack.com/p/pycaret-a-low-code-machine-learning) |[1](https://www.youtube.com/watch?v=4Rn4YMLUjGc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
 | [**✅2-Classification**](https://mushtaqmsit.substack.com/p/classification-using-pycaret-a-beginners) |[1](https://www.youtube.com/watch?v=4Rn4YMLUjGc)[-2](https://www.youtube.com/watch?v=2xAgLKUN6Xs)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
 | [**✅3-Regression**](https://mushtaqmsit.substack.com/p/regression-using-pycaret-a-simplified) |[1](https://www.youtube.com/watch?v=4Rn4YMLUjGc)[-2](https://www.youtube.com/watch?v=D_4uqfzl0Q8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
 | [**✅4- Clustering**](https://mushtaqmsit.substack.com/p/clustering-with-pycaret-a-simple) |[1](https://www.youtube.com/watch?v=iMP8k1fpq1s)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
 | [**✅5- Anomaly Detection**](https://mushtaqmsit.substack.com/p/pycaret-anomaly-detection-with-a) |[1](https://www.youtube.com/watch?v=RctdfkzBPCo)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
 | [**✅6-Time Series Forecasting**](https://mushtaqmsit.substack.com/p/time-series-forecasting-with-pycaret) |[1](https://www.youtube.com/watch?v=QcCDReclVu8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
+| [**7-Auto-Sklearn2**](https://github.com/agnelvishal/auto_sklearn2) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |blog need to developed |
 
 
 </details>
