@@ -174,6 +174,11 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 |[**✅ 2-Python Cheat Sheet**](https://vivitoa.github.io/python-cheat-sheet/#file-handling)|by Eddy Shyu,Cousera,Goog| Pending|
 |[**✅ 3-Getting Started with Streamlit**](https://www.pythonguis.com/tutorials/getting-started-with-streamlit/?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-693-april-3-2025&_bhlid=4a484e014be2ce61d1f1d95aa1e9f9745c2fa17e)|Stramlite, Other GUI library| Pending|
 
+ 👁️ Chapter1: - **Books**
+| Title/link| Description | Reading Status |
+|---|---|---|
+|[**✅ 1-Interpretable Machine Learning**](https://christophm.github.io/interpretable-ml-book/)|by Christoph Molnar A Guide for Making Black Box Models Explainable| InProgress|
+
 ### 🔹Python Projects**
 | Title | Description|Code|Status|Completed On|Author|
 |---|---|---|---|---|---|
