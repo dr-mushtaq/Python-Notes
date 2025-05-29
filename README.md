@@ -159,6 +159,12 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 | [**✅7-Automated Feature Engineering in PyCaret**](https://mushtaqmsit.substack.com/p/automated-feature-engineering-in) |[1](https://www.youtube.com/watch?v=QcCDReclVu8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_22_05_2025.ipynb) |
 | [**7-Auto-Sklearn2**](https://github.com/agnelvishal/auto_sklearn2) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |blog need to developed |
 
+## 📚Chapter: 7  - **Streamlite**
+
+| Tutorial | Video | Code |Status|
+|---|---|---|---|
+| [**✅1-Introduction**](https://mushtaqmsit.substack.com/p/getting-started-with-streamlet-build) |[1](https://www.youtube.com/watch?v=R2nr1uZ8ffc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
+
 
 </details>
 
