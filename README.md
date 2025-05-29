@@ -163,7 +163,7 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 | Tutorial | Video | Code |Status|
 |---|---|---|---|
-| [**✅1-Introduction**](https://mushtaqmsit.substack.com/p/getting-started-with-streamlet-build) |[1](https://www.youtube.com/watch?v=R2nr1uZ8ffc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |
+| [**✅1-Introduction**](https://mushtaqmsit.substack.com/p/getting-started-with-streamlet-build) |[1](https://www.youtube.com/watch?v=R2nr1uZ8ffc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
 
 
 </details>
