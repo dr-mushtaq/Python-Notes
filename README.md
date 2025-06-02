@@ -137,10 +137,10 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 ## 📚Chapter: 5  - **Explainable AI (XAI) techniques**
 
-| Tutorial | Video | Code |
-|---|---|---|
+| Tutorial | Video | Code | Resources|
+|---|---|---|---|
 | [**🌐1-ExplainerDashboard**](https://medium.com/@Coursesteach/explainerdashboard-tutorial-visualizing-decision-tree-models-in-python-ml-libraries-21-8b10324c65c3) |[1](https://www.youtube.com/watch?v=ZgypAMRcmw8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
-| [**🌐2-SHAP**](https://medium.com/@Coursesteach/how-to-use-shap-for-machine-learning-model-interpretability-with-python-ml-libraries-22-a6ff4e139f2f) |[1](https://www.youtube.com/watch?v=NkkwVIgUbKY)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
+| [**🌐2-SHAP**](https://medium.com/@Coursesteach/how-to-use-shap-for-machine-learning-model-interpretability-with-python-ml-libraries-22-a6ff4e139f2f) |[1](https://www.youtube.com/watch?v=NkkwVIgUbKY)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |[1](https://machinelearningmastery.com/a-gentle-introduction-to-shap-for-tree-based-models/?fbclid=IwY2xjawKqBN1leHRuA2FlbQIxMQBicmlkETFINmJycGFWeU9aeFJZNXhsAR7375RO9vgBnmNYNm_zr1__PqnTaugs0hLrLf5U0qahH-ora5hMq4IlsXcn_A_aem_dXlTdtCc3QTiA-rDTGykwQ)
 | [**🌐3-InterpretML**](https://medium.com/@Coursesteach/understanding-the-interpretml-library-in-python-a-comprehensive-guide-a0b454d078ac) |[1](https://www.youtube.com/watch?v=WwBeKMQ0-I8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 | [**🌐4-Dalex**](https://medium.com/@Coursesteach/dalex-python-library-unlocking-machine-learning-model-interpretability-with-explanatory-analysis-ce8d9dbfc1aa) |[1](https://www.youtube.com/watch?v=sezHr78xxoM)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 |**🌐5-LINE**|[1](https://www.youtube.com/watch?v=dQ_jvRkzN1Q)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
