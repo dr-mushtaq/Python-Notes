@@ -159,7 +159,8 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 | [**✅7-Automated Feature Engineering in PyCaret**](https://mushtaqmsit.substack.com/p/automated-feature-engineering-in) |[1](https://www.youtube.com/watch?v=QcCDReclVu8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_22_05_2025.ipynb) |
 | [**7-Auto-Sklearn2**](https://github.com/agnelvishal/auto_sklearn2) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/PyCaret_5_1_2025.ipynb) |blog need to developed |
 
-## 📚Chapter: 7  - **Streamlite**
+## 📚Chapter: 7  - **Building Interactive Web Applications with Streamlit**
+This Chapter introduces students to Streamlit, a powerful open-source app framework designed to create beautiful, interactive, and data-driven web applications in Python with minimal effort. By the end of the course, students will be able to build, deploy, and share fully functional Streamlit apps for use in data science, analytics, and machine learning projects.
 
 | Tutorial | Video | Code |Status|
 |---|---|---|---|
