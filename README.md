@@ -165,6 +165,7 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 | Tutorial | Video | Code |Status|
 |---|---|---|---|
 | [**✅1-Introduction**](https://mushtaqmsit.substack.com/p/getting-started-with-streamlet-build) |[1](https://www.youtube.com/watch?v=R2nr1uZ8ffc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
+| [**✅2-Streamlit vs Flask/Django for ML apps**](https://mushtaqmsit.substack.com/p/streamlit-vs-flaskdjango-for-ml-apps) |[1](https://www.youtube.com/watch?v=iQ6DLAHYwF8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
 
 
 </details>
