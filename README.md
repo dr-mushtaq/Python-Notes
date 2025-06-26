@@ -166,6 +166,8 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 |---|---|---|---|
 | [**✅1-Introduction**](https://mushtaqmsit.substack.com/p/getting-started-with-streamlet-build) |[1](https://www.youtube.com/watch?v=R2nr1uZ8ffc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
 | [**✅2-Streamlit vs Flask/Django for ML apps**](https://mushtaqmsit.substack.com/p/streamlit-vs-flaskdjango-for-ml-apps) |[1](https://www.youtube.com/watch?v=iQ6DLAHYwF8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
+| [**✅3-Streamlit Basic Functions**](https://www.youtube.com/watch?v=c8QXUrvSSyg) |[1](https://www.youtube.com/watch?v=iQ6DLAHYwF8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
+
 
 
 </details>
@@ -182,7 +184,6 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 |[**✅ 2-Python Cheat Sheet**](https://vivitoa.github.io/python-cheat-sheet/#file-handling)|by Eddy Shyu,Cousera,Goog| Pending|
 |[**✅ 3-Getting Started with Streamlit**](https://www.pythonguis.com/tutorials/getting-started-with-streamlit/?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-693-april-3-2025&_bhlid=4a484e014be2ce61d1f1d95aa1e9f9745c2fa17e)|Stramlite, Other GUI library|
 Pending|
-|[**✅ 4-Streamlit Basic Functions**](https://www.youtube.com/watch?v=c8QXUrvSSyg)|Stramlite, Other GUI library| 
 
  👁️ Chapter1: - **Books**
 | Title/link| Description | Reading Status |
