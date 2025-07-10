@@ -17,7 +17,7 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 - [Getting Started](#Getting-Started)
 - [Contributing](#Contributing)
 - [Contact](#Contact)
-- [Getting Started-Course 01](#Getting Started-Course 01)
+- [Getting Started-Course 01](#Getting-Started-Course-01)
 - [Useful Python Resources](#useful-python-resources)
 
 
