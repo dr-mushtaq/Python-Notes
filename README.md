@@ -1,4 +1,4 @@
-## **A-Z Guide to Python in Data Science 👋🛒**
+
 # Python Notes for Beginners and Data Science Learners
 
 A comprehensive and beginner-friendly collection of Python programming notes, examples, and tips — ideal for students, educators, and data science enthusiasts.
