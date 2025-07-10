@@ -15,9 +15,9 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 - [Features](#Features)
 - [Contents](#Contents)
 - [Getting Started](#Getting-Started)
-- [Functions and Modules](#functions-and-modules)
-- [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-- [Python for Data Science](#python-for-data-science)
+- [Contributing](#Contributing)
+- [Contact](#Contact)
+- [Getting Started-Course 01](#Getting Started-Course 01)
 - [Useful Python Resources](#useful-python-resources)
 
 
@@ -61,7 +61,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
  Also please subscribe to my [Youtube channel](https://www.youtube.com/@coursesteach-mv5si)
 
- ## **📬Contact**
+ ## **Contact**
    
    If you want to contact me, you can reach me through following social handles.
    
@@ -91,7 +91,7 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 
 <details> 
-<summary> <h2>📕 Getting Started-Course 01 - 🐍Python </h2> </summary>
+<summary> <h2> Getting Started-Course 01 📕- 🐍Python </h2> </summary>
 
 ##📚 Python Basics
  
