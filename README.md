@@ -49,7 +49,7 @@ These notes cover the most essential topics in Python programming, designed for 
 To follow these notes interactively:
 
 1. Install Python 3.x from [python.org](https://www.python.org/)
-2. Use Jupyter Notebook or VS Code to open and run `.ipynb` or `.py` files.
+2. Use Jupyter Notebook Colab or VS Code to open and run `.ipynb` or `.py` files.
 3. Clone the repository:
    ```bash
    git clone https://github.com/dr-mushtaq/Python-Notes.git
