@@ -9,6 +9,18 @@ A comprehensive and beginner-friendly collection of Python programming notes, ex
 </p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
+## 📚 Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Core Python Topics](#core-python-topics)
+- [Data Structures in Python](#data-structures-in-python)
+- [Functions and Modules](#functions-and-modules)
+- [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+- [Python for Data Science](#python-for-data-science)
+- [Useful Python Resources](#useful-python-resources)
+
+
 ## **Overview👋🛒**
 
 The A-Z Guide to Python in Data Science is your go-to resource for mastering Python's applications in the field of Data Science. Whether you're a novice looking to build a solid foundation or an experienced practitioner aiming to enhance your skills, this repository caters to learners at all levels.
