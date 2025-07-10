@@ -21,10 +21,10 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 - [Useful Python Resources](#useful-python-resources)
 
 
-## **Overview👋🛒**
 
-The A-Z Guide to Python in Data Science is your go-to resource for mastering Python's applications in the field of Data Science. Whether you're a novice looking to build a solid foundation or an experienced practitioner aiming to enhance your skills, this repository caters to learners at all levels.
+## 🐍 Overview: Python Notes for Beginners
 
+These notes cover the most essential topics in Python programming, designed for absolute beginners, students in computer science, and professionals learning data science.
 
 ## **Features👋🛒**
 
@@ -43,6 +43,17 @@ The A-Z Guide to Python in Data Science is your go-to resource for mastering Pyt
 **2-Data Manipulation and Analysis:** Learn how to work with data using popular Python libraries such as NumPy, pandas, and matplotlib for tasks like data cleaning, transformation, aggregation, and visualization.
 
 **3- Machine Learning with Python:** Dive into the world of machine learning using libraries like scikit-learn and TensorFlow/Keras, covering topics such as regression, classification, clustering, and neural networks.
+
+## 🚀 Getting Started
+
+To follow these notes interactively:
+
+1. Install Python 3.x from [python.org](https://www.python.org/)
+2. Use Jupyter Notebook or VS Code to open and run `.ipynb` or `.py` files.
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/dr-mushtaq/Python-Notes.git
+
 
 ## **Contributing🙌**
 
