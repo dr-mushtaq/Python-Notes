@@ -12,8 +12,8 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 ## 📚 Table of Contents
 
 - [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Core Python Topics](#core-python-topics)
+- [Features](#Features)
+- [Contents](#Contents)
 - [Data Structures in Python](#data-structures-in-python)
 - [Functions and Modules](#functions-and-modules)
 - [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
