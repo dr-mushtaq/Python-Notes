@@ -22,7 +22,7 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 
 
 
-## 🐍 Overview: Python Notes for Beginners
+## Overview: Python Notes for Beginners
 
 These notes cover the most essential topics in Python programming, designed for absolute beginners, students in computer science, and professionals learning data science.
 
@@ -44,7 +44,7 @@ These notes cover the most essential topics in Python programming, designed for 
 
 **3- Machine Learning with Python:** Dive into the world of machine learning using libraries like scikit-learn and TensorFlow/Keras, covering topics such as regression, classification, clustering, and neural networks.
 
-## 🚀 Getting Started
+## Getting Started
 
 To follow these notes interactively:
 
