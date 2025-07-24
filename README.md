@@ -196,7 +196,7 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 | [**✅3-Streamlit Basic Functions**](https://mushtaqmsit.substack.com/p/understanding-the-streamlit-basic) |[1](https://www.youtube.com/watch?v=c8QXUrvSSyg&t=2s)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
 | [**✅4-Displaying Media filesPage**](https://mushtaqmsit.substack.com/p/how-to-display-media-files-in-streamlit) |[1](https://www.youtube.com/watch?v=SZ_7F35d5go)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/Displaying%20Media%20files%20in%20streamlit.py) |
 | [**✅5-Input Widgets**](https://mushtaqmsit.substack.com/p/streamlit-input-widgets-a-beginners) |[1](https://www.youtube.com/watch?v=b75XG32zse4)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/input%20widgets.py) |
-| **✅6-Chart elements**|[1](https://www.youtube.com/watch?v=XalEuiyR9pM)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/input%20widgets.py) |[Link](https://coursesteach.com/mod/page/view.php?id=4845&forceview=1)|
+| **✅6-Chart elements**|[1](https://www.youtube.com/watch?v=XalEuiyR9pM)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/chart.py) |[Link](https://coursesteach.com/mod/page/view.php?id=4845&forceview=1)|
 
 
 
