@@ -229,13 +229,15 @@ Pending|
 |**✅4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 |**✅5-[**Build a Python Module and Share it with Pip Install**](https://www.youtube.com/watch?v=FkmtmYFTlYE&ab_channel=DataScienceGarageDataScienceGarage)|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
 
-### 🔹**Important Webites**
-| Title | Description|Code|Status|
-|---|---|---|---|
-|[**✅1-PyCaret offical website**](https://pycaret.gitbook.io/docs/get-started/tutorials)|Offical website of Pycaret for learning|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Create%20a%20Simple%20Voice%20Assistant.py)|Completed|
-|**2-Autocorrect**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb)|Completed|
-|**3-Audio_book**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)|Completed|
-|**4-Chatboot**|Chat Bot GUI Using Python|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)|Pending|
+### 🔹 **Important Websites**
+
+| 🔢 | **Project Title** | **Description** | **Launch Code** | **Status** |
+|:--:|-------------------|-----------------|------------------|:----------:|
+| ✅ | **[PyCaret Official Website](https://pycaret.gitbook.io/docs/get-started/tutorials)** | Comprehensive tutorials and official docs to learn PyCaret, an easy-to-use machine learning library. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://pycaret.gitbook.io/docs/get-started/tutorials) | ✅ Completed |
+| ✅ | **Autocorrect Tool** | A basic NLP project that automatically corrects user-input text using Python's autocorrect library. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/1_Autocorrect_.ipynb) | ✅ Completed |
+| ✅ | **Audio Book Converter** | Convert text documents into spoken audio using Python's text-to-speech (TTS) libraries. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py) | ✅ Completed |
+| ⏳ | **Chatbot GUI (Chatboot)** | A basic chatbot with GUI built using Python. Includes intent matching and response logic. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py) | ⏳ Pending |
+
 
 ## 👁️ Chapter5: - **Github Repository**
 | Title/link| Description | Status |Feedback|
