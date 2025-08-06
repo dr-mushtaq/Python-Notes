@@ -239,6 +239,9 @@ Pending|
 | ✅ | **Audio Book Converter** | Convert text documents into spoken audio using Python's text-to-speech (TTS) libraries. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py) | ✅ Completed |
 | ⏳ | **Chatbot GUI (Chatboot)** | A basic chatbot with GUI built using Python. Includes intent matching and response logic. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py) | ⏳ Pending |
 | ✅ | **Python 3.13.5 documentation** | This is the official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/)| ⏳ Pending |
+| ✅ | **Links for Python Noobs** | This is the official documentation for Python 3.13.5. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)| ⏳ Pending |
+
+
 
 
 ## 👁️ Chapter5: - **Github Repository**
