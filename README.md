@@ -238,6 +238,7 @@ Pending|
 | ✅ | **Learnpython.gr** | A basic NLP project that automatically corrects user-input text using Python's autocorrect library. | [link](https://learnpython.gr/what-is-python) | ✅ Completed |
 | ✅ | **Audio Book Converter** | Convert text documents into spoken audio using Python's text-to-speech (TTS) libraries. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py) | ✅ Completed |
 | ⏳ | **Chatbot GUI (Chatboot)** | A basic chatbot with GUI built using Python. Includes intent matching and response logic. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py) | ⏳ Pending |
+| ✅ | **Python 3.13.5 documentation** | This is the official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/)| ⏳ Pending |
 
 
 ## 👁️ Chapter5: - **Github Repository**
