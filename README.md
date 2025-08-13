@@ -249,6 +249,14 @@ Pending|
 |---|---|---|---|
 |[**✅ 1- Best-of Machine Learning with Python**](https://github.com/ml-tooling/best-of-ml-python?tab=readme-ov-file#data-visualization)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
 
+## 👁️ Chapter5: - **Free online Python editor**
+| Title/link| Description | Status |Feedback|
+|---|---|---|---|
+|[**✅ 1-Python Online Editor and Compiler**](https://pythononlineeditor.com/)|Our Python Online Editor and Compiler offer an array of features to enhance your coding experience:
+
+| Pending|⭐️⭐️⭐️|
+
+
 ### **Module 01: Basics**
 ================================================================
 1. [Basic](https://github.com/hussain0048/Python/tree/master/Basic)
