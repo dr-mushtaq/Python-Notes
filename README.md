@@ -97,7 +97,7 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
  
 | Tutorial | Video▶️ | Code |Note|Extra Reading|
 |---|---|---|---|---|
-| [**✅1- Setup Environment for Python**](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code) | [1](https://www.youtube.com/watch?v=wdp7smAtqZI&list=PL4cUxeGkcC9goeb7U1FXFdNszWetCmhfB&index=1) | Content 3 |
+| [**✅1- Setup Environment for Python**](https://coursesteach.blogspot.com/2025/08/how-to-configure-visual-studio-code-for.html) | [1](https://www.youtube.com/watch?v=wdp7smAtqZI&list=PL4cUxeGkcC9goeb7U1FXFdNszWetCmhfB&index=1) | Content 3 |
 [**1- What is mean by programming⭐️**](https://medium.com/@Coursesteach/python-part-1-ce3655b60c61) | [1](https://drive.google.com/file/d/14W8sjxmIOLewAPz5PlgGeaxc3G0PsWYZ/view?usp=sharing)[-2](https://drive.google.com/file/d/1V4rLwbD3hldPwRgufnKIOLNCRORXsZZu/view?usp=sharing) | Content 3 |[Link](https://coursesteach.com/mod/page/view.php?id=8652&forceview=1)
 | [**🌐2- What is Python⭐️**](https://medium.com/@Coursesteach/python-part-2-3041c0aa46d1) | [1](https://drive.google.com/file/d/1c-jWg1rvIFbWOKxyuMhX8bubVlxbVP1C/view?usp=sharing)[-2](https://www.youtube.com/watch?v=Ryg5EZi-rqE&list=PL4cUxeGkcC9goeb7U1FXFdNszWetCmhfB&index=2) | Content 6 |
 |[**3- Python integrated development environment (IDE)⭐️**](https://coursesteach.blogspot.com/2025/08/top-python-ides-in-2025-best-desktop.html)|---|---|[Link](https://coursesteach.com/mod/page/view.php?id=6147&forceview=1)|[1](https://www.kdnuggets.com/7-free-cloud-ide-for-data-science-that-you-are-missing-out?fbclid=IwY2xjawFPTURleHRuA2FlbQIxMAABHQoaY5RC7l84qNhKMm3WZvJFP3fd32CIK6-BcUEYE048d-1LDX9Nm-XZlg_aem_KkE-qNFCLiVbsbempocpoQ)|
