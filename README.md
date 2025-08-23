@@ -248,6 +248,7 @@ Pending|
 | Title/link| Description | Status |Feedback|
 |---|---|---|---|
 |[**✅ 1- Best-of Machine Learning with Python**](https://github.com/ml-tooling/best-of-ml-python?tab=readme-ov-file#data-visualization)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
+|[**✅ 2- Complete Python Learning Guide**](https://github.com/santoshvandari/Python-Developer-Roadmap/tree/main)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
 
 ## 👁️ Chapter5: - **Free online Python editor**
 | Title/link| Description | Status |Feedback|
