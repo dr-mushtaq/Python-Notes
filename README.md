@@ -200,7 +200,17 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 | **✅7-Machine Learning modeling**|[1](https://www.youtube.com/watch?v=z5HfbXORZsg)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/House%20Price%20Prediction%20App.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10410&forceview=1)|
 | **✅8-How to Deploy a Streamlit App on Streamlit Cloud**|[1](https://www.youtube.com/watch?v=JL9xOs-G1hI)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/House%20Price%20Prediction%20App.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10441&forceview=1)|
 
+## 📚Chapter: 8  - **Mastering FastAPI – From Beginner to Advanced**
+🎯 Target Audience
 
+Beginners in web development who want to build APIs easily.
+Python developers looking to switch from Flask/Django to FastAPI.
+Intermediate developers aiming to create production-ready APIs.
+Advanced learners who want to integrate FastAPI with ML/DL models, databases, and cloud deployment.
+
+| Tutorial | Video | Code |Notes|Extra Reading|
+|---|---|---|---|---|
+| **✅1-Why FastAPI? (Speed, async support, easy docs)**|[1](https://www.youtube.com/watch?v=8SdR5i3ZoqE&list=PLK8U0kF0E_D6l19LhOGWhVZ3sQ6ujJKq_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10444&forceview=1)|
 
 </details>
 
