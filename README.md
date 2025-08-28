@@ -198,6 +198,7 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 | [**✅5-Input Widgets**](https://mushtaqmsit.substack.com/p/streamlit-input-widgets-a-beginners) |[1](https://www.youtube.com/watch?v=b75XG32zse4)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/input%20widgets.py) |
 | **✅6-Chart elements**|[1](https://www.youtube.com/watch?v=XalEuiyR9pM)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/chart.py) |[Link](https://coursesteach.com/mod/page/view.php?id=4845&forceview=1)|
 | **✅7-Machine Learning modeling**|[1](https://www.youtube.com/watch?v=z5HfbXORZsg)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/House%20Price%20Prediction%20App.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10410&forceview=1)|
+| **✅8-How to Deploy a Streamlit App on Streamlit Cloud**|[1](https://www.youtube.com/watch?v=JL9xOs-G1hI)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/House%20Price%20Prediction%20App.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10441&forceview=1)|
 
 
 
