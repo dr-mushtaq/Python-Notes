@@ -189,6 +189,13 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 ## 📚Chapter: 7  - **Building Interactive Web Applications with Streamlit**
 This Chapter introduces students to Streamlit, a powerful open-source app framework designed to create beautiful, interactive, and data-driven web applications in Python with minimal effort. By the end of the course, students will be able to build, deploy, and share fully functional Streamlit apps for use in data science, analytics, and machine learning projects.
 
+**Installation**
+
+Open a terminal and run:
+
+$ pip install streamlit
+$ streamlit hello
+
 | Tutorial | Video | Code |Notes|Extra Reading|
 |---|---|---|---|---|
 | [**✅1-Introduction**](https://mushtaqmsit.substack.com/p/getting-started-with-streamlet-build) |[1](https://www.youtube.com/watch?v=R2nr1uZ8ffc)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |
