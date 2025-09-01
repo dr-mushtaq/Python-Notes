@@ -194,6 +194,7 @@ This Chapter introduces students to Streamlit, a powerful open-source app framew
 Open a terminal and run:
 
 $ pip install streamlit
+
 $ streamlit hello
 
 | Tutorial | Video | Code |Notes|Extra Reading|
