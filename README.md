@@ -260,14 +260,17 @@ Pending|
 | ✅ | **Python 3.13.5 documentation** | This is the official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/)| ⏳ Pending |
 | ✅ | **Links for Python Noobs** | This is the official documentation for Python 3.13.5. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)| ⏳ Pending |
 
-
-
-
 ## 👁️ Chapter5: - **Github Repository**
 | Title/link| Description | Status |Feedback|
 |---|---|---|---|
 |[**✅ 1- Best-of Machine Learning with Python**](https://github.com/ml-tooling/best-of-ml-python?tab=readme-ov-file#data-visualization)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
-|[**✅ 2- Complete Python Learning Guide**](https://github.com/santoshvandari/Python-Developer-Roadmap/tree/main)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
+
+
+## 👁️ Chapter5: - **🔍 Tools, Frameworks & Platforms**
+Understanding all the tools, frameworks, architectures, and ecosystems around NLP can sometimes feel harder than understanding AI itself. Below are the ones I’ve explored and used enough to feel confident recommending. Of course, these won’t solve every use case, and I’m not listing every supporting technology you might need to build real-world AI systems, but it’s a start.
+| Title/link| Description | Status |Feedback|
+|---|---|---|---|
+|[**✅ 1- FastAdmin**](https://github.com/vsdudakov/fastadmin)|FastAdmin was built with relations in mind and admiration for the excellent and popular Django Admin. It's engraved in its design that you may configure your admin dashboard for FastAPI/Django/Flask easiest way.| Pending|⭐️⭐️⭐️|
 
 ## 👁️ Chapter5: - **Free online Python editor**
 | Title/link| Description | Status |Feedback|
