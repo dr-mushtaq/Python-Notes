@@ -216,6 +216,17 @@ Python developers looking to switch from Flask/Django to FastAPI.
 Intermediate developers aiming to create production-ready APIs.
 Advanced learners who want to integrate FastAPI with ML/DL models, databases, and cloud deployment.
 
+>  Install FastAPI and Uvicorn
+
+pip install fastapi uvicorn
+
+> Run your app using Uvicorn:
+
+uvicorn main:app --reload
+
+
+
+
 | Tutorial | Video | Code |Notes|Extra Reading|
 |---|---|---|---|---|
 | **✅1-Why FastAPI? (Speed, async support, easy docs)**|[1](https://www.youtube.com/watch?v=8SdR5i3ZoqE&list=PLK8U0kF0E_D6l19LhOGWhVZ3sQ6ujJKq_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10444&forceview=1)|
