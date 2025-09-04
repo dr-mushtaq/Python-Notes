@@ -230,6 +230,8 @@ uvicorn main:app --reload
 | Tutorial | Video | Code |Notes|Extra Reading|
 |---|---|---|---|---|
 | **✅1-Why FastAPI? (Speed, async support, easy docs)**|[1](https://www.youtube.com/watch?v=8SdR5i3ZoqE&list=PLK8U0kF0E_D6l19LhOGWhVZ3sQ6ujJKq_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10444&forceview=1)|
+| **✅2-How to Install Python and FastAPI: A Beginner’s Guide)**|[1](https://www.youtube.com/watch?v=xRdzG-6EIuc_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/Hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10451&forceview=1)|
+
 
 </details>
 
