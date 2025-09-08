@@ -271,6 +271,8 @@ Pending|
 | ✅ | **Python 3.13.5 documentation** | This is the official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/)| ⏳ Pending |
 | ✅ | **Links for Python Noobs** | This is the official documentation for Python 3.13.5. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)| ⏳ Pending |
 | ✅ | **FastAPI Intractive** | This is intreative webiste for FastAPI | [Link](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)| ⏳ Pending |
+| ✅ | **FastAPI offical Doc** | This is intreative webiste for FastAPI | [Link](https://fastapi.tiangolo.com/tutorial/first-steps/)| ⏳ Pending |
+
 
 ## 👁️ Chapter5: - **Github Repository**
 | Title/link| Description | Status |Feedback|
