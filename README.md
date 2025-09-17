@@ -264,15 +264,16 @@ uvicorn main:app --reload
 ### 🔹 **Important Websites**
 
 | 🔢 | **Project Title** | **Description** | **LINK** | **Status** |
-|:--:|-------------------|-----------------|------------------|:----------:|
-| ✅ | **[PyCaret Official Website](https://pycaret.gitbook.io/docs/get-started/tutorials)** | Comprehensive tutorials and official docs to learn PyCaret, an easy-to-use machine learning library. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://pycaret.gitbook.io/docs/get-started/tutorials) | ✅ Completed |
-| ✅ | **Learnpython.gr** | A basic NLP project that automatically corrects user-input text using Python's autocorrect library. | [link](https://learnpython.gr/what-is-python) | ✅ Completed |
-| ✅ | **Audio Book Converter** | Convert text documents into spoken audio using Python's text-to-speech (TTS) libraries. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py) | ✅ Completed |
-| ⏳ | **Chatbot GUI (Chatboot)** | A basic chatbot with GUI built using Python. Includes intent matching and response logic. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py) | ⏳ Pending |
-| ✅ | **Python 3.13.5 documentation** | This is the official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/)| ⏳ Pending |
-| ✅ | **Links for Python Noobs** | This is the official documentation for Python 3.13.5. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)| ⏳ Pending |
-| ✅ | **FastAPI Intractive** | This is intreative webiste for FastAPI | [Link](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)| ⏳ Pending |
-| ✅ | **FastAPI offical Doc** | This is intreative webiste for FastAPI | [Link](https://fastapi.tiangolo.com/tutorial/first-steps/)| ⏳ Pending |
+|:--:|-------------------|-----------------|----------|:----------:|
+| ✅ | **[PyCaret Official Website](https://pycaret.gitbook.io/docs/get-started/tutorials)** | Comprehensive tutorials and official docs for PyCaret, an easy-to-use ML library. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://pycaret.gitbook.io/docs/get-started/tutorials) | ✅ Completed |
+| ✅ | **[Learnpython.gr](https://learnpython.gr/what-is-python)** | Beginner-friendly Python resources and guides. | [Link](https://learnpython.gr/what-is-python) | ✅ Completed |
+| ✅ | **[Audio Book Converter](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)** | Convert text documents into spoken audio using Python TTS libraries. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py) | ✅ Completed |
+| ⏳ | **[Chatbot GUI (Chatboot)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)** | A simple chatbot with GUI built using Python (intents + responses). | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py) | ⏳ Pending |
+| ⏳ | **[Python 3.13.5 Documentation](https://docs.python.org/3/)** | Official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/) | ⏳ Pending |
+| ⏳ | **[Links for Python Noobs](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)** | Curated list of useful beginner-friendly Python links. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html) | ⏳ Pending |
+| ⏳ | **[FastAPI Interactive](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)** | Interactive learning platform for FastAPI basics and dependencies. | [Link](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps) | ⏳ Pending |
+| ⏳ | **[FastAPI Official Docs](https://fastapi.tiangolo.com/tutorial/first-steps/)** | Official documentation and tutorials for FastAPI. | [Link](https://fastapi.tiangolo.com/tutorial/first-steps/) | ⏳ Pending |
+
 
 
 ## 👁️ Chapter5: - **Github Repository**
