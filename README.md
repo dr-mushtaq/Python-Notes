@@ -268,11 +268,13 @@ uvicorn main:app --reload
 | ✅ | **[PyCaret Official Website](https://pycaret.gitbook.io/docs/get-started/tutorials)** | Comprehensive tutorials and official docs for PyCaret, an easy-to-use ML library. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://pycaret.gitbook.io/docs/get-started/tutorials) | ✅ Completed |
 | ✅ | **[Learnpython.gr](https://learnpython.gr/what-is-python)** | Beginner-friendly Python resources and guides. | [Link](https://learnpython.gr/what-is-python) | ✅ Completed |
 | ✅ | **[Audio Book Converter](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py)** | Convert text documents into spoken audio using Python TTS libraries. | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Audio_book.py) | ✅ Completed |
+| ✅ | **[Best places to learn Python](https://www.reddit.com/r/PythonLearning/comments/1nifa32/the_python_resource_list_i_wish_i_had/)** | Curated Python resources, including tutorials and projects, books all in one place| [Link](https://www.reddit.com/r/PythonLearning/comments/1nifa32/the_python_resource_list_i_wish_i_had/) |✅ Completed |
 | ⏳ | **[Chatbot GUI (Chatboot)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py)** | A simple chatbot with GUI built using Python (intents + responses). | [![Open in Colab](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/Projects/Chatboot.py) | ⏳ Pending |
 | ⏳ | **[Python 3.13.5 Documentation](https://docs.python.org/3/)** | Official documentation for Python 3.13.5. | [Link](https://docs.python.org/3/) | ⏳ Pending |
 | ⏳ | **[Links for Python Noobs](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)** | Curated list of useful beginner-friendly Python links. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html) | ⏳ Pending |
 | ⏳ | **[FastAPI Interactive](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)** | Interactive learning platform for FastAPI basics and dependencies. | [Link](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps) | ⏳ Pending |
 | ⏳ | **[FastAPI Official Docs](https://fastapi.tiangolo.com/tutorial/first-steps/)** | Official documentation and tutorials for FastAPI. | [Link](https://fastapi.tiangolo.com/tutorial/first-steps/) | ⏳ Pending |
+
 
 
 
