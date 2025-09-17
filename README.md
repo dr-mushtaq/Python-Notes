@@ -240,12 +240,12 @@ uvicorn main:app --reload
 <summary> <h2>📕 Resources - Other Best Free Resources to Learn Python </h2> </summary>
 
 ## 👁️ Chapter1: - **Free Courses**
-| Title/link| Description | Reading Status |
-|---|---|---|
-|[**✅ 1-Harvard CS50’s Introduction to Programming with Python**](https://www.youtube.com/watch?v=nLRL_NcnK-4)|by Eddy Shyu,Cousera,Goog| InProgress|
-|[**✅ 2-Python Cheat Sheet**](https://vivitoa.github.io/python-cheat-sheet/#file-handling)|by Eddy Shyu,Cousera,Goog| Pending|
-|[**✅ 3-Getting Started with Streamlit**](https://www.pythonguis.com/tutorials/getting-started-with-streamlit/?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-693-april-3-2025&_bhlid=4a484e014be2ce61d1f1d95aa1e9f9745c2fa17e)|Stramlite, Other GUI library|
-Pending|
+| Title/Link | Description | Reading Status | Learning Goal |
+|---|---|---|---|
+| [**✅ 1 - Harvard CS50’s Introduction to Programming with Python**](https://www.youtube.com/watch?v=nLRL_NcnK-4) | by Eddy Shyu, Coursera, Google | In Progress | Learn Python fundamentals (syntax, loops, functions, data structures) from scratch. |
+| [**✅ 2 - Python Cheat Sheet**](https://vivitoa.github.io/python-cheat-sheet/#file-handling) | by Eddy Shyu, Coursera, Google | Pending | Quick reference guide for Python syntax, file handling, and built-in functions. |
+| [**✅ 3 - Getting Started with Streamlit**](https://www.pythonguis.com/tutorials/getting-started-with-streamlit/?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-693-april-3-2025&_bhlid=4a484e014be2ce61d1f1d95aa1e9f9745c2fa17e) | Streamlit, Other GUI library | Pending | Build interactive data apps and dashboards with minimal code. |
+
 
  👁️ Chapter1: - **Books**
 | Title/link| Description | Reading Status |
