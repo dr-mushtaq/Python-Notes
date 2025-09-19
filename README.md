@@ -287,6 +287,12 @@ Understanding all the tools, frameworks, architectures, and ecosystems around NL
 | Title/link| Description | Status |Feedback|
 |---|---|---|---|
 |[**✅ 1- FastAdmin**](https://github.com/vsdudakov/fastadmin)|FastAdmin was built with relations in mind and admiration for the excellent and popular Django Admin. It's engraved in its design that you may configure your admin dashboard for FastAPI/Django/Flask easiest way.| Pending|⭐️⭐️⭐️|
+|[**✅ 2- NumPy**](https://github.com/vsdudakov/fastadmin)|FastAdmin was built with relations in mind and admiration for the excellent and popular Django Admin. It's engraved in its design that you may configure your admin dashboard for FastAPI/Django/Flask easiest way.| Pending|⭐️⭐️⭐️|
+
+|[**✅ 3-Pandas**](https://github.com/vsdudakov/fastadmin)|FastAdmin was built with relations in mind and admiration for the excellent and popular Django Admin. It's engraved in its design that you may configure your admin dashboard for FastAPI/Django/Flask easiest way.| Pending|⭐️⭐️⭐️|
+
+|[**✅ 3-Matplotlib**](https://github.com/vsdudakov/fastadmin)|FastAdmin was built with relations in mind and admiration for the excellent and popular Django Admin. It's engraved in its design that you may configure your admin dashboard for FastAPI/Django/Flask easiest way.| Pending|⭐️⭐️⭐️|
+
 
 ## 👁️ Chapter5: - **Free online Python editor**
 | Title/link| Description | Status |Feedback|
