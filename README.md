@@ -245,12 +245,19 @@ uvicorn main:app --reload
 | [**✅ 1 - Harvard CS50’s Introduction to Programming with Python**](https://www.youtube.com/watch?v=nLRL_NcnK-4) | by Eddy Shyu, Coursera, Google | In Progress | Learn Python fundamentals (syntax, loops, functions, data structures) from scratch. |
 | [**✅ 2 - Python Cheat Sheet**](https://vivitoa.github.io/python-cheat-sheet/#file-handling) | by Eddy Shyu, Coursera, Google | Pending | Quick reference guide for Python syntax, file handling, and built-in functions. |
 | [**✅ 3 - Getting Started with Streamlit**](https://www.pythonguis.com/tutorials/getting-started-with-streamlit/?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-693-april-3-2025&_bhlid=4a484e014be2ce61d1f1d95aa1e9f9745c2fa17e) | Streamlit, Other GUI library | Pending | Build interactive data apps and dashboards with minimal code. |
+| [**✅ 4 - BroCode**](https://www.youtube.com/@BroCodez) | Tutorials on Python, AI and machine learning | Pending |Tutorials covering libraries like TensorFlow and scikit-learn with hands-on projects for AI and machine learning enthusiasts.|
+| [**✅ 5 - Python Tutorial**](https://wiki.python.org/moin/BeginnersGuide) | Official Python guide | Pending |The absolute best place to start. It's concise and covers the fundamentals from the creators themselves.|
+| [**✅ 6 - w3Schools Python Tutorial**](https://wiki.python.org/moin/BeginnersGuide) | Practice while learning | Pending | Great for quick reference. It's a no-frills site where you can quickly find explanations and code examples for specific concepts.|
+| [**✅ 7 - Real Python**](https://realpython.com/) | Explore python topic wise | Pending | Offers high-quality tutorials on everything from intermediate Python concepts to advanced topics like concurrency and machine learning.|
 
 
  👁️ Chapter1: - **Books**
 | Title/link| Description | Reading Status |
 |---|---|---|
 |[**✅ 1-Interpretable Machine Learning**](https://christophm.github.io/interpretable-ml-book/)|by Christoph Molnar A Guide for Making Black Box Models Explainable| InProgress|
+|[**✅ 2-Dive into Python 3**](https://diveintopython3.net/)|by Mark Pilgrim Dive into Python 3 and its differences from Python 2| InProgress|
+|[**✅ 3-Python Succinctly**](https://www.syncfusion.com/succinctly-free-ebooks/python/?utm_medium=reddit&utm_source=backlinks&utm_campaign=python-reddit-backlinks)|by Jason Cannon Dive Learn to use the Python language to create programs of all kinds.| InProgress|
+|[**✅ 4-Python Succinctly**](https://www.amazon.com/Python-Crash-Course-Eric-Matthes/dp/1718502702)|by Eric Mathes A Hands-On, Project-Based Introduction to Programming| InProgress|
 
 ### 🔹Python Projects**
 | Title | Description|Code|Status|Completed On|Author|
@@ -274,6 +281,11 @@ uvicorn main:app --reload
 | ⏳ | **[Links for Python Noobs](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html)** | Curated list of useful beginner-friendly Python links. | [Link](https://steppingback269.blogspot.com/2025/07/links-for-python-noobs.html) | ⏳ Pending |
 | ⏳ | **[FastAPI Interactive](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)** | Interactive learning platform for FastAPI basics and dependencies. | [Link](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps) | ⏳ Pending |
 | ⏳ | **[FastAPI Official Docs](https://fastapi.tiangolo.com/tutorial/first-steps/)** | Official documentation and tutorials for FastAPI. | [Link](https://fastapi.tiangolo.com/tutorial/first-steps/) | ⏳ Pending |
+| ⏳ | **[CodeCrafters](https://codecrafters.io/)** | An excellent platform for learning by doing. You'll build your own versions of popular tools like Git or an HTTP server in Python. | [Link](https://codecrafters.io/) | ⏳ Pending |
+| ⏳ | **[FreeCodeCamp](https://www.freecodecamp.org/)** | Offers a massive library of free courses and projects, especially for web development. | [Link](https://www.freecodecamp.org/) | ⏳ Pending |
+| ⏳ | **[CodeSignal](https://codesignal.com/learn/paths/introduction-to-programming-with-python)** |Offers a variety of learning paths with hands-on exercises and an AI tutor to guide you through the problems.| [Link](https://codesignal.com/learn/paths/introduction-to-programming-with-python) | ⏳ Pending |
+| ⏳ | **[WeLearn](https://w5n.ai/)** |This one is a bit different. Instead of a fixed course, you tell it your skills and goals, and it builds a personalized learning path for you. It combines readings, quizzes, and coding exercises, all with an AI tutor to help you stay motivated and on track.| [Link](https://w5n.ai/) | ⏳ Pending |
+| ⏳ | **[Fullstack Python (Advanced)](https://www.fullstackpython.com/)** |A great resource for those looking to use Python for web development.| [Link](https://www.fullstackpython.com/) | ⏳ Pending |
 
 
 
