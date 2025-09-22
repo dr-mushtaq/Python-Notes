@@ -64,7 +64,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
  ## Quick Start Checklist with Links
 
 - Subscribe to [Couresesteach on YouTube](https://www.youtube.com/watch?v=A6KWIhgiyKc) and review the [course playlist](https://www.youtube.com/watch?v=A6KWIhgiyKc).
-- Read and Contribute in Pyhton Notes [frequently asked questions](https://docs.google.com/document/d/1cwciLJawfI20iDbzJBPyFKFg25ZZzsUpBP7mUal6uV4/edit?usp=sharing).
+- Read and Contribute in Pyhton Notes [Python Notes](https://docs.google.com/document/d/1cwciLJawfI20iDbzJBPyFKFg25ZZzsUpBP7mUal6uV4/edit?usp=sharing).
 - Enroll in Complete Pyhton Courese [Introduction to Python!](https://coursesteach.com/course/view.php?id=4) to Solve quiz and find extr resources.   
 
  ## **Contact**
