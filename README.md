@@ -249,6 +249,7 @@ uvicorn main:app --reload
 | [**✅ 5 - Python Tutorial**](https://wiki.python.org/moin/BeginnersGuide) | Official Python guide | Pending |The absolute best place to start. It's concise and covers the fundamentals from the creators themselves.|
 | [**✅ 6 - w3Schools Python Tutorial**](https://wiki.python.org/moin/BeginnersGuide) | Practice while learning | Pending | Great for quick reference. It's a no-frills site where you can quickly find explanations and code examples for specific concepts.|
 | [**✅ 7 - Real Python**](https://realpython.com/) | Explore python topic wise | Pending | Offers high-quality tutorials on everything from intermediate Python concepts to advanced topics like concurrency and machine learning.|
+| [**✅ 8 - AI Python for Beginners by Andrew**](https://learn.deeplearning.ai/courses/ai-python-for-beginners/lesson/lg0k9/prioritizing-tasks-with-dictionaries-and-ai) | Explore python topic wise | Pending | Offers high-quality tutorials on everything from intermediate Python concepts to advanced topics like concurrency and machine learning.|
 
 
  👁️ Chapter1: - **Books**
