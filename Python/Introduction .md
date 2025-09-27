@@ -3,7 +3,8 @@
 
 ## 📑 Table of Contents  
 
-- [*1-What is meant by programming](#*1-What-is-meant-by-programming)  
+- [Software Categories](#Software-Categories)  
+- [What is meant by programming](#1-What-is-meant-by-programming)  
 
 
 
@@ -124,6 +125,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
