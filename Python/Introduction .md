@@ -78,6 +78,8 @@ Computer programming is how people can communicate and interact with computers. 
 
 4-Programming is taking a task and writing it down in program language that a computer can understand and execute. The activity of telling the computer to do something for us. There are more than 1000 programming languages.
 
+5-Programming is the process of giving instructions to a computer to perform specific tasks. Think of it like writing a recipe—not for baking a cake, but for solving problems or building tools with code.
+
 **Concept**
 
 As a computer user you know that computers don’t have feelings. They don’t work any faster or slower depending on if we’re angry at them or if we’re happy.
@@ -125,6 +127,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
