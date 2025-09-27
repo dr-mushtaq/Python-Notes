@@ -7,6 +7,61 @@
 
 
 
+##  **Software Categories**
+
+**1. System Software**
+   
+System software provides the foundation for running hardware and application software. It helps manage computer resources and enables basic functions of the system.
+
+**Key Features:**
+
+- Directly interacts with hardware.
+
+- Acts as a bridge between hardware and application software.
+
+- Provides basic functions like memory management, device control, and file management.
+
+**Examples:**
+
+- Operating Systems: Windows, macOS, Linux
+
+- Device Drivers: Graphics driver, printer driver
+
+- Utility Software: Disk cleaners, antivirus programs
+
+**Purpose:**
+
+- To ensure the smooth operation of the computer hardware.
+
+- rovide essential tools for software developers.
+
+2. Application Software
+Application software refers to programs that perform specific tasks for the user, often built on top of system software.
+
+Key Features:
+
+User-focused: Designed to solve specific tasks or problems.
+
+Operates within the environment provided by system software.
+
+Ranges from simple tools to complex solutions.
+
+Examples:
+
+Productivity Software: Microsoft Office (Word, Excel, PowerPoint)
+
+Media Players: VLC, Windows Media Player
+
+Web Browsers: Google Chrome, Mozilla Firefox
+
+Graphics Software: Photoshop, Illustrator
+
+Enterprise Software: ERP, CRM systems
+
+Purpose:
+
+To perform user-specific tasks, such as word processing, browsing, gaming, or multimedia editing.
+
 ### **1-What is meant by programming** 
 
 Computer programming is how people can communicate and interact with computers. Learn about some common programming languages and steps to begin building experience.
@@ -68,6 +123,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
