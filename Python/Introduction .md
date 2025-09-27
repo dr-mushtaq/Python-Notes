@@ -35,30 +35,30 @@ System software provides the foundation for running hardware and application sof
 
 - rovide essential tools for software developers.
 
-2. Application Software
+**2. Application Software**
 Application software refers to programs that perform specific tasks for the user, often built on top of system software.
 
-Key Features:
+**Key Features:**
 
-User-focused: Designed to solve specific tasks or problems.
+- User-focused: Designed to solve specific tasks or problems.
 
-Operates within the environment provided by system software.
+- Operates within the environment provided by system software.
 
-Ranges from simple tools to complex solutions.
+- Ranges from simple tools to complex solutions.
 
-Examples:
+**Examples:**
 
-Productivity Software: Microsoft Office (Word, Excel, PowerPoint)
+- Productivity Software: Microsoft Office (Word, Excel, PowerPoint)
 
-Media Players: VLC, Windows Media Player
+- Media Players: VLC, Windows Media Player
 
-Web Browsers: Google Chrome, Mozilla Firefox
+- Web Browsers: Google Chrome, Mozilla Firefox
 
-Graphics Software: Photoshop, Illustrator
+- Graphics Software: Photoshop, Illustrator
 
-Enterprise Software: ERP, CRM systems
+- Enterprise Software: ERP, CRM systems
 
-Purpose:
+**Purpose:**
 
 To perform user-specific tasks, such as word processing, browsing, gaming, or multimedia editing.
 
@@ -123,6 +123,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
