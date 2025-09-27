@@ -35,6 +35,10 @@ We all have to deal with a certain task in daily life and many. We can solve our
 
 If there is a daily life problem First you define a problem that you want to solve and then if you know all the steps then you can easily solve. If you want to solve this problem with a computer and you give these steps to the computer in English, the computer will not understand it and it understands 0,1 only and no other symbol and similar to  a switch and it only recognizes two phases On and off  and to solve this Problem you need to write a program .
 
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/1_TmHPH3tqLxHIYpbCQwdEGA.jpg"></a>
+</p>
+
 
 ## References
 
@@ -60,6 +64,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
