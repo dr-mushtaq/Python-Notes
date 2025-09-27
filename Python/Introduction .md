@@ -15,7 +15,7 @@
 
 Computer programming is how people can communicate and interact with computers. Learn about some common programming languages and steps to begin building experience.
 
-Definitions:
+**Definitions**:
 
 1-  A program is a sequence of instructions that designate how to execute a computation
 
@@ -59,6 +59,7 @@ We all have to deal with a certain task in daily life and many. We can solve our
     </button>
   </a>
 </p>
+
 
 
 
