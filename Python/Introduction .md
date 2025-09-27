@@ -3,12 +3,8 @@
 
 ## 📑 Table of Contents  
 
-- [Difference between CV and CP](#Difference-between-CV-and-CP)  
-- [What is Computer Vision?](#2--what-is-computer-vision)  
-- [What is Computer Vision NOT?](#what-is-computer-vision-not)  
-- [How does Computer Vision work?](#3-how-does-computer-vision-work)
-- [Real life Example?](#Real-life-Example)   
-- [History of Computer Vision](#history-of-computer-vision)  
+- [*1-What is meant by programming](#*1-What-is-meant-by-programming)  
+
 
 
 ### **1-What is meant by programming** 
@@ -72,6 +68,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
