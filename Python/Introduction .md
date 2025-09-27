@@ -39,6 +39,14 @@ If there is a daily life problem First you define a problem that you want to sol
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/1_TmHPH3tqLxHIYpbCQwdEGA.jpg"></a>
 </p>
 
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/download%20(2).png"></a>
+</p>
+
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/0_VbrS270Sh--MZCPa.jpg"></a>
+</p>
+
 
 ## References
 
@@ -64,6 +72,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
