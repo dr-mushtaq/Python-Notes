@@ -7,9 +7,9 @@
 - [What is meant by programming](#1-What-is-meant-by-programming)  
 
 
-#**Software Categories**
+# **Software Categories**
 
-##**1. System Software**
+## **1. System Software**
    
 System software provides the foundation for running hardware and application software. It helps manage computer resources and enables basic functions of the system.
 
@@ -35,7 +35,7 @@ System software provides the foundation for running hardware and application sof
 
 - rovide essential tools for software developers.
 
-##**2. Application Software**
+## **2. Application Software**
 
 Application software refers to programs that perform specific tasks for the user, often built on top of system software.
 
@@ -126,6 +126,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
