@@ -38,9 +38,9 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 
 ### 🙌 Become a Sponsor
 
-You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/dr-mushtaq/Python-Notes)** or through Bank please contact me on mushtaqmsit@gmail.com.
+You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/dr-mushtaq)** or via **bank transfer** — please contact me at 📧 [mushtaqmsit@gmail.com](mailto:mushtaqmsit@gmail.com).
 
-Every contribution — big or small — helps sustain the development of open-source Python resources, Python resource for AI, AI tool.  
+Every contribution — big or small — helps sustain the development of **open-source Python learning materials**, **AI-driven educational resources**, and **data science tools**.  
 Thank you for your generous support! 🌟
 
 ---
@@ -58,10 +58,9 @@ Thank you for your generous support! 🌟
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/dr-mushtaq-hussain/" target="_blank">Dr. Mushtaq Hussain</a><br>
-  <small>Second Edition: October, 2025</small>
+  <small>Second Edition — October 2025</small>
   </sub>
 </div>
-
 
 
 ## 📚 Table of Contents
