@@ -93,6 +93,10 @@ If there is a daily life problem First you define a problem that you want to sol
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/1_TmHPH3tqLxHIYpbCQwdEGA.jpg"></a>
 </p>
 
+The primary distinction between programming and familiar tasks is that instead of clicking buttons to perform actions, we write instructions in a programming language. Most programming languages are composed of English words, numbers, and various characters that carry special meanings.
+
+We all have a deal to a certain task in daily life and many. we can solve our own, while other which is especially complicated can be solved with the help of a computer, If there is daily life problem First you define a problem that you want to solve it and then if you know all the steps then you can easily solve. if you want to solve this problem with computer and you give these steps to computer in English, the computer will not understand it and it understands 0,1 only and no other symbol and similar to like a switch and it only recognized two phases On and off  and to solve this Problem you need to write program 
+
 <p align="center">
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/download%20(2).png"></a>
 </p>
@@ -126,6 +130,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
