@@ -63,7 +63,7 @@ Application software refers to programs that perform specific tasks for the user
 
 To perform user-specific tasks, such as word processing, browsing, gaming, or multimedia editing.
 
-# **1-What is meant by programming** 
+# **What is meant by programming** 
 
 Computer programming is how people can communicate and interact with computers. Learn about some common programming languages and steps to begin building experience.
 
@@ -104,7 +104,7 @@ We all have a deal to a certain task in daily life and many. we can solve our ow
 <p align="center">
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/0_VbrS270Sh--MZCPa.jpg"></a>
 </p>
-
+# **Critical Skills** 
 
 ## References
 
@@ -130,6 +130,7 @@ We all have a deal to a certain task in daily life and many. we can solve our ow
     </button>
   </a>
 </p>
+
 
 
 
