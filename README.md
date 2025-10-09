@@ -9,6 +9,30 @@ A comprehensive and beginner-friendly collection of Python programming notes, ex
 </p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
+### 🙌 Become a Sponsor
+
+You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/asabeneh)** or through [PayPal](https://www.paypal.me/asabeneh).
+
+Every contribution, big or small, makes a huge difference. Thank you for your support! 🌟
+
+---
+
+<div align="center">
+  <h1> 30 Days Of Python: Day 1 - Introduction</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> Second Edition: July, 2021</small>
+  </sub>
+</div>
+
+
 ## 📚 Table of Contents
 
 - [Overview](#overview)
