@@ -12,7 +12,7 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 <div>
 <h2>💖 Sponsors</h2>
 
-<p>Our amazing sponsors for supporting my open-source contribution and the <strong>30 Days of Challenge</strong> series!</p>
+<p>Our amazing sponsors for supporting my open-source contribution and the <strong>Python Notes for Beginners and Data Science Learners</strong> series!</p>
 
 <h3>Current Sponsor</h3>
 <hr />
