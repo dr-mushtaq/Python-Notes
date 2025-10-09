@@ -177,6 +177,16 @@ And so as a programmer, you’re going to write code and that code is going to u
 
  Well, a program is like a sequence of stored instructions. And the idea is that the computer itself at the lowest level in the hardware is just not that smart. But it has a lot of flexibility in that if we give it the right instructions, it can do amazing things. If we give it right instructions to listen to voice, digitize the voice, and make sense of the voice, then you can write a program that can "hear". The computer doesn't hear, the program hears.
 
+  # **What Can You Do with Programming**
+
+  Talking of all opportunities which are opened to you after learning how programming works , you will be able to do the following things:
+- Solve Problems: Programming can be used to model and solve complex problems in fields like finance, engineering, and medicine.
+- Develop Software and Applications: From the operating system on your computer to the apps on your phone, programming is the backbone of software
+- development.Create Websites: Web development involves programming both the visual front-end that users interact with and the back-end that processes data.
+- Automate Tasks: You can write scripts to automate repetitive tasks, saving time and reducing errors. This could be anything from sorting files to generating reports.
+- Analyze Data: With programming, you can process large sets of data to find patterns and insights, a practice commonly known as data science.
+Build Games: Game development is another avenue, where programming brings to life the mechanics, graphics, and interactivity of a game.
+
 ## References
 
 1-[What is Computer Vision? & Its Applications](https://medium.com/@draj0718/what-is-computer-vision-its-applications-826c0bbd772b)
@@ -201,6 +211,7 @@ And so as a programmer, you’re going to write code and that code is going to u
     </button>
   </a>
 </p>
+
 
 
 
