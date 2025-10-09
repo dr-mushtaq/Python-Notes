@@ -302,6 +302,7 @@ uvicorn main:app --reload
 | Title/link| Description | Status |Feedback|
 |---|---|---|---|
 |[**✅ 1- Best-of Machine Learning with Python**](https://github.com/ml-tooling/best-of-ml-python?tab=readme-ov-file#data-visualization)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
+|[**✅ 1- 30 Days Of Python**](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)|This curated list contains 920 awesome open-source projects with a total of 4.9M stars grouped into 34 categorie| Pending|⭐️⭐️⭐️|
 
 
 ## 👁️ Chapter5: - **🔍 Tools, Frameworks & Platforms**
