@@ -9,6 +9,32 @@ A comprehensive and beginner-friendly collection of Python programming notes, ex
 </p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
+<div>
+<h2>💖 Sponsors</h2>
+
+<p>Our amazing sponsors for supporting my open-source contribution and the <strong>30 Days of Challenge</strong> series!</p>
+
+<h3>Current Sponsor</h3>
+<hr />
+<div align="center">
+  <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank">
+    <picture>
+      <!-- Dark mode -->
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asabeneh/asabeneh/master/images/Wispr_Flow-Logo-white.png" />
+      <!-- Light mode (fallback) -->
+      <img src="https://raw.githubusercontent.com/Asabeneh/asabeneh/master/images/Wispr_Flow-logo.png"
+           width="400px"
+           alt="Wispr Flow Logo"
+           title="Wispr Flow" />
+    </picture>
+  </a>
+
+  <h3>Dictation that understands code</h3>
+  <p><em>Ship 4x faster with developer-first dictation that works in every app.</em></p>
+</div>
+
+---
+
 ### 🙌 Become a Sponsor
 
 You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/asabeneh)** or through [PayPal](https://www.paypal.me/asabeneh).
