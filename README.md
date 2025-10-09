@@ -45,16 +45,6 @@ You can support this project by becoming a sponsor on **[GitHub Sponsors](https:
 Every contribution — big or small — helps sustain the development of **open-source Python learning materials**, **AI-driven educational resources**, and **data science tools**.  
 Thank you for your generous support! 🌟
 
----
-
-<div align="center">
-  <h1>🔍 Python Notes for Beginners and Data Science Learners</h1>
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/dr-mushtaq-hussain/" target="_blank">Dr. Mushtaq Hussain</a><br>
-  <small>Second Edition — October 2025</small>
-  </sub>
-</div>
-
 
 ## 📚 Table of Contents
 
