@@ -95,7 +95,52 @@ If there is a daily life problem First you define a problem that you want to sol
 
 The primary distinction between programming and familiar tasks is that instead of clicking buttons to perform actions, we write instructions in a programming language. Most programming languages are composed of English words, numbers, and various characters that carry special meanings.
 
-We all have a deal to a certain task in daily life and many. we can solve our own, while other which is especially complicated can be solved with the help of a computer, If there is daily life problem First you define a problem that you want to solve it and then if you know all the steps then you can easily solve. if you want to solve this problem with computer and you give these steps to computer in English, the computer will not understand it and it understands 0,1 only and no other symbol and similar to like a switch and it only recognized two phases On and off  and to solve this Problem you need to write program 
+We all have a deal to a certain task in daily life and many. we can solve our own, while other which is especially complicated can be solved with the help of a computer, If there is daily life problem First you define a problem that you want to solve it and then if you know all the steps then you can easily solve. if you want to solve this problem with computer and you give these steps to computer in English, the computer will not understand it and it understands 0,1 only and no other symbol and similar to like a switch and it only recognized two phases On and off  and to solve this Problem you need to write program
+
+# **Critical Skills**
+
+1. 🧠 Analytical Thinking
+Break down complex problems into smaller, manageable parts
+
+3. 🧐 Critical Thinking
+Evaluate multiple solutions and select the most efficient one.
+
+4- 👀 Attention to Detail
+Spot syntax errors, logical flaws, and data inconsistencies
+
+5- 🛠️ Design Recipe for Programming
+To design a program properly, follow these systematic steps:
+
+6- 🔍 Analyze the Problem Statement
+Understand the core goal and requirements.
+Break the problem down into smaller, well-defined sub-problems.
+Identify inputs, outputs, and constraints.
+📌 Example: If the problem is to calculate a student’s GPA, clarify what inputs are given (grades, credit hours) and what output is expected (numeric GPA).
+
+2. 🧠 Abstract the Essence of the Problem
+Represent the problem logically and generally, not just with specific cases.
+
+Create examples of input and output to understand the transformation.
+📌 Example: For GPA, use test data:
+Input: [(A, 3), (B+, 4)] → Output: 3.5 GPA
+3. 🧾 Formulate in Precise Language
+Write comments, function headers, and data contracts.
+Use clear variable names, pseudo-code, or even flowcharts.
+
+Describe:
+
+What the function does
+
+What it takes as input
+
+What it returns
+
+4. ✅ Evaluate and Revise Using Tests
+Design test cases for both expected and edge cases.
+
+Run the program and compare output with expected results.
+
+Refactor or improve code based on failures or inefficiencies.
 
 <p align="center">
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/download%20(2).png"></a>
@@ -104,7 +149,7 @@ We all have a deal to a certain task in daily life and many. we can solve our ow
 <p align="center">
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/0_VbrS270Sh--MZCPa.jpg"></a>
 </p>
-# **Critical Skills** 
+ 
 
 ## References
 
@@ -130,6 +175,7 @@ We all have a deal to a certain task in daily life and many. we can solve our ow
     </button>
   </a>
 </p>
+
 
 
 
