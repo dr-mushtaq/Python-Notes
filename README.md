@@ -47,15 +47,6 @@ Thank you for your generous support! 🌟
 
 <div align="center">
   <h1>🔍 Python Notes for Beginners and Data Science Learners</h1>
-
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/dr-mushtaq-hussain/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin">
-  </a>
-
-  <a class="header-badge" target="_blank" href="https://twitter.com/drmushtaqai">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/drmushtaqai?style=social">
-  </a>
-
   <sub>Author:
   <a href="https://www.linkedin.com/in/dr-mushtaq-hussain/" target="_blank">Dr. Mushtaq Hussain</a><br>
   <small>Second Edition — October 2025</small>
