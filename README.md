@@ -22,7 +22,7 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
       <!-- Dark mode -->
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/LOGO-InnoviTechs.png" />
       <!-- Light mode (fallback) -->
-      <img src="https://raw.githubusercontent.com/Asabeneh/asabeneh/master/images/Wispr_Flow-logo.png"
+      <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/LOGO-InnoviTechs.png"
            width="400px"
            alt="Wispr Flow Logo"
            title="Wispr Flow" />
