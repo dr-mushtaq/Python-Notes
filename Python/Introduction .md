@@ -79,7 +79,7 @@ Computer programming is how people can communicate and interact with computers. 
 
 5-Programming is the process of giving instructions to a computer to perform specific tasks. Think of it like writing a recipe—not for baking a cake, but for solving problems or building tools with code.
 
-##**Concept**
+## **Concept**
 
 As a computer user you know that computers don’t have feelings. They don’t work any faster or slower depending on if we’re angry at them or if we’re happy.
 Computers can perform millions of calculations per second, but they require us to tell them exactly what to do. If you want a computer to perform a useful task, you need to write a program, as computers do not understand instructions the way we do.
@@ -126,6 +126,7 @@ If there is a daily life problem First you define a problem that you want to sol
     </button>
   </a>
 </p>
+
 
 
 
