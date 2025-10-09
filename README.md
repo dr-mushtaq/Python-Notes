@@ -339,6 +339,8 @@ uvicorn main:app --reload
 | ⏳ | **[CodeSignal](https://codesignal.com/learn/paths/introduction-to-programming-with-python)** |Offers a variety of learning paths with hands-on exercises and an AI tutor to guide you through the problems.| [Link](https://codesignal.com/learn/paths/introduction-to-programming-with-python) | ⏳ Pending |
 | ⏳ | **[WeLearn](https://w5n.ai/)** |This one is a bit different. Instead of a fixed course, you tell it your skills and goals, and it builds a personalized learning path for you. It combines readings, quizzes, and coding exercises, all with an AI tutor to help you stay motivated and on track.| [Link](https://w5n.ai/) | ⏳ Pending |
 | ⏳ | **[Fullstack Python (Advanced)](https://www.fullstackpython.com/)** |A great resource for those looking to use Python for web development.| [Link](https://www.fullstackpython.com/) | ⏳ Pending |
+| ⏳ | **[Python Developer](https://roadmap.sh/python)** |A great resource for those looking to use Python for web development.| [Link](https://www.fullstackpython.com/) | ⏳ Pending |
+
 
 
 
