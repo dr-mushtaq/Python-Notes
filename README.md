@@ -22,14 +22,16 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
       <!-- Dark mode -->
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/LOGO-InnoviTechs.png" />
       <!-- Light mode (fallback) -->
+      <a href="https://innovitechs.com/" target="_blank">
       <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/LOGO-InnoviTechs.png"
            width="400px"
            alt="Wispr Flow Logo"
            title="Wispr Flow" />
+      </a>
     </picture>
   </a>
 
-  <h3>Dictation that understands code</h3>
+  <h3>InnoviTechs IT Services – Driving Digital Transformation and Business Growth</h3>
   <p><em>Ship 4x faster with developer-first dictation that works in every app.</em></p>
 </div>
 
