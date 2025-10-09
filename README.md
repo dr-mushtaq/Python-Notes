@@ -32,7 +32,7 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
   </a>
 
   <h3>InnoviTechs IT Services – Driving Digital Transformation and Business Growth</h3>
-  <p><em>Ship 4x faster with developer-first dictation that works in every app.</em></p>
+  <p><em>Our mission is to lead the future of technology innovation by transforming visionary ideas into scalable digital experiences. With creativity, passion, and a commitment to excellence, we deliver tailored technology and workforce solutions that address your unique business challenges with resilience and adaptability.</em></p>
 </div>
 
 ---
