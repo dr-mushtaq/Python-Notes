@@ -150,13 +150,32 @@ Refactor or improve code based on failures or inefficiencies.
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/0_VbrS270Sh--MZCPa.jpg"></a>
 </p>
 
- # **source code or human-readable code**
+ # **Source code or human-readable code**
  
  To communicate real-life problems to computers you need to create a specific type of text called source code or human-readable code that software can read and process to the computer in zero or one form
  
  <p align="center">
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/download%20(1)%20(1).png"></a>
 </p>
+
+ # **Why Do We Need Programming?**
+
+ You can’t just ask a computer, “Hey, sort my files.” It only understands 1s and 0s (binary). So, we use programming languages like Python or Java to write instructions, which are later translated into machine code.
+
+Without programming, a computer is just expensive hardware. With programming, it becomes a tool for:
+
+- Automating tasks
+-  Making decisions
+-  nalyzing data
+-  unning apps and websites
+
+We act as the middle layer—between users and machines—by writing the logic that turns user input into useful output.
+
+The hardware itself is not all that intelligent. And our job as programmers is to act as intermediaries between the hardware and the user to build something wonderful and beautiful. And so, you can kind of imagine that your job as a programmer is to intermediate between the hardware and the end user.
+
+And so as a programmer, you’re going to write code and that code is going to use data, networks, and CPUs, and memory, and then do something for the user.
+
+ Well, a program is like a sequence of stored instructions. And the idea is that the computer itself at the lowest level in the hardware is just not that smart. But it has a lot of flexibility in that if we give it the right instructions, it can do amazing things. If we give it right instructions to listen to voice, digitize the voice, and make sense of the voice, then you can write a program that can "hear". The computer doesn't hear, the program hears.
 
 ## References
 
@@ -182,6 +201,7 @@ Refactor or improve code based on failures or inefficiencies.
     </button>
   </a>
 </p>
+
 
 
 
