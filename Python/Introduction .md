@@ -187,6 +187,34 @@ And so as a programmer, you’re going to write code and that code is going to u
 - Analyze Data: With programming, you can process large sets of data to find patterns and insights, a practice commonly known as data science.
 Build Games: Game development is another avenue, where programming brings to life the mechanics, graphics, and interactivity of a game.
 
+ # **🧱 Key Components of a Program**
+
+ Humans usually write programs in a human-readable language, which computers cannot understand. Therefore, we need to translate these programs into binary language. Let’s break down how programming works behind the scenes.
+
+1. Interpreter
+Reads and runs code line-by-line. Good for beginners but slower for large programs.
+
+An interpreter checks the code line by line, translating it into machine code, which the computer then executes before moving on to the next line.
+
+Downsides:
+
+Takes a lot of time
+Does not provide a complete picture
+2. Compiler
+Translates all your code at once. Fast execution, but errors must be fixed before it runs.A compiler is a second method used to convert human-readable language into computer language. It translates the entire program into machine language at once. If it finds an error, it stops and does not execute the code.
+
+3. Linker
+Combines small parts of a program into one full program.
+
+4. Loader
+Loads the final program into memory so the CPU can run it.
+
+These steps happen every time you run a software program—even if you don’t see it.
+
+Linking: A computer program cannot run until its sub-functions are combined. This process is called linking. A linker is used to create an executable file by combining these sub-functions.
+
+Loading: Executable files are stored on the disk. First, the executable is loaded into memory, and then the processor is instructed to start executing from the beginning of this loaded portion. This process is called loading.
+
 ## References
 
 1-[What is Computer Vision? & Its Applications](https://medium.com/@draj0718/what-is-computer-vision-its-applications-826c0bbd772b)
@@ -211,6 +239,7 @@ Build Games: Game development is another avenue, where programming brings to lif
     </button>
   </a>
 </p>
+
 
 
 
