@@ -35,40 +35,18 @@ Welcome to the A-Z Guide to Python in Data Science repository! This comprehensiv
 
 ---
 
-### 🙌 Become a Sponsor
-
-You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/asabeneh)** or through [PayPal](https://www.paypal.me/asabeneh).
-
-Every contribution, big or small, makes a huge difference. Thank you for your support! 🌟
-
----
-
-<div align="center">
-  <h1> 30 Days Of Python: Day 1 - Introduction</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> Second Edition: July, 2021</small>
-  </sub>
-</div>
 
 ### 🙌 Become a Sponsor
 
-You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/dr-mushtaq)** or through [PayPal](https://www.paypal.me/drmushtaq).
+You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/dr-mushtaq/Python-Notes)** or through Bank please contact me on mushtaqmsit@gmail.com.
 
-Every contribution — big or small — helps sustain the development of open-source educational resources, AI tools, and research projects.  
+Every contribution — big or small — helps sustain the development of open-source Python resources, Python resource for AI, AI tool.  
 Thank you for your generous support! 🌟
 
 ---
 
 <div align="center">
-  <h1>🔍 30 Days of Machine Learning: Day 1 – Introduction</h1>
+  <h1>🔍 Python Notes for Beginners and Data Science Learners</h1>
 
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/dr-mushtaq-hussain/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin">
