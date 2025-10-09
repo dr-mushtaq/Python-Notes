@@ -58,6 +58,33 @@ Every contribution, big or small, makes a huge difference. Thank you for your su
   </sub>
 </div>
 
+### 🙌 Become a Sponsor
+
+You can support this project by becoming a sponsor on **[GitHub Sponsors](https://github.com/sponsors/dr-mushtaq)** or through [PayPal](https://www.paypal.me/drmushtaq).
+
+Every contribution — big or small — helps sustain the development of open-source educational resources, AI tools, and research projects.  
+Thank you for your generous support! 🌟
+
+---
+
+<div align="center">
+  <h1>🔍 30 Days of Machine Learning: Day 1 – Introduction</h1>
+
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/dr-mushtaq-hussain/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin">
+  </a>
+
+  <a class="header-badge" target="_blank" href="https://twitter.com/drmushtaqai">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/drmushtaqai?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/dr-mushtaq-hussain/" target="_blank">Dr. Mushtaq Hussain</a><br>
+  <small>Second Edition: October, 2025</small>
+  </sub>
+</div>
+
+
 
 ## 📚 Table of Contents
 
