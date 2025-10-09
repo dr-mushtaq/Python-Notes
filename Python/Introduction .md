@@ -149,7 +149,14 @@ Refactor or improve code based on failures or inefficiencies.
 <p align="center">
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/0_VbrS270Sh--MZCPa.jpg"></a>
 </p>
+
+ # **source code or human-readable code**
+
+ To communicate real-life problems to computers you need to create a specific type of text called source code or human-readable code that software can read and process to the computer in zero or one form
  
+ <p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/download%20(1)%20(1).png"></a>
+</p>
 
 ## References
 
@@ -175,6 +182,7 @@ Refactor or improve code based on failures or inefficiencies.
     </button>
   </a>
 </p>
+
 
 
 
