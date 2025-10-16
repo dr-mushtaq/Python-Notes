@@ -4,6 +4,9 @@
 Visual Studio Code and Anaconda are powerful tools for Python developers. However, if you are trying to use Anaconda and Visual Studio Code together there is a good chance you have run into some problems.
 
 One primary obstacle is ensuring that Visual Studio Code recognizes and effectively interacts with Anaconda environments. Without proper setup, users may face issues related to package management, interpreter selection, and environment synchronization.
+As common as these tools are for programming with Python, it can be difficult to figure out how to get them to work together. In Visual Studio Code you can run Python code with Anaconda by using the Anaconda Prompt, updating the Visual Studio Code workspace settings to be aware of your Anaconda installation, or adding Anaconda to the Windows Path variable.
+
+
 
 ## 📑 Table of Contents  
 
@@ -233,6 +236,7 @@ https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
