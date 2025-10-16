@@ -251,10 +251,10 @@ $ streamlit hello
 | **✅7-Machine Learning modeling**|[1](https://www.youtube.com/watch?v=z5HfbXORZsg)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/House%20Price%20Prediction%20App.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10410&forceview=1)|
 | **✅8-How to Deploy a Streamlit App on Streamlit Cloud**|[1](https://www.youtube.com/watch?v=JL9xOs-G1hI)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/House%20Price%20Prediction%20App.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10441&forceview=1)|
 
-## 📚Chapter: 8  - **Mastering FastAPI – From Beginner to Advanced**
+# 📚Chapter: 8  - **Mastering FastAPI – From Beginner to Advanced**
 🎯 Target Audience
 
-## 📚Chapter: 1  - **📚Module 1: Introduction to FastAPI & Setup (Beginner Level)**
+## 📚Chapter: 1 Introduction to FastAPI & Setup (Beginner Level)**
 
 Beginners in web development who want to build APIs easily.
 Python developers looking to switch from Flask/Django to FastAPI.
@@ -277,7 +277,7 @@ uvicorn main:app --reload
 | **✅3-Understanding FastAPI’s Auto-Generated Docs (Swagger & ReDoc))**|[1](https://www.youtube.com/watch?v=xRdzG-6EIuc_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/Hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10451&forceview=1)|[Doc](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)[Doc1](https://coursesteach.com/mod/page/view.php?id=10456&forceview=1)|
 | **✅4-Path parameters and query parameters**|[1](https://www.youtube.com/watch?v=sB1tHCVjUZA)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/FastAPI%20Example%20Path%20Parameter.py) [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/Query%20Parameters.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10451&forceview=1)|[Doc](https://coursesteach.com/mod/page/view.php?id=10468&forceview=1)|
 
-## 📚Chapter: 2  - **📚Module 2: Building REST APIs with FastAPI (Intermediate Level)**
+## 📚Chapter: 2  Building REST APIs with FastAPI (Intermediate Level)**
 🎯 Target Audience
 
 | Tutorial | Video | Code |Notes|Extra Reading|
