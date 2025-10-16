@@ -221,28 +221,14 @@ Loading: Executable files are stored on the disk. First, the executable is loade
 
 ## References
 
-1-[What is Computer Vision? & Its Applications](https://medium.com/@draj0718/what-is-computer-vision-its-applications-826c0bbd772b)
-
-2-[-Introduction of Computer Vision](https://auth.udacity.com/sign-in)
-
-4-[How computer vision works](https://www.sas.com/en_us/insights/analytics/computer-vision.html#technical)
-
-5-[Computer Vision 🤖 Fundamentals with OpenCV](https://medium.com/codex/computer-vision-fundamentals-with-opencv-9fc93b61e3e8)
 
 
-<p align="center">
-  <a href="#previous-section" style="text-decoration:none;">
-    <button style="padding:20px 40px; font-size:24px; font-weight:bold; border-radius:12px; background-color:#007BFF; color:white; border:none; cursor:pointer;">
-      ⬅️ Previous
-    </button>
-  </a>
 
-  <a href="#next-section" style="text-decoration:none;">
-    <button style="padding:20px 40px; font-size:24px; font-weight:bold; border-radius:12px; background-color:#28A745; color:white; border:none; cursor:pointer;">
-      Next ➡️
-    </button>
-  </a>
-</p>
+<p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
+<h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
+️
+
+
 
 
 
