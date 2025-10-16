@@ -10,6 +10,10 @@ Your computer is capable of running many different programs and applications. Ho
 
 They are important due to following reasons:
 
+1. Anaconda: Comprehensive Environment
+2. Miniconda: Lightweight and Flexible
+3. Conda: Powerful Package Management
+
 
 
 ## 📑 Table of Contents  
@@ -240,6 +244,7 @@ https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
