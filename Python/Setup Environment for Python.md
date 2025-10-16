@@ -6,6 +6,10 @@ Visual Studio Code and Anaconda are powerful tools for Python developers. Howeve
 One primary obstacle is ensuring that Visual Studio Code recognizes and effectively interacts with Anaconda environments. Without proper setup, users may face issues related to package management, interpreter selection, and environment synchronization.
 As common as these tools are for programming with Python, it can be difficult to figure out how to get them to work together. In Visual Studio Code you can run Python code with Anaconda by using the Anaconda Prompt, updating the Visual Studio Code workspace settings to be aware of your Anaconda installation, or adding Anaconda to the Windows Path variable.
 
+Your computer is capable of running many different programs and applications. However, when you want to create or write your own, such as, building a machine learning project, it’s important to set your computer up in the right way. Let’s say you wanted to work with a dataset of patient records to try and predict who had heart disease or not. You’ll need a few tools to do this. One for exploring the data, another for making a predictive model, one for making graphs to present your findings to others and one more to run experiments and put all the others together. If you’re thinking, I don’t even know where to start, don’t worry, you’re not alone. Many people have this problem. Luckily, this is where Anaconda, Miniconda and Conda come in. Anaconda, Miniconda and Conda are tools which help you manage your other tools.
+
+They are important due to following reasons:
+
 
 
 ## 📑 Table of Contents  
@@ -236,6 +240,7 @@ https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
