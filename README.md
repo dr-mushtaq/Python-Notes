@@ -254,6 +254,8 @@ $ streamlit hello
 ## 📚Chapter: 8  - **Mastering FastAPI – From Beginner to Advanced**
 🎯 Target Audience
 
+## 📚Chapter: 1  - **📚Module 1: Introduction to FastAPI & Setup (Beginner Level)**
+
 Beginners in web development who want to build APIs easily.
 Python developers looking to switch from Flask/Django to FastAPI.
 Intermediate developers aiming to create production-ready APIs.
@@ -274,6 +276,13 @@ uvicorn main:app --reload
 | **✅2-How to Install Python and FastAPI: A Beginner’s Guide)**|[1](https://www.youtube.com/watch?v=xRdzG-6EIuc_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/Hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10451&forceview=1)|[Doc](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)[Doc1](https://fastapi.tiangolo.com/tutorial/first-steps/)|
 | **✅3-Understanding FastAPI’s Auto-Generated Docs (Swagger & ReDoc))**|[1](https://www.youtube.com/watch?v=xRdzG-6EIuc_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/Hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10451&forceview=1)|[Doc](https://www.fastapiinteractive.com/fastapi-basics/21-dependencies-first-steps)[Doc1](https://coursesteach.com/mod/page/view.php?id=10456&forceview=1)|
 | **✅4-Path parameters and query parameters**|[1](https://www.youtube.com/watch?v=sB1tHCVjUZA)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/FastAPI%20Example%20Path%20Parameter.py) [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/Query%20Parameters.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10451&forceview=1)|[Doc](https://coursesteach.com/mod/page/view.php?id=10468&forceview=1)|
+
+## 📚Chapter: 2  - **📚Module 2: Building REST APIs with FastAPI (Intermediate Level)**
+🎯 Target Audience
+
+| Tutorial | Video | Code |Notes|Extra Reading|
+|---|---|---|---|---|
+| **✅1-Working with request bodies (pydantic models)**|[1](https://www.youtube.com/watch?v=zq0_g3BKltE_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10480&forceview=1)|
 
 
 </details>
