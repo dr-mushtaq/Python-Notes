@@ -341,6 +341,7 @@ uvicorn main:app --reload
 | ⏳ | **[WeLearn](https://w5n.ai/)** |This one is a bit different. Instead of a fixed course, you tell it your skills and goals, and it builds a personalized learning path for you. It combines readings, quizzes, and coding exercises, all with an AI tutor to help you stay motivated and on track.| [Link](https://w5n.ai/) | ⏳ Pending |
 | ⏳ | **[Fullstack Python (Advanced)](https://www.fullstackpython.com/)** |A great resource for those looking to use Python for web development.| [Link](https://www.fullstackpython.com/) | ⏳ Pending |
 | ⏳ | **[Python Developer](https://roadmap.sh/python)** |A great resource for those looking to use Python for web development.| [Link](https://www.fullstackpython.com/) | ⏳ Pending |
+| **[Alan Becker](https://www.youtube.com/watch?v=k2I9l4a_7kw)** |edicatopm with Cartoon.| [Link](https://www.fullstackpython.com/) | ⏳ Pending |
 
 
 
