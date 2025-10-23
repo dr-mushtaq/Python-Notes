@@ -282,7 +282,7 @@ uvicorn main:app --reload
 
 | Tutorial | Video | Code |Notes|Extra Reading|
 |---|---|---|---|---|
-| **✅1-Working with request bodies (pydantic models)**|[1](https://www.youtube.com/watch?v=zq0_g3BKltE_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Streamlite/hello.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10480&forceview=1)|
+| **✅1-Working with request bodies (pydantic models)**|[1](https://www.youtube.com/watch?v=zq0_g3BKltE_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/%F0%9F%93%9AChapter%202%20Building%20REST%20APIs%20with%20FastAPI/request_bodies.py) |[Link](https://coursesteach.com/mod/page/view.php?id=10480&forceview=1)|
 
 
 </details>
