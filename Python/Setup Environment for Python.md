@@ -43,6 +43,10 @@ So, why use virtual environments at all [3]?
 - If you put them in separate environments instead, you can switch between the environments as needed, and both will continue to work.
 - This enhances project stability and reproducibility, as you can rest assured that each project’s dependencies are contained and managed separately
 
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/c483df44-3523-425b-815d-c3a02bbb8db5_700x286.png"></a>
+</p>
+
 Thus by using environments, you won’t breaking existing projects when you install, update, or remove packages, since each project can have its own environment.
 You can also delete environments once you’re done with them, and if you run into problems with an environment, it’s easy to start a new one!
 In Short, virtual environments serve as invaluable tools for managing dependencies, resolving conflicts, and maintaining project isolation in Python development.
@@ -242,6 +246,7 @@ https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
