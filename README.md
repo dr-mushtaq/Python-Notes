@@ -261,6 +261,11 @@ Python developers looking to switch from Flask/Django to FastAPI.
 Intermediate developers aiming to create production-ready APIs.
 Advanced learners who want to integrate FastAPI with ML/DL models, databases, and cloud deployment.
 
+<a href="https://app.commanddash.io/agent?github=https://github.com/hussain0048/Python-Notes"><img src="https://img.shields.io/badge/AI-Code%20Gen-EB9FDA"></a>
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/image%20(3).png"></a>
+</p>
+
 >  Install FastAPI and Uvicorn
 
 pip install fastapi uvicorn
