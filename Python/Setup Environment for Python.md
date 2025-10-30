@@ -65,6 +65,14 @@ By leveraging virtual environments, you can ensure project stability, streamline
 -  Click on Download Now.
 -  It will redirect you the Anaconda Download Webpage.
 
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/21c15efc-5f93-4cf1-997b-f3fdc58cd6fc_700x309.png"></a>
+</p>
+
+- Click on Download to get download started
+- It will take some time to download as the Anaconda File Size is pretty large.
+-  After Downloading, Run the Installer
+
 **Key Features**
 
 - User-focused: Designed to solve specific tasks or problems.
@@ -255,6 +263,7 @@ https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
