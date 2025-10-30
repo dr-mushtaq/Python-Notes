@@ -52,9 +52,18 @@ You can also delete environments once you’re done with them, and if you run in
 In Short, virtual environments serve as invaluable tools for managing dependencies, resolving conflicts, and maintaining project isolation in Python development.
 By leveraging virtual environments, you can ensure project stability, streamline package management, and enhance productivity in your coding endeavors.
 
-## **2. Application Software**
+# **Installing Anaconda**
 
-Application software refers to programs that perform specific tasks for the user, often built on top of system software.
+1- Visit the official Anaconda Website: www.anaconda.com
+
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/b4f1862a-eb6b-4387-8bdc-72c81c248aed_700x249.png"></a>
+</p>
+
+-  Provide your email to download distribution
+- It will send a link to your Email.
+-  Click on Download Now.
+-  It will redirect you the Anaconda Download Webpage.
 
 **Key Features**
 
@@ -246,6 +255,7 @@ https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
