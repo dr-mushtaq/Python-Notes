@@ -254,7 +254,7 @@ Linking: A computer program cannot run until its sub-functions are combined. Thi
 Loading: Executable files are stored on the disk. First, the executable is loaded into memory, and then the processor is instructed to start executing from the beginning of this loaded portion. This process is called loading.
 
 ## References
-[How to Configure Visual Studio Code and Anaconda for Python Programming] (https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+(How to Configure Visual Studio Code and Anaconda for Python Programming)[https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code]
 
 
 
@@ -262,6 +262,7 @@ Loading: Executable files are stored on the disk. First, the executable is loade
 <p align="right"><a target="_blank" href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/home_page.png" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/contents_page.jpg" /></a><a href="https://github.com/dr-mushtaq/Python-Notes/edit/master/Python/Introduction%20.md"><img height="50px" src="https://raw.githubusercontent.com/dipanjanS/practical-machine-learning-with-python/master/media/assets/next_page.png" style="float: right;" /></a></p>
 <h1 style="text-align: justify;"><span style="color: #ff0000;"><strong><span style="font-size: x-large;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 
 ️
+
 
 
 
