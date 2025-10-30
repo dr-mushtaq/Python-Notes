@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Form</title>
+</head>
+<body style="font-family: Arial; margin: 50px;">
+  <h2>Upload a File with Your Info</h2>
+  <form action="/submit" enctype="multipart/form-data" method="post">
+    <label>Username:</label>
+    <input type="text" name="username" required><br><br>
+
+    <label>Comment:</label>
+    <textarea name="comment" rows="3" cols="30"></textarea><br><br>
+
+    <label>Choose File:</label>
+    <input type="file" name="file" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

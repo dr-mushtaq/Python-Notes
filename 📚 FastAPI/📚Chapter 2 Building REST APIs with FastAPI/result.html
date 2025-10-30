@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Result</title>
+</head>
+<body style="font-family: Arial; margin: 50px;">
+  <h2>Form Submitted Successfully!</h2>
+  <p><b>Username:</b> {{ username }}</p>
+  <p><b>Comment:</b> {{ comment }}</p>
+  <p><b>Uploaded File:</b> {{ filename }}</p>
+
+  <p>You can access your uploaded file here:</p>
+  <a href="{{ file_url }}" target="_blank">{{ file_url }}</a>
+
+  <br><br>
+  <a href="/">Go Back</a>
+</body>
+</html>
