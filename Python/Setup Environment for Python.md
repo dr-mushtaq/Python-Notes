@@ -99,8 +99,25 @@ By leveraging virtual environments, you can ensure project stability, streamline
 
 # Python Setup in VS Code
 
+Setting up the Python extension in Visual Studio Code (VS Code) is a straightforward process. Here’s a step-by-step guide to help you get started:
+
+>Open Visual Studio Code
+
+> Click on the Extensions view icon on the Sidebar (or press Ctrl+Shift+X), then search for "Python" in the Extensions Marketplace.
+
+>The official Python extension should appear at the top of the search results. Click the “Install” button next to it to install the extension.
+
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/08643b60-3ec0-4f7a-821f-b5a227c49658_700x177.png"></a>
+</p>
+
+Open Vscode> Extension>Python(intellisense)
+
+
+
 # References
 [How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+
 
 
 
