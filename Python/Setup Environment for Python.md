@@ -97,8 +97,11 @@ By leveraging virtual environments, you can ensure project stability, streamline
 <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/image%20(2).jpg"></a>
 </p>
 
+# Python Setup in VS Code
+
 # References
 [How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+
 
 
 
