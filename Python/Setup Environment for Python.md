@@ -121,8 +121,30 @@ Open Vscode> Extension>Python(intellisense)
 
 > open user setting
 
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/b49ff646-aade-4d85-a040-ff05b4eecd04_700x110.png"></a>
+</p>
+
+> Search Python Path
+
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/2427fea9-a17b-4eff-81b9-004cdcf1911f_700x146.png"></a>
+</p>
+Alternative Method:
+
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/2e5d1857-ea45-432e-bab7-12d4e3e40f37_700x237.png"></a>
+</p>
+
+Ø If the selected Anaconda environment is not automatically activated, you might need to activate it manually. You can do this by opening a terminal in VS Code (`Ctrl+``) and running:
+
+With the Anaconda interpreter set up in Visual Studio Code, you’re ready to start coding in Python! Write your Python code in the editor, and use the various features provided by the Python extension for code editing, debugging, and more.
+
+That’s it! You’ve successfully set up the Python interpreter in Visual Studio Code using Anaconda. Now you can seamlessly develop Python projects within the Anaconda environment using the powerful features of VS Code
+
 # References
 [How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+
 
 
 
