@@ -113,10 +113,17 @@ Setting up the Python extension in Visual Studio Code (VS Code) is a straightfor
 
 Open Vscode> Extension>Python(intellisense)
 
+# Setup Interpreter VS Code using Anaconda
 
+> Open VS Code
+
+> Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (macOS) to open the Command Palette.
+
+> open user setting
 
 # References
 [How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+
 
 
 
