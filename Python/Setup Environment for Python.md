@@ -90,6 +90,15 @@ By leveraging virtual environments, you can ensure project stability, streamline
 
 [Download](https://code.visualstudio.com/?source=post_page-----b353db76165d---------------------------------------)
 
+> Run Installer: Once the download is complete, run the installer and follow the on-screen prompts to install Visual Studio Code.
+> When installing Visual Studio Code (VSC), you can keep all the default settings.
+
+<p align="center">
+<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Python/image%20(2).jpg"></a>
+</p>
+
+# References
+[How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
 
 
 
