@@ -160,9 +160,8 @@ www.python.org
 
 Run the Installer: Open the downloaded file to start the installation.Ø Once download is complete, run the python installer.
 
-For Windows users, ensure you check the box that says “Add Python to PATH” — this will allow you to run Python from any terminal without configuring paths manually.
-
-On macOS or Linux, Python might come pre-installed, but updating to the latest version is recommended.
+- For Windows users, ensure you check the box that says “Add Python to PATH” — this will allow you to run Python from any terminal without configuring paths manually.
+- On macOS or Linux, Python might come pre-installed, but updating to the latest version is recommended.
 
 
 
@@ -181,6 +180,7 @@ Ctrl+Shipt+P > Select Interpreter
 
 # References
 [How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+
 
 
 
