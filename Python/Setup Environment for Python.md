@@ -142,8 +142,46 @@ With the Anaconda interpreter set up in Visual Studio Code, you’re ready to st
 
 That’s it! You’ve successfully set up the Python interpreter in Visual Studio Code using Anaconda. Now you can seamlessly develop Python projects within the Anaconda environment using the powerful features of VS Code
 
+# Installing Python in VS Code Manually
+
+Here’s a guide on how to manually install Python in Visual Studio Code (VS Code)
+
+Step 1: Install Python
+
+Download Python: Visit the official Python website and download the latest version suitable for your operating system (Windows, macOS, or Linux).
+
+Download Python
+The official home of the Python Programming Language
+www.python.org
+
+Ø Choose your Python Version and Opening System and click on Download Link to Start downloading the Python Installer File.
+
+
+
+Run the Installer: Open the downloaded file to start the installation.Ø Once download is complete, run the python installer.
+
+For Windows users, ensure you check the box that says “Add Python to PATH” — this will allow you to run Python from any terminal without configuring paths manually.
+
+On macOS or Linux, Python might come pre-installed, but updating to the latest version is recommended.
+
+
+
+Ø Proceed with the installation by clicking “Install” or “Next.” The installer will then copy the necessary files and configure Python on your system. This process may take a few minutes to complete.
+
+Configure the Python Interpreter
+
+Select Python Interpreter:
+
+Open a Python file or create a new one (.py extension).
+
+Ctrl+Shipt+P > Select Interpreter
+
+
+Ø Congratulations! You’ve successfully installed Python on your system. You can now start using Python for coding, scripting, or running Python programs.
+
 # References
 [How to Configure Visual Studio Code and Anaconda for Python Programming](https://mushtaqmsit.substack.com/p/how-to-configure-visual-studio-code)
+
 
 
 
