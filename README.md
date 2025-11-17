@@ -9,34 +9,6 @@ A comprehensive and beginner-friendly collection of Python programming notes, ex
 </p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
-<div>
-<h2>💖 Sponsors</h2>
-
-<p>Our amazing sponsors for supporting my open-source contribution and the <strong>Python Notes for Beginners and Data Science Learners</strong> series!</p>
-
-<h3>Current Sponsor</h3>
-<hr />
-<div align="center">
-  <a href="https://ref.wisprflow.ai/MPMzRGE" target="_blank">
-    <picture>
-      <!-- Dark mode -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/LOGO-InnoviTechs.png" />
-      <!-- Light mode (fallback) -->
-      <a href="https://innovitechs.com/" target="_blank">
-      <img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Image/LOGO-InnoviTechs.png"
-           width="400px"
-           alt="Wispr Flow Logo"
-           title="Wispr Flow" />
-      </a>
-    </picture>
-  </a>
-
-  <h3>InnoviTechs IT Services – Driving Digital Transformation and Business Growth</h3>
-  <p><em>Our mission is to lead the future of technology innovation by transforming visionary ideas into scalable digital experiences. With creativity, passion, and a commitment to excellence, we deliver tailored technology and workforce solutions that address your unique business challenges with resilience and adaptability.</em></p>
-</div>
-
----
-
 
 ### 🙌 Become a Sponsor
 
