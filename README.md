@@ -138,9 +138,9 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 ## 📚Chapter: 1  - **NumPy**
 
-| Tutorial | Video | Code |
-|---|---|---|
-| [**✅1- Exploring the Power of Machine Learning Libraries in Python-G**](https://substack.com/@coursesteach/p-156102438) | [1](https://www.youtube.com/watch?v=8TiCmhwi8dY) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
+| Tutorial | Video | Code |Extra Resources|
+|---|---|---|---|
+| [**✅1- Exploring the Power of Machine Learning Libraries in Python-G**](https://substack.com/@coursesteach/p-156102438) | [1](https://www.youtube.com/watch?v=8TiCmhwi8dY) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |[1](https://www.youtube.com/@rushikesh_dane/playlists)|
 | [**✅2- NumPy-Create Array**](https://open.substack.com/pub/mushtaqmsit/p/numpy-array-creation-essential-guide?r=f2squ&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false) |[1](https://drive.google.com/file/d/1_dSVDwaec1RDo9Jcww3-jGEJGIdgzJM1/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**✅3- NumPy-Arithmetic Operation**](https://substack.com/profile/25324806-coursesteach/note/c-93137228?utm_source=notes-share-action&r=f2squ) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**✅4- NumPy-Basics operations**](https://mushtaqmsit.substack.com/p/numpy-basics-guide-efficient-array) |[1](https://www.youtube.com/watch?v=lLRBYKwP8GQ)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
@@ -151,9 +151,9 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 ## 📚Chapter: 2  - **Pandas**
 
-| Tutorial | Video | Code |
-|---|---|---|
-| [**✅1- Introduction of Pandas-s**](https://mushtaqmsit.substack.com/p/pandas-in-python-features-installation) |[1](https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=1)[-2](https://www.youtube.com/watch?v=r0cCJIA2UVQ)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |
+| Tutorial | Video | Code |Extr Resoruces
+|---|---|---|---|
+| [**✅1- Introduction of Pandas-s**](https://mushtaqmsit.substack.com/p/pandas-in-python-features-installation) |[1](https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=1)[-2](https://www.youtube.com/watch?v=r0cCJIA2UVQ)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |[1](https://www.youtube.com/@rushikesh_dane/playlists)|
 | [**✅2-Pandas Data Structures⭐️**](https://mushtaqmsit.substack.com/p/mastering-pandas-a-beginners-guide) |[1](https://www.youtube.com/watch?v=EyFcwhyBEw8#:~:text=URL%3A%20https%3A%2F%2Fwww,100)[-2](https://www.youtube.com/watch?v=u4_c2LDi4b8&list=PL7RwtdVQXQ8qxBH6ugYn50D0M5u--2Xx4&index=14)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |
 | [**✅3-Data Preparation using pandas**](https://mushtaqmsit.substack.com/p/ultimate-guide-to-data-preparation) |[1](https://realpython.com/lessons/pandas-groupby-overview/)[-2](https://www.youtube.com/watch?v=xi0vhXFPegw)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |
 | [**✅4-Data Visualization with Pandas⭐️**](https://mushtaqmsit.substack.com/p/data-visualization-in-python-a-beginners) |[1](https://www.youtube.com/watch?v=NY2czBJ4O4c)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Pandas.ipynb) |
@@ -161,9 +161,9 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 ## 📚Chapter: 3  - **Exploratory Data Analysis(EDA)**
 
-| Tutorial | Video | Code |
-|---|---|---|
-| [**✅1-Skimpy**](https://mushtaqmsit.substack.com/p/automatic-libraries-for-data-explorations) |[1](https://www.youtube.com/watch?v=MlnjfTDQY_0)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
+| Tutorial | Video | Code |Extra Resources|
+|---|---|---|---|
+| [**✅1-Skimpy**](https://mushtaqmsit.substack.com/p/automatic-libraries-for-data-explorations) |[1](https://www.youtube.com/watch?v=MlnjfTDQY_0)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |[1](https://www.youtube.com/@rushikesh_dane/playlists)|
 | [**✅2-Sweetviz**](https://mushtaqmsit.substack.com/p/top-automatic-python-libraries-for) |[1](https://youtu.be/CCy0JAB_fbo?si=J2MyNqVlqcJxofom)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**✅3-Cufflinks**](https://mushtaqmsit.substack.com/p/top-automatic-python-libraries-for) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
 | [**✅5-Pandas Profiling**](https://mushtaqmsit.substack.com/p/top-automatic-python-libraries-for) |---| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/Exploratory_Data_Analysis(EDA).ipynb) |
