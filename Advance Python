@@ -1,0 +1,5046 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Python Advance.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/raja016956/Python-Notes/blob/master/Advance%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZAsmPGUWcYU7"
+      },
+      "source": [
+        "![](https://drive.google.com/uc?export=view&id=1Q_qDi76L7lnijPWhlDVwU3QiAGfqdMTD)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "h0R-yfEvt5Tc"
+      },
+      "source": [
+        "![](https://drive.google.com/uc?export=view&id=1KcWw2-brb-cfZJaUbJRVo2LW5YjimBcL)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HH0IVhPvQkou"
+      },
+      "source": [
+        "#**1-File Handling**[1]\n",
+        "\n",
+        "**What is File Handling?**\n",
+        "\n",
+        "- File is named location on disk (hard drive) to store related information.\n",
+        "\n",
+        "- They are used to permanently store data in a non-volatile memory (e.g. hard disk). Data in all systems in stored in the form of files.\n",
+        "\n",
+        "- Databases also uses file systems behind the scene.\n",
+        "\n",
+        "- Working with files, make your program capable of saving in Secondary Memory (also known as Persistence Storage); which is Non-volatile (which even keep the data when the computer is turned off), we use files for future use of the data by permanently storing them."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# @title Beginner File Handling Quiz\n",
+        "\n",
+        "score = 0\n",
+        "\n",
+        "print(\"📂 Welcome to the Beginner File Handling Quiz!\\n\")\n",
+        "\n",
+        "# ------------------ Q1 ------------------\n",
+        "q1 = input(\n",
+        "\"Q1: What is a file?\\n\"\n",
+        "\"(a) A program\\n\"\n",
+        "\"(b) A named location on disk to store information\\n\"\n",
+        "\"(c) A keyboard device\\n\"\n",
+        "\"Your answer: \"\n",
+        ")\n",
+        "\n",
+        "if q1.lower() == \"b\":\n",
+        "    score += 1\n",
+        "    print(\"✅ Correct! A file stores information on disk.\")\n",
+        "else:\n",
+        "    print(\"❌ Incorrect.\")\n",
+        "    print(\"Explanation: A file is a named place on disk used to store data.\")\n",
+        "\n",
+        "# ------------------ Q2 ------------------\n",
+        "q2 = input(\n",
+        "\"\\nQ2: Where are files stored?\\n\"\n",
+        "\"(a) RAM\\n\"\n",
+        "\"(b) Hard disk\\n\"\n",
+        "\"(c) Monitor\\n\"\n",
+        "\"Your answer: \"\n",
+        ")\n",
+        "\n",
+        "if q2.lower() == \"b\":\n",
+        "    score += 1\n",
+        "    print(\"✅ Correct! Files are stored on hard disk (secondary memory).\")\n",
+        "else:\n",
+        "    print(\"❌ Incorrect.\")\n",
+        "    print(\"Explanation: Files are saved in secondary memory like hard disk.\")\n",
+        "\n",
+        "# ------------------ Q3 ------------------\n",
+        "q3 = input(\n",
+        "\"\\nQ3: What does non-volatile mean?\\n\"\n",
+        "\"(a) Data is deleted when power is off\\n\"\n",
+        "\"(b) Data stays even when computer is turned off\\n\"\n",
+        "\"(c) Data is temporary\\n\"\n",
+        "\"Your answer: \"\n",
+        ")\n",
+        "\n",
+        "if q3.lower() == \"b\":\n",
+        "    score += 1\n",
+        "    print(\"✅ Correct! Non-volatile means data stays saved.\")\n",
+        "else:\n",
+        "    print(\"❌ Incorrect.\")\n",
+        "    print(\"Explanation: Non-volatile storage keeps data even after shutdown.\")\n",
+        "\n",
+        "# ------------------ Q4 ------------------\n",
+        "q4 = input(\n",
+        "\"\\nQ4: Why do we use files in programs?\\n\"\n",
+        "\"(a) To permanently save data\\n\"\n",
+        "\"(b) To increase screen brightness\\n\"\n",
+        "\"(c) To delete data\\n\"\n",
+        "\"Your answer: \"\n",
+        ")\n",
+        "\n",
+        "if q4.lower() == \"a\":\n",
+        "    score += 1\n",
+        "    print(\"✅ Correct! Files help store data permanently.\")\n",
+        "else:\n",
+        "    print(\"❌ Incorrect.\")\n",
+        "    print(\"Explanation: Files are used for permanent data storage.\")\n",
+        "\n",
+        "# ------------------ Q5 ------------------\n",
+        "q5 = input(\n",
+        "\"\\nQ5: If you turn off your computer, which data will remain?\\n\"\n",
+        "\"(a) Data saved in a file\\n\"\n",
+        "\"(b) Data in RAM not saved\\n\"\n",
+        "\"(c) Data in CPU memory\\n\"\n",
+        "\"Your answer: \"\n",
+        ")\n",
+        "\n",
+        "if q5.lower() == \"a\":\n",
+        "    score += 1\n",
+        "    print(\"✅ Correct! Saved file data remains.\")\n",
+        "else:\n",
+        "    print(\"❌ Incorrect.\")\n",
+        "    print(\"Explanation: Only saved file data remains after shutdown.\")\n",
+        "\n",
+        "# ------------------ Final Score ------------------\n",
+        "\n",
+        "print(\"\\n🎯 Quiz Finished!\")\n",
+        "print(f\"Your final score is {score}/5\\n\")\n",
+        "\n",
+        "if score == 5:\n",
+        "    print(\"🌟 Excellent! You understand basic file handling.\")\n",
+        "elif score >= 3:\n",
+        "    print(\"👍 Good job! Review non-volatile and secondary memory concepts.\")\n",
+        "else:\n",
+        "    print(\"📘 Revise the basics of files and storage and try again.\")"
+      ],
+      "metadata": {
+        "cellView": "form",
+        "id": "6AufT24QZLlZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dZ0zKXM8GN8s"
+      },
+      "source": [
+        "#**2-What are Basic File Operations?**[1]"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jSWxuh9FGWIR"
+      },
+      "source": [
+        "Following are the basic operations in File Handling in Python:-\n",
+        "\n",
+        "\n",
+        "- Create File in Python\n",
+        "- Open File in Python\n",
+        "- Read File in Python\n",
+        "- Write in File\n",
+        "- Append to File"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "_oQ9yx8-HTY_"
+      },
+      "source": [
+        "#**3-How to Open File in Python?**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nbYav3HuHbH_"
+      },
+      "source": [
+        "- In order to read from Files or Writing data on Files, we need to read it first.\n",
+        "\n",
+        "- Whenever the file is open, we do required calculations and then need to close file. open() method is used in Python to Open File. This function returns a file object, also called a handle, as it is used to read or modify the file accordingly;"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ZRgosRBcHyN1"
+      },
+      "source": [
+        "def open(file, mode='r', buffering=None, encoding=None, errors=None, newline=None, closefd=True):\n",
+        "    # Python Open Method"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rMjx9biRHzbq"
+      },
+      "source": [
+        "- **file**: is the file path i-e directory where your file is saved\n",
+        "\n",
+        "- **mode**: Define the purpose of opening file i-e read, write, append etc.\n",
+        "\n",
+        "- **buffering**: is an optional integer used to set the buffering policy\n",
+        "\n",
+        "- **encoding**: is the name of the encoding used to decode or encode the file.\n",
+        "\n",
+        "      - default encoding is platform dependent\n",
+        "       - In windows, it is cp1252\n",
+        "       - utf-8 in Linux\n",
+        "- **errors**: is an optional string that specifies how encoding errors are to be handled—this argument should not be used in binary mode.\n",
+        "\n",
+        "- **newline**: controls how universal newlines works (it only applies to text mode). It can be:\n",
+        "\n",
+        "- None\n",
+        "- ‘ ‘\n",
+        "- ‘\\n’\n",
+        "- ‘\\r’\n",
+        "- ‘\\r\\n’"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cC-dTgckOI53"
+      },
+      "source": [
+        "#**4-What are different File Opening Modes in Python?**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1M_XWZgX-bl0"
+      },
+      "source": [
+        "Character Use in Open()            - Description of the Character Used in Open()\n",
+        "\n",
+        "- r                                - open for reading (default)\n",
+        "\n",
+        "- w                                - open for writing, truncating the file first\n",
+        "\n",
+        "- x                                - create a new file and open it for writing\n",
+        "\n",
+        "- a                                - open for writing, appending to the end of the file if it exists\n",
+        "\n",
+        "- b                                - binary mode\n",
+        "\n",
+        "- t                                - text mode (default)\n",
+        "\n",
+        "- +                                - open a disk file for updating (reading and writing)\n",
+        "\n",
+        "- U                                - universal newline mode (deprecated)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "V2u9WdmzASkQ"
+      },
+      "source": [
+        "f = open(\"Ultimate-Facebook-Scraper-2.0/LICENSE\")\n",
+        "print(f)\n",
+        "# <_io.TextIOWrapper name='Ultimate-Facebook-Scraper-2.0/LICENSE' mode='r' encoding='cp1252'>"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "yT1lz6xnAVvU"
+      },
+      "source": [
+        "In file handling in Python, once we open file with a defined MODE, we can read or write data accordingly"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4LawjuBbAZ8y"
+      },
+      "source": [
+        "#**5-How to Read File in Python?**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "vvHwC0aECs2M"
+      },
+      "source": [
+        "f = open(\"Ultimate-Facebook-Scraper-2.0/LICENSE\")\n",
+        "\n",
+        "data_1 = f.read(3)\n",
+        "data_2 = f.readlines()\n",
+        "data_3 = f.readable()\n",
+        "\n",
+        "print(data_1)\n",
+        "print(data_2[0:3])\n",
+        "print(data_3)\n",
+        "\n",
+        "print(\"File is closed?: \",f.closed)\n",
+        "f.close()\n",
+        "print(\"File is closed?: \",f.closed)\n",
+        "\n",
+        "# MIT\n",
+        "# [' License\\n', '\\n', 'Copyright (c) 2020 harismuneer, Hassaan-Elahi\\n']\n",
+        "# True\n",
+        "# File is closed?:  False\n",
+        "# File is closed?:  True"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IoNH-7BgCxB2"
+      },
+      "source": [
+        "**There are 2 different reading style;**\n",
+        "\n",
+        "**read(N)**: - this return complete data from file as string, we can read “N” character from it\n",
+        "\n",
+        "**readLines():**- Read all lines from files and return a list\n",
+        "\n",
+        "\n",
+        "Python also give us the facility of automatically closed files after opening and reading or writing. As shown in following code, there is not need to close file explicitly;"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dVFMLiBQDKqI"
+      },
+      "source": [
+        "with open(\"Ultimate-Facebook-Scraper-2.0/LICENSE\") as f:\n",
+        "    data_1 = f.read(3)\n",
+        "    data_2 = f.readlines()\n",
+        "    data_3 = f.readable()\n",
+        "\n",
+        "print(data_1)\n",
+        "print(data_2[0:3])\n",
+        "print(data_3)\n",
+        "\n",
+        "print(\"File is closed?: \",f.closed)\n",
+        "\n",
+        "# MIT\n",
+        "# [' License\\n', '\\n', 'Copyright (c) 2020 harismuneer, Hassaan-Elahi\\n']\n",
+        "# True\n",
+        "# File is closed?:  True"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9TLCMnFhDOK8"
+      },
+      "source": [
+        "Closing a file will free up the resources that were tied with the file. It is done using the close() method available in Python. Python has a garbage collector to clean up unreferenced objects but we must not rely on it to close the file."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1oggfSXyDS_b"
+      },
+      "source": [
+        "If file does not exist, it will give Exception."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6QmDYG9nDWKK"
+      },
+      "source": [
+        "with open(\"NOFILE.txt\", 'r') as f:\n",
+        "    data = f.readlines()\n",
+        "# FileNotFoundError: [Errno 2] No such file or directory: 'NOFILE.txt'"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "FAuGJ4kxDasX"
+      },
+      "source": [
+        "#**6-How to Read File in Binary Mode?**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jpI3HaztDmaE"
+      },
+      "source": [
+        "On the other hand, binary mode returns bytes and this is the mode to be used when dealing with non-text files like images or executable files. The default is reading in text mode. In this mode, we get strings when reading from the file."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "40K-CUXYDpaf"
+      },
+      "source": [
+        "with open(\"Ultimate-Facebook-Scraper-2.0/LICENSE\", 'rb') as f:\n",
+        "    data = f.readlines()\n",
+        "print(data[0])\n",
+        "# b'MIT License\\n'"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jOwc7ENVI2lr"
+      },
+      "source": [
+        "\n",
+        "\n",
+        "\n",
+        "#**7-Build web app using fastapi using python**\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "oCdsW64sNE6y"
+      },
+      "source": [
+        "from google.colab import files\n",
+        "uploaded = files.upload()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KIEWxjCURJR-"
+      },
+      "source": [
+        "[This is the link of the web app which is build using FastApi]\n",
+        "(https://github.com/hussain0048/Python/blob/master/Projects/Fastapi-webapp.py)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ti9OdCEOJzOR"
+      },
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KgLiZVl3x7dj"
+      },
+      "source": [
+        "##**8-GUI with Python**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yGFlqZwDyLuF",
+        "outputId": "0c9ee974-ce73-46bb-b82b-9887eb597487"
+      },
+      "source": [
+        "#@title String fields\n",
+        "#We can create the some type of variable like below\n",
+        "#param is used to GUI feature option\n",
+        "text = 'values' #@param {type:\"string\"}\n",
+        "First = \"1st option\" #@param [\"1st option\", \"2nd option\", \"3rd option\"]\n",
+        "second  = '2nd option' #@param [\"1st option\", \"2nd option\", \"3rd option\"] {allow-input: true}\n",
+        "\n",
+        "print(text)\n",
+        "print(First)\n",
+        "print(second)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "values\n",
+            "1st option\n",
+            "2nd option\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "51my9jl6yO2r",
+        "outputId": "ff97c9b4-4434-4b48-d118-89fc6914658f"
+      },
+      "source": [
+        "#@title Raw fields\n",
+        "\n",
+        "raw_input = None #@param {type:\"raw\"}\n",
+        "raw_dropdown = raw_input #@param [1, \"raw_input\", \"False\", \"'string'\"] {type:\"raw\"}\n",
+        "\n",
+        "print(raw_input)\n",
+        "print(raw_dropdown)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "None\n",
+            "None\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rvW0us76yS69",
+        "outputId": "4a3971ce-9647-4f22-8976-f17fd3f44637"
+      },
+      "source": [
+        "#@title Date fields\n",
+        "date_input = '2021-01-04' #@param {type:\"date\"}\n",
+        "\n",
+        "print(date_input)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "2021-01-04\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZY6OwZZzyWAJ",
+        "outputId": "ba5f8cd8-4c8d-488b-8bcd-8e63f11a904f"
+      },
+      "source": [
+        "#@title Number fields\n",
+        "number_input = 10.0 #@param {type:\"number\"}\n",
+        "number_slider = 0.5 #@param {type:\"slider\", min:-1, max:1, step:0.1}\n",
+        "\n",
+        "integer_input = 10 #@param {type:\"integer\"}\n",
+        "integer_slider = 4 #@param {type:\"slider\", min:0, max:100, step:1}\n",
+        "\n",
+        "print(number_input)\n",
+        "print(number_slider)\n",
+        "\n",
+        "print(integer_input)\n",
+        "print(integer_slider)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "10.0\n",
+            "0.5\n",
+            "10\n",
+            "4\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3vv5TaGsyZKA",
+        "outputId": "7b09717a-f586-4d6e-e229-7a440e19514c"
+      },
+      "source": [
+        "#@title Boolean fields\n",
+        "boolean_checkbox = False #@param {type:\"boolean\"}\n",
+        "boolean_dropdown = True #@param [\"False\", \"True\"] {type:\"raw\"}\n",
+        "\n",
+        "print(boolean_checkbox)\n",
+        "print(boolean_dropdown)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "False\n",
+            "True\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dhRTG8kRyceY",
+        "outputId": "ed7827e7-28a7-4a11-d909-b19e0c33ac47"
+      },
+      "source": [
+        "#@title After running this cell manually, it will auto-run if you change the selected value. { run: \"auto\" }\n",
+        "\n",
+        "option2 = \"C\" #@param [\"A\", \"B\", \"C\"]\n",
+        "print('You selected', option2)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "You selected C\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "QemubCb74WzX"
+      },
+      "source": [
+        "##**9-Pandas[3]**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "vooIdmLy-22T"
+      },
+      "source": [
+        "####**9.1-Welcome to DataFrames**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WlGsR938_E-c"
+      },
+      "source": [
+        "A DataFrame is how Pandas represents a table. You can access columns, rows and individual cells.\n",
+        "\n",
+        "Suppose you constructed a DataFrame by"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_anTAlaZ_KRL"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]})\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        },
+        "id": "HT7QlWR7_tNp",
+        "outputId": "b6b4b1a8-1ca6-4c14-dddd-fe8fa1eee04b"
+      },
+      "source": [
+        "df.head()"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age\n",
+              "0  Jeff   30\n",
+              "1  Esha   56\n",
+              "2   Jia    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Xz657mzzqP__"
+      },
+      "source": [
+        "####**9.2-Select columns**\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5CONQtc6qcPY"
+      },
+      "source": [
+        "You can select one column by doing df[column_name], such as df['age'], or multiple columns as df[[column_name1, column_name2]]. For a single column, you can also select it using the attribute syntax, df.<column_name>, as in, df.age. Note, a single column in Pandas is called a Series and operates differently from a DataFrame.\n",
+        "\n",
+        "Suppose you constructed a DataFrame by"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "CgOA3xQmqhrn"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        },
+        "id": "gPtY0uGX7mno",
+        "outputId": "2a87627f-90de-4a1c-c359-76b980e45ddb"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age\n",
+              "0  Jeff   30\n",
+              "1  Esha   56\n",
+              "2   Jia    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 21
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "2HmGSpgY3q-s"
+      },
+      "source": [
+        "df1 = df['age']"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KZk0314q4YLN",
+        "outputId": "4e657e5a-5710-4ca5-e478-5daa1c882310"
+      },
+      "source": [
+        "df1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0    30\n",
+              "1    56\n",
+              "2     8\n",
+              "Name: age, dtype: int64"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "hJy47cGi_2L-",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        },
+        "outputId": "6ad08253-9abd-4cfd-e08d-69f2ee9de53f"
+      },
+      "source": [
+        "df.head()"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age\n",
+              "0  Jeff   30\n",
+              "1  Esha   56\n",
+              "2   Jia    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jf41Ap3QGHRM"
+      },
+      "source": [
+        "####**9.3-Select rows by label (.loc)**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WDicKPvAGTwL"
+      },
+      "source": [
+        "You can select the rows of a DataFrame one of two ways. One way is with df.loc[...].\n",
+        "\n",
+        " df.loc[...] selects rows based on their index value. To select a single row, you can do df.loc[index_value], for example, df.loc[156].\n",
+        "\n",
+        "  To select multiple rows, you can do df.loc[[index_value1, index_value2]], for example, df.loc[[132, 156]].\n",
+        "\n",
+        "Suppose you constructed a DataFrame by"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "drH4dyJVGgFC"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]},\n",
+        "                   index=[132, 156, 27])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        },
+        "id": "Ese7M6j98E3I",
+        "outputId": "fa4f2e11-54cb-4357-ae22-f6ab39b881ac"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>132</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>156</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>27</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "     name  age\n",
+              "132  Jeff   30\n",
+              "156  Esha   56\n",
+              "27    Jia    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 32
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 110
+        },
+        "id": "e8HpI5MG-t4A",
+        "outputId": "b81d7aa6-b3d6-4d43-ac2f-acbbcf8deb3f"
+      },
+      "source": [
+        "df.loc[[27, 132]]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>27</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>132</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "     name  age\n",
+              "27    Jia    8\n",
+              "132  Jeff   30"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 34
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "LdXl9xV0_END"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "W_YA1S42GjLv"
+      },
+      "source": [
+        "df.head()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "la-I_2kJGope"
+      },
+      "source": [
+        "####**9.4-Select rows by position (.iloc)**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "mQWUTwK_G0Bo"
+      },
+      "source": [
+        "You can select the rows of a DataFrame one of two ways.\n",
+        " One way is with df.iloc[...]. df.iloc[...] selects rows based on their position in the DataFrame.\n",
+        "\n",
+        "  To select a single row, you can do df.iloc[position], for example, df.loc[1] selects the row with Esha below. To select multiple rows, you can do df.iloc[[position1, position2]], for example, df.loc[[0, 2]].\n",
+        "\n",
+        "Suppose you constructed a DataFrame by"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "APpf9NWTG_ct"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]},\n",
+        "                   index=[132, 156, 27])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hX4WVYqGT5lG",
+        "outputId": "8374542d-8524-4e0d-bfcd-f4c4539b7bdb"
+      },
+      "source": [
+        "df.iloc[2]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "name    Jia\n",
+              "age       8\n",
+              "Name: 27, dtype: object"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Pdkc-pGjHFY_"
+      },
+      "source": [
+        "df.head()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wZJ7oC_kSapq"
+      },
+      "source": [
+        "####**9.5-Aggregate a column**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "LakUWhGDSlU0"
+      },
+      "source": [
+        "DataFrames can calculate aggregations on columns. Aggregation functions such as mean, max, min,  are available.\n",
+        "\n",
+        "Using the same DataFrame from before,"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "2sjw5ElKSpA6"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "FRAmU9MMStfa",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        },
+        "outputId": "1c6a0d4c-3785-4b7d-b1eb-adfbed6a250a"
+      },
+      "source": [
+        "df.head()"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age\n",
+              "0  Jeff   30\n",
+              "1  Esha   56\n",
+              "2   Jia    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 43
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DF3736FILVeo"
+      },
+      "source": [
+        "What is the minimum value of age? Define a variable min_age with the value of df.age.min() would output."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XbeQRFweNj9_",
+        "outputId": "4ab36064-23d6-48fc-9323-d2a83cd20e98"
+      },
+      "source": [
+        "min_data"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "name    Jia\n",
+              "age       8\n",
+              "Name: 2, dtype: object"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 44
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lsUSsM6rNCSz",
+        "outputId": "fe199684-195f-4d55-abf2-fa115aa1052b"
+      },
+      "source": [
+        "maxm_data"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "name    Esha\n",
+              "age       56\n",
+              "Name: 1, dtype: object"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 45
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "YMfBV_x_N_Hv"
+      },
+      "source": [
+        "####**9.6-Creating a new column**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4i9zkZwGOH2h"
+      },
+      "source": [
+        "You can add a new column to a DataFrame by doing df[new_column_name] = value_for_each_row. Typically, you will create a new column from one or more existing columns in your DataFrame. Most operators that work on single values in python will work on DataFrames such as +, -, *, /, ==, <, and >."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "D9IHOH3kgUyG"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0PMtdPR0gYHZ",
+        "outputId": "a5730d86-cd72-48fd-f68a-a312fe8ae0dc"
+      },
+      "source": [
+        "pd.Series([3, -5, 7, 4],  index=['a',  'b',  'c',  'd'])\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "a    3\n",
+              "b   -5\n",
+              "c    7\n",
+              "d    4\n",
+              "dtype: int64"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 47
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Q7EzouPjhkPH"
+      },
+      "source": [
+        "####**9.7-Modify a column**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dd3QXzNxhtfK"
+      },
+      "source": [
+        "Similar to adding a column, you can replace an existing column by using the same column syntax (df[column] = value_for_each_row) but with column equal to an existing column name.\n",
+        "\n",
+        "Using the same DataFrame shape from the previous exercise,"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 202
+        },
+        "id": "lwpL1sIZhxIc",
+        "outputId": "8fd221f5-a7cc-4498-d5d7-953a6effcce3"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "data = {'country': ['Italy','Spain','Greece','France','Portugal'],\n",
+        "        'popu': [61, 46, 11, 65, 10],\n",
+        "        'percent': [0.83,0.63,0.15,0.88,0.14]}\n",
+        "\n",
+        "df = pd.DataFrame(data, index=['ITA', 'ESP', 'GRC', 'FRA', 'PRT'])\n",
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>country</th>\n",
+              "      <th>popu</th>\n",
+              "      <th>percent</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>ITA</th>\n",
+              "      <td>Italy</td>\n",
+              "      <td>61</td>\n",
+              "      <td>0.83</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>ESP</th>\n",
+              "      <td>Spain</td>\n",
+              "      <td>46</td>\n",
+              "      <td>0.63</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>GRC</th>\n",
+              "      <td>Greece</td>\n",
+              "      <td>11</td>\n",
+              "      <td>0.15</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>FRA</th>\n",
+              "      <td>France</td>\n",
+              "      <td>65</td>\n",
+              "      <td>0.88</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>PRT</th>\n",
+              "      <td>Portugal</td>\n",
+              "      <td>10</td>\n",
+              "      <td>0.14</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "      country  popu  percent\n",
+              "ITA     Italy    61     0.83\n",
+              "ESP     Spain    46     0.63\n",
+              "GRC    Greece    11     0.15\n",
+              "FRA    France    65     0.88\n",
+              "PRT  Portugal    10     0.14"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 48
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "lGquz1RA-Oi7"
+      },
+      "source": [
+        "###**9.8-Filter Data**\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wULQoDde-WpX"
+      },
+      "source": [
+        "Here different ways to select rows in DataFrame based on condition on single or multiple columns."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Q1GKIWW8-cU0"
+      },
+      "source": [
+        "**First let’s create a DataFrame,**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "KjVs6rEP9a2c"
+      },
+      "source": [
+        "students = [ ('jack', 'Apples' , 34) ,\n",
+        "             ('Riti', 'Mangos'  , 31) ,\n",
+        "             ('Aadi', 'Grapes' , 30) ,\n",
+        "             ('Sonia', 'Apples', 32) ,\n",
+        "             ('Lucy', 'Mangos'  , 33) ,\n",
+        "             ('Mike', 'Apples' , 35)\n",
+        "              ]"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tazxCp8T9kkE"
+      },
+      "source": [
+        "students\n",
+        "import pandas as pd\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DKBAYHuM-jXB"
+      },
+      "source": [
+        "**Create a DataFrame object**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 235
+        },
+        "id": "bqDsKqa89n9_",
+        "outputId": "a4bc92cd-a76c-423f-9a4d-66a6e9a7ec5e"
+      },
+      "source": [
+        "df = students\n",
+        "df = pd.DataFrame(students, columns = ['Name' , 'Product', 'Sale'])\n",
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Name</th>\n",
+              "      <th>Product</th>\n",
+              "      <th>Sale</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>jack</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>34</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Riti</td>\n",
+              "      <td>Mangos</td>\n",
+              "      <td>31</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Aadi</td>\n",
+              "      <td>Grapes</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Sonia</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Lucy</td>\n",
+              "      <td>Mangos</td>\n",
+              "      <td>33</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Mike</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>35</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "    Name Product  Sale\n",
+              "0   jack  Apples    34\n",
+              "1   Riti  Mangos    31\n",
+              "2   Aadi  Grapes    30\n",
+              "3  Sonia  Apples    32\n",
+              "4   Lucy  Mangos    33\n",
+              "5   Mike  Apples    35"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nJPqCvwe-r7q"
+      },
+      "source": [
+        "**Now let’s select rows from this DataFrame based on conditions,**\n",
+        "\n",
+        "Here i am going to select products which names are apple"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "LfoaTU8p-zlK",
+        "outputId": "373ab1c2-c86d-4305-9c56-7e9488b6ecb5"
+      },
+      "source": [
+        "students = df[df['Product'] == 'Apples']\n",
+        "students"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Name</th>\n",
+              "      <th>Product</th>\n",
+              "      <th>Sale</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>jack</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>34</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Sonia</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Mike</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>35</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "    Name Product  Sale\n",
+              "0   jack  Apples    34\n",
+              "3  Sonia  Apples    32\n",
+              "5   Mike  Apples    35"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZJasJZ9r_WEk"
+      },
+      "source": [
+        "Now, Applying condition on a DataFrame like disply the dataframe"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RuYJ16-W_OhA",
+        "outputId": "48d8a760-37c5-4826-9969-cee056d90aec"
+      },
+      "source": [
+        "df['Product'] == 'Apples'"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0     True\n",
+              "1    False\n",
+              "2    False\n",
+              "3     True\n",
+              "4    False\n",
+              "5     True\n",
+              "Name: Product, dtype: bool"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "gJ9u6_EeASSR"
+      },
+      "source": [
+        "**It will return a DataFrame in which Column passed series object had True entry i.e.**\n",
+        "\n",
+        "If we pass this series object to [] operator of DataFrame, then it will return a new DataFrame with only those rows that has True in the passed Series object i.e."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "Sb5j03t7_pzi",
+        "outputId": "2b0fe1c7-2908-451b-a67a-92a4ad4e772f"
+      },
+      "source": [
+        "df[df['Product'] == 'Apples']"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Name</th>\n",
+              "      <th>Product</th>\n",
+              "      <th>Sale</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>jack</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>34</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Sonia</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Mike</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>35</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "    Name Product  Sale\n",
+              "0   jack  Apples    34\n",
+              "3  Sonia  Apples    32\n",
+              "5   Mike  Apples    35"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "6xWuMQ9__9KH"
+      },
+      "source": [
+        "**Select Rows based on any of the multiple values in column**\n",
+        "\n",
+        "Select rows in above DataFrame for which ‘Product‘ column contains either ‘Grapes‘ or ‘Mangos‘ i.e"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 235
+        },
+        "id": "XcDrMfv8_y_4",
+        "outputId": "c9f69b60-56fe-452f-d801-24a4fedeffd4"
+      },
+      "source": [
+        "students = df[df['Product'].isin(['Mangos', 'Grapes', 'Apples']) ]\n",
+        "students"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Name</th>\n",
+              "      <th>Product</th>\n",
+              "      <th>Sale</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>jack</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>34</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Riti</td>\n",
+              "      <td>Mangos</td>\n",
+              "      <td>31</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Aadi</td>\n",
+              "      <td>Grapes</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Sonia</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Lucy</td>\n",
+              "      <td>Mangos</td>\n",
+              "      <td>33</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Mike</td>\n",
+              "      <td>Apples</td>\n",
+              "      <td>35</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "    Name Product  Sale\n",
+              "0   jack  Apples    34\n",
+              "1   Riti  Mangos    31\n",
+              "2   Aadi  Grapes    30\n",
+              "3  Sonia  Apples    32\n",
+              "4   Lucy  Mangos    33\n",
+              "5   Mike  Apples    35"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ok9HGhu1o9Yh"
+      },
+      "source": [
+        "###**9.9-Select rows by boolean expressions**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "SzG7L-Zx5kGj"
+      },
+      "source": [
+        "You can make complex boolean (true/false) expressions to select or filter rows in your DataFrame. For example, if our DataFrame had a column age, we could select people who are 16 or older by doing **df[df.age >= 16]**. But suppose we wanted people who are 16 and older and live in New York. Then we could select them by doing **df[(df.age >= 16) & (df.city == 'New York')]**. The & in that expression means \"and\", | means \"or\" and ~ means \"not\". Unfortunately, you can't use the python operators and, or, and not with Pandas objects.\n",
+        "\n",
+        "One gotcha about using & (and) and | (or) to make boolean expressions in Pandas is that you need to wrap each piece between a & or | in parenthesis. This is an unfortunate issue due to the way python evaluates operators. If you are interested, you can read more about it here. In either case, remember to wrap each piece in parenthesis!\n",
+        "\n",
+        "Suppose you constructed a DataFrame by"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "U30G5TrT5vOX"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8],\n",
+        "                   'city': ['New York', 'Atlanta', 'Shanghai']})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "72Rr69ZidqDS",
+        "outputId": "c025bb40-3508-484e-f891-b50b4d224637"
+      },
+      "source": [
+        "for key, value in df.items() :\n",
+        "    print (key[1], value[2])"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "a Jia\n",
+            "g 8\n",
+            "i Shanghai\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JWMDpUnwdW6V",
+        "outputId": "75efccdd-82f5-4550-f218-cbb448cc188e"
+      },
+      "source": [
+        "print(df.get(\"name\"))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "0    Jeff\n",
+            "1    Esha\n",
+            "2     Jia\n",
+            "Name: name, dtype: object\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 129
+        },
+        "id": "8A-kWvtnbl3e",
+        "outputId": "f269dafe-c09c-41f4-a71a-7ab448e4c0c4"
+      },
+      "source": [],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-11-ec36293693f2>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    df.key('name',[0:])\u001b[0m\n\u001b[0m                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VT6R6_186GRQ"
+      },
+      "source": [
+        "if you select specific coloums"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 111
+        },
+        "id": "7LZAZOX16I_t",
+        "outputId": "297f9079-0e99-4f8d-f75f-32b0b40dfbec"
+      },
+      "source": [
+        "df[1:3]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "      <th>city</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "      <td>Atlanta</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "      <td>Shanghai</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age      city\n",
+              "1  Esha   56   Atlanta\n",
+              "2   Jia    8  Shanghai"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "k1hmaTbZ6MXt"
+      },
+      "source": [
+        "and if you want to select multiple coloums"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "PzHbZWBV6RDi",
+        "outputId": "d17cb2d8-f984-4b21-d25d-73393875a0da"
+      },
+      "source": [
+        "df[['name', 'city', 'age']]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>city</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>New York</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>Atlanta</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>Shanghai</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name      city  age\n",
+              "0  Jeff  New York   30\n",
+              "1  Esha   Atlanta   56\n",
+              "2   Jia  Shanghai    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "8JHgNtzl51TP"
+      },
+      "source": [
+        "Complete the function, **select_target_audience(df),** by having it return the rows with people who are between 21 and 40 years old (inclusive) and live in New York or Tokyo."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 111
+        },
+        "id": "U1z1BQk058nW",
+        "outputId": "9a5baccc-8800-49ba-e36b-f08a3f196395"
+      },
+      "source": [
+        "df[df.age >= 16]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "      <th>city</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "      <td>New York</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "      <td>Atlanta</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age      city\n",
+              "0  Jeff   30  New York\n",
+              "1  Esha   56   Atlanta"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 80
+        },
+        "id": "K0xcs5HF6BZj",
+        "outputId": "744d0a1c-1f34-47f2-e922-adbab85884bc"
+      },
+      "source": [
+        "df[(df.age >= 16) & (df.city == 'New York')]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "      <th>city</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "      <td>New York</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age      city\n",
+              "0  Jeff   30  New York"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oh817mKjMATP"
+      },
+      "source": [
+        "###**9.10-Conditional column update**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rfAI9FD-MIR_"
+      },
+      "source": [
+        "Sometimes you are interested in setting the value of a column only if the row meets some condition. For example, if our DataFrame has two columns, **accuracy and predicted_text**, we may want to set the predicted_text to the empty string ('') if the accuracy is less than 50. We can do this by using .loc[], by doing **df.loc[df.accuracy <= 50, 'predicted_text'] = ''.** The first argument to loc (df.accuracy <= 50) creates a column of boolean (True/False) values, one for each row. This selects rows to update. The second argument is the column we want to update. .fillna() is a convenient special case method for conditional updates when the condition is the column is NaN.\n",
+        "\n",
+        "Suppose you constructed a DataFrame by"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ToBSpbdn7eHr"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'predicted_text': ['Decision tree', 'randam forest', 'knn'],\n",
+        "                   'accuracy': [0.4, 0.1, 0.3]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "cPJ2ThrP8EXn",
+        "outputId": "ee5ed454-3c99-493f-ad8a-b19cc40b90de"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>predicted_text</th>\n",
+              "      <th>accuracy</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Decision tree</td>\n",
+              "      <td>0.4</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>randam forest</td>\n",
+              "      <td>0.1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>knn</td>\n",
+              "      <td>0.3</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "  predicted_text  accuracy\n",
+              "0  Decision tree       0.4\n",
+              "1  randam forest       0.1\n",
+              "2            knn       0.3"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bWGGHitJ81J6"
+      },
+      "source": [
+        "select specific coloum data using .loc"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 80
+        },
+        "id": "QYUD9SzQ8Qdo",
+        "outputId": "9d77c403-118e-452d-84ed-540faabd9fe7"
+      },
+      "source": [
+        "df.loc[df.accuracy == 0.4]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>predicted_text</th>\n",
+              "      <th>accuracy</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Decision tree</td>\n",
+              "      <td>0.4</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "  predicted_text  accuracy\n",
+              "0  Decision tree       0.4"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VPFum4y789xT"
+      },
+      "source": [
+        "Here we are going to update the coloum on the basis of accuracy."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "b3136juJ8fFb"
+      },
+      "source": [
+        "df.loc[df.accuracy <= 0.3, 'predicted_text'] = ''"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "jiP40nKu8kDt",
+        "outputId": "075da814-e21e-4d44-baa4-642283beeae9"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>predicted_text</th>\n",
+              "      <th>accuracy</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Decision tree</td>\n",
+              "      <td>0.4</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td></td>\n",
+              "      <td>0.1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td></td>\n",
+              "      <td>0.3</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "  predicted_text  accuracy\n",
+              "0  Decision tree       0.4\n",
+              "1                      0.1\n",
+              "2                      0.3"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 29
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QZy2rYoKiVsX",
+        "outputId": "d7836330-59e5-4d19-f942-35fe6fcc6d8c"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "df = pd.DataFrame({'Type':list('ABBC'), 'Set':list('ZZXY')})\n",
+        "df['color'] = np.where(df['Set']=='Z', 'green', 'red')\n",
+        "print(df)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "  Type Set  color\n",
+            "0    A   Z  green\n",
+            "1    B   Z  green\n",
+            "2    B   X    red\n",
+            "3    C   Y    red\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CvVReahmi1Jg"
+      },
+      "source": [
+        "###**9.11-Bucketing values using cut**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "eoI8eW-klJZr"
+      },
+      "source": [
+        "Pandas gives functions to group values into buckets, cut and qcut.\n",
+        "\n",
+        "Using the DataFrame shape,"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "UAYU0jKvlMxO"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "ogBM1NJA4hSR",
+        "outputId": "07557839-5884-471d-f8e7-26ada74b3480"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "      <th>age_bins</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "      <td>(10, 35]</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "      <td>(36, 60]</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "      <td>(0, 10]</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age  age_bins\n",
+              "0  Jeff   30  (10, 35]\n",
+              "1  Esha   56  (36, 60]\n",
+              "2   Jia    8   (0, 10]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8KpRAF9osgIF"
+      },
+      "source": [
+        "df['age_bins'] = pd.cut(df['age'], bins=[0, 10, 35, 36,60])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "AQgFH6Rqtyeq"
+      },
+      "source": [
+        "df['age_by'] = pd.cut(df['age'], bins=[7, 35, 36,60], labels=['Amuture', 'muture', 'experience'])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "VQycaJ3yn85e",
+        "outputId": "d64d4a3e-2c90-4428-b1c2-346ef87ed63e"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "      <th>age_bins</th>\n",
+              "      <th>age_by</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "      <td>(10, 35]</td>\n",
+              "      <td>Amuture</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "      <td>(36, 60]</td>\n",
+              "      <td>experience</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "      <td>(0, 10]</td>\n",
+              "      <td>Amuture</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age  age_bins      age_by\n",
+              "0  Jeff   30  (10, 35]     Amuture\n",
+              "1  Esha   56  (36, 60]  experience\n",
+              "2   Jia    8   (0, 10]     Amuture"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "7QDCw482KVeM"
+      },
+      "source": [
+        "2nd method"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bCgTikleKZmn"
+      },
+      "source": [
+        "Binning is when you group values together into bins.\n",
+        "\n",
+        "For example : you can bin \"age\" into [0 to 5] , [6 to 10], , [11 to 15], [16 to 20]"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MlAxky5dKYdI"
+      },
+      "source": [
+        "import pandas as pd\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IdbVxY0rMM9d"
+      },
+      "source": [
+        "df = pd.DataFrame({'student':  [\"Ali\", \"Musa\", \"Fatima\", \"Albert\", \"Saima\", \"Sana\", \"Rida\",\"sher_bano\", \"gull_bano\", \"Kayti\", \"mayti\",\"payti\", \"tyti\", \"Mahnoor\",\"Gull\" ],\n",
+        "                   'marks': [10,20,30,40,50,60,25,75,65,91,42,54,45,30,3]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "yY1xA8qgMM6m",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 514
+        },
+        "outputId": "6f3f9092-e94e-4d50-825d-f4812435eed1"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>student</th>\n",
+              "      <th>marks</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Ali</td>\n",
+              "      <td>10</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Musa</td>\n",
+              "      <td>20</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Fatima</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Albert</td>\n",
+              "      <td>40</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Saima</td>\n",
+              "      <td>50</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Sana</td>\n",
+              "      <td>60</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>Rida</td>\n",
+              "      <td>25</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>sher_bano</td>\n",
+              "      <td>75</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>gull_bano</td>\n",
+              "      <td>65</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>9</th>\n",
+              "      <td>Kayti</td>\n",
+              "      <td>91</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>10</th>\n",
+              "      <td>mayti</td>\n",
+              "      <td>42</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>11</th>\n",
+              "      <td>payti</td>\n",
+              "      <td>54</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>12</th>\n",
+              "      <td>tyti</td>\n",
+              "      <td>45</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>13</th>\n",
+              "      <td>Mahnoor</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>14</th>\n",
+              "      <td>Gull</td>\n",
+              "      <td>3</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "      student  marks\n",
+              "0         Ali     10\n",
+              "1        Musa     20\n",
+              "2      Fatima     30\n",
+              "3      Albert     40\n",
+              "4       Saima     50\n",
+              "5        Sana     60\n",
+              "6        Rida     25\n",
+              "7   sher_bano     75\n",
+              "8   gull_bano     65\n",
+              "9       Kayti     91\n",
+              "10      mayti     42\n",
+              "11      payti     54\n",
+              "12       tyti     45\n",
+              "13    Mahnoor     30\n",
+              "14       Gull      3"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "eX5g-WAnNyFe"
+      },
+      "source": [
+        "#define bins\n",
+        "bins = [0, 25, 50, 75, 100]\n",
+        "\n",
+        "# Names of the groups\n",
+        "groups_name = ['Fail', 'Average', 'Good', 'Brilliant']\n",
+        "\n",
+        "df[\"grade\"] = pd.cut(df[\"marks\"],bins,labels = groups_name)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "XzaikySwOVuj",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 514
+        },
+        "outputId": "a85bbf36-67e2-44e0-a2fc-6bf0645b1c43"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>student</th>\n",
+              "      <th>marks</th>\n",
+              "      <th>grade</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Ali</td>\n",
+              "      <td>10</td>\n",
+              "      <td>Fail</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Musa</td>\n",
+              "      <td>20</td>\n",
+              "      <td>Fail</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Fatima</td>\n",
+              "      <td>30</td>\n",
+              "      <td>Average</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Albert</td>\n",
+              "      <td>40</td>\n",
+              "      <td>Average</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Saima</td>\n",
+              "      <td>50</td>\n",
+              "      <td>Average</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Sana</td>\n",
+              "      <td>60</td>\n",
+              "      <td>Good</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>Rida</td>\n",
+              "      <td>25</td>\n",
+              "      <td>Fail</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>sher_bano</td>\n",
+              "      <td>75</td>\n",
+              "      <td>Good</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>gull_bano</td>\n",
+              "      <td>65</td>\n",
+              "      <td>Good</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>9</th>\n",
+              "      <td>Kayti</td>\n",
+              "      <td>91</td>\n",
+              "      <td>Brilliant</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>10</th>\n",
+              "      <td>mayti</td>\n",
+              "      <td>42</td>\n",
+              "      <td>Average</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>11</th>\n",
+              "      <td>payti</td>\n",
+              "      <td>54</td>\n",
+              "      <td>Good</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>12</th>\n",
+              "      <td>tyti</td>\n",
+              "      <td>45</td>\n",
+              "      <td>Average</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>13</th>\n",
+              "      <td>Mahnoor</td>\n",
+              "      <td>30</td>\n",
+              "      <td>Average</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>14</th>\n",
+              "      <td>Gull</td>\n",
+              "      <td>3</td>\n",
+              "      <td>Fail</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "      student  marks      grade\n",
+              "0         Ali     10       Fail\n",
+              "1        Musa     20       Fail\n",
+              "2      Fatima     30    Average\n",
+              "3      Albert     40    Average\n",
+              "4       Saima     50    Average\n",
+              "5        Sana     60       Good\n",
+              "6        Rida     25       Fail\n",
+              "7   sher_bano     75       Good\n",
+              "8   gull_bano     65       Good\n",
+              "9       Kayti     91  Brilliant\n",
+              "10      mayti     42    Average\n",
+              "11      payti     54       Good\n",
+              "12       tyti     45    Average\n",
+              "13    Mahnoor     30    Average\n",
+              "14       Gull      3       Fail"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xjAWbTRq1B9F"
+      },
+      "source": [
+        "###**9.12-Map a function over each row**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "SsspKa3Q5jpG"
+      },
+      "source": [
+        "You can apply a function to each row in a DataFrame using df.map(function).\n",
+        "\n",
+        "Using the DataFrame"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zZNWPjhG8tby"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia'],\n",
+        "                   'age': [30, 56, 8]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "RYZZ6GdF9MMu",
+        "outputId": "b4db7bb2-5310-4129-d68a-739a97d01326"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age\n",
+              "0  Jeff   30\n",
+              "1  Esha   56\n",
+              "2   Jia    8"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 33
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "W5_Y2yAE5ph3"
+      },
+      "source": [
+        "Write a function, add_name_reverse_name(df) that adds a new column, name_reverse_name to the DataFrame which is the concatenation of the person's name and the reverse of their name. For example, \"Jeff\" would be \"JeffffeJ\"."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "OQvT2hUB8-4N"
+      },
+      "source": [
+        "df['name_reverse_name'] = df.loc[:,'name'].apply(lambda x: x[::-1])"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 142
+        },
+        "id": "4SOClibn9OcA",
+        "outputId": "d2c73634-ec37-4b71-f0fb-b321b4a2dfb2"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>name</th>\n",
+              "      <th>age</th>\n",
+              "      <th>name_reverse_name</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Jeff</td>\n",
+              "      <td>30</td>\n",
+              "      <td>ffeJ</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Esha</td>\n",
+              "      <td>56</td>\n",
+              "      <td>ahsE</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Jia</td>\n",
+              "      <td>8</td>\n",
+              "      <td>aiJ</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "   name  age name_reverse_name\n",
+              "0  Jeff   30              ffeJ\n",
+              "1  Esha   56              ahsE\n",
+              "2   Jia    8               aiJ"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 35
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oRIbRlZT8uED"
+      },
+      "source": [
+        "**2nd method**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "SA67Fy9U8UX3"
+      },
+      "source": [
+        "Reverse the string of column in pandas python can be done in a roundabout using apply function. Let’s see how to\n",
+        "\n",
+        "  Reverse the  string of column in pandas dataframe – python\n",
+        "With examples\n",
+        "\n",
+        "**First let’s create a dataframe**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CV_2AsxZ61RA",
+        "outputId": "086dcb3a-dd2c-4fa6-db46-3312ffedba3d"
+      },
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "#Create a DataFrame\n",
+        "df1 = {\n",
+        "    'State':['Arizona AZ','Georgia GG','Newyork NY','Indiana IN','Florida FL'],\n",
+        "    'Score':[62,47,55,74,31]}\n",
+        "\n",
+        "df1 = pd.DataFrame(df1,columns=['State','Score'])\n",
+        "print(df1)\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "        State  Score\n",
+            "0  Arizona AZ     62\n",
+            "1  Georgia GG     47\n",
+            "2  Newyork NY     55\n",
+            "3  Indiana IN     74\n",
+            "4  Florida FL     31\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3UZALoJO7FNk"
+      },
+      "source": [
+        "**Reverse the String of the column in pandas**\n",
+        "\n",
+        "x[::-1]  is used to reverse the string of the column in pandas along with the apply function as shown below."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "t8MGzuWV7Ee_",
+        "outputId": "b41de2db-a7e0-4901-bbd0-40f85875a465"
+      },
+      "source": [
+        "df1['State_reverse'] = df1.loc[:,'State'].apply(lambda x: x[::-1])\n",
+        "print(df1)\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "        State  Score State_reverse\n",
+            "0  Arizona AZ     62    ZA anozirA\n",
+            "1  Georgia GG     47    GG aigroeG\n",
+            "2  Newyork NY     55    YN kroyweN\n",
+            "3  Indiana IN     74    NI anaidnI\n",
+            "4  Florida FL     31    LF adirolF\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "LodTelo_LthO"
+      },
+      "source": [
+        "###**9.13-Impute missing values**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ke752VsIMIRW"
+      },
+      "source": [
+        "Imputing data is replacing missing data with substituted values. Missing data is typically represented by a value nan (not a number). Keep in mind, depending on the dataset, missing values can be represented differently. You can replace nan values using the function fillna\n",
+        "\n",
+        "Using the DataFrame:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Gyh0cCAzMHkR"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.DataFrame({'name': ['Jeff', 'Esha', 'Jia', 'Bobby'],\n",
+        "                   'age': [30, 56, 8, \"nan\"]})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fDCnWHDvN9Rr"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FZxTyQkADKHK",
+        "outputId": "806ed464-69a1-4a61-ef79-f136017740d2"
+      },
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Mounted at /content/drive\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "yrG2AoyuYvul"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "df = pd.read_csv(\"/content/drive/MyDrive/waeter_dataset.csv\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 328
+        },
+        "id": "8gwLtranDUzY",
+        "outputId": "c7e97be0-b96e-4b5f-c84a-6a0f9fd997f0"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Dates</th>\n",
+              "      <th>temperature</th>\n",
+              "      <th>windspeed</th>\n",
+              "      <th>Event</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1/1/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>6.0</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1/4/2017</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>9.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1/5/2017</td>\n",
+              "      <td>28.0</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>\\tSnow</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1/6/2017</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>7.0</td>\n",
+              "      <td>NaN</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1/7/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>1/8/2017</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>1/9/2017</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>1/10/2017</td>\n",
+              "      <td>34.0</td>\n",
+              "      <td>8.0</td>\n",
+              "      <td>\\tCloudy</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>1/11/2017</td>\n",
+              "      <td>40.0</td>\n",
+              "      <td>12.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "       Dates  temperature  windspeed     Event\n",
+              "0   1/1/2017         32.0        6.0    \\tRain\n",
+              "1   1/4/2017          NaN        9.0   \\tSunny\n",
+              "2   1/5/2017         28.0        NaN    \\tSnow\n",
+              "3   1/6/2017          NaN        7.0       NaN\n",
+              "4   1/7/2017         32.0        NaN    \\tRain\n",
+              "5   1/8/2017          NaN        NaN   \\tSunny\n",
+              "6   1/9/2017          NaN        NaN       NaN\n",
+              "7  1/10/2017         34.0        8.0  \\tCloudy\n",
+              "8  1/11/2017         40.0       12.0   \\tSunny"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 328
+        },
+        "id": "0_TDuCMyPMih",
+        "outputId": "5eebb9d1-7a92-4cce-8d30-86400e7d8c3c"
+      },
+      "source": [
+        "# to make the nan value equle to 0\n",
+        "new_df = df.fillna(0)\n",
+        "new_df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Dates</th>\n",
+              "      <th>temperature</th>\n",
+              "      <th>windspeed</th>\n",
+              "      <th>Event</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1/1/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>6.0</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1/4/2017</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>9.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1/5/2017</td>\n",
+              "      <td>28.0</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>\\tSnow</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1/6/2017</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>7.0</td>\n",
+              "      <td>0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1/7/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>1/8/2017</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>1/9/2017</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>1/10/2017</td>\n",
+              "      <td>34.0</td>\n",
+              "      <td>8.0</td>\n",
+              "      <td>\\tCloudy</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>1/11/2017</td>\n",
+              "      <td>40.0</td>\n",
+              "      <td>12.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "       Dates  temperature  windspeed     Event\n",
+              "0   1/1/2017         32.0        6.0    \\tRain\n",
+              "1   1/4/2017          0.0        9.0   \\tSunny\n",
+              "2   1/5/2017         28.0        0.0    \\tSnow\n",
+              "3   1/6/2017          0.0        7.0         0\n",
+              "4   1/7/2017         32.0        0.0    \\tRain\n",
+              "5   1/8/2017          0.0        0.0   \\tSunny\n",
+              "6   1/9/2017          0.0        0.0         0\n",
+              "7  1/10/2017         34.0        8.0  \\tCloudy\n",
+              "8  1/11/2017         40.0       12.0   \\tSunny"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "wb9eihzYQAb0"
+      },
+      "source": [
+        "#when you  only want to handle specfic column nan value changung\n",
+        "new_df = df.fillna({\n",
+        "    \"temperature\":0,\n",
+        "    \"windspeed\t\":0\n",
+        "})"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8ogf4qApQbyq"
+      },
+      "source": [
+        "#We can also propagate non-null values forward.\n",
+        "#new_df = df.fillna(method=\"ffill\")\n",
+        "\n",
+        "#We can also propagate non-null values backward.\n",
+        "new_df = df.fillna(method=\"bfill\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 328
+        },
+        "id": "Fr5kcpT5D3jW",
+        "outputId": "dad361ba-1f94-4d20-a541-3a0d237acd90"
+      },
+      "source": [
+        "new_df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Dates</th>\n",
+              "      <th>temperature</th>\n",
+              "      <th>windspeed</th>\n",
+              "      <th>Event</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1/1/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>6.0</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1/4/2017</td>\n",
+              "      <td>28.0</td>\n",
+              "      <td>9.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1/5/2017</td>\n",
+              "      <td>28.0</td>\n",
+              "      <td>7.0</td>\n",
+              "      <td>\\tSnow</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1/6/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>7.0</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1/7/2017</td>\n",
+              "      <td>32.0</td>\n",
+              "      <td>8.0</td>\n",
+              "      <td>\\tRain</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>1/8/2017</td>\n",
+              "      <td>34.0</td>\n",
+              "      <td>8.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>1/9/2017</td>\n",
+              "      <td>34.0</td>\n",
+              "      <td>8.0</td>\n",
+              "      <td>\\tCloudy</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>1/10/2017</td>\n",
+              "      <td>34.0</td>\n",
+              "      <td>8.0</td>\n",
+              "      <td>\\tCloudy</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>1/11/2017</td>\n",
+              "      <td>40.0</td>\n",
+              "      <td>12.0</td>\n",
+              "      <td>\\tSunny</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "       Dates  temperature  windspeed     Event\n",
+              "0   1/1/2017         32.0        6.0    \\tRain\n",
+              "1   1/4/2017         28.0        9.0   \\tSunny\n",
+              "2   1/5/2017         28.0        7.0    \\tSnow\n",
+              "3   1/6/2017         32.0        7.0    \\tRain\n",
+              "4   1/7/2017         32.0        8.0    \\tRain\n",
+              "5   1/8/2017         34.0        8.0   \\tSunny\n",
+              "6   1/9/2017         34.0        8.0  \\tCloudy\n",
+              "7  1/10/2017         34.0        8.0  \\tCloudy\n",
+              "8  1/11/2017         40.0       12.0   \\tSunny"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "q9sHGgR1RGUm"
+      },
+      "source": [
+        "#you can also use limit for both farward and baackward propagate\n",
+        "new_df = df.fillna(method=\"bfill\", limit=1)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "J9d_zsvjEGpd"
+      },
+      "source": [
+        "new_df"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NArL7arRSHeI"
+      },
+      "source": [
+        "#you can also use linear interpolation for good gess values\n",
+        "new_df = df.interpolate()\n",
+        "new_df"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fN70PikdSpcV"
+      },
+      "source": [
+        "\n",
+        " if you don't specify\n",
+        "anything it is by default linear but you\n",
+        "can use so many other methods you can\n",
+        "use quadratic cubic and piecewise\n",
+        "polynomial there are so many methods to\n",
+        "specify as far as your interpolation is\n",
+        "concerned"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "RH4RaulW8xqR"
+      },
+      "source": [
+        "###**9.13-Melt a wide table to long table**"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Hb0ClSt483Ww"
+      },
+      "source": [
+        "Pandas has a function, melt, which can be thought of as the opposite of pivot. It takes a table with multiple columns and converts it into a table where the column and value are represented as rows.\n",
+        "\n",
+        "For example, if suppose we have the table"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "vNEpW5R087zw"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "df = pd.read_csv(\"/content/drive/MyDrive/Book1.csv\")\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 266
+        },
+        "id": "t85QoypdAod0",
+        "outputId": "50fea3a3-32b3-4d8f-aa38-8951e31e4e94"
+      },
+      "source": [
+        "df"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>days</th>\n",
+              "      <th>Peshawer</th>\n",
+              "      <th>Karak</th>\n",
+              "      <th>islambad</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>32</td>\n",
+              "      <td>75</td>\n",
+              "      <td>41</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>30</td>\n",
+              "      <td>77</td>\n",
+              "      <td>43</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>28</td>\n",
+              "      <td>75</td>\n",
+              "      <td>21</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>22</td>\n",
+              "      <td>82</td>\n",
+              "      <td>23</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>30</td>\n",
+              "      <td>83</td>\n",
+              "      <td>22</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>20</td>\n",
+              "      <td>81</td>\n",
+              "      <td>21</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>25</td>\n",
+              "      <td>77</td>\n",
+              "      <td>47</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "          days  Peshawer  Karak  islambad\n",
+              "0       Monday        32     75        41\n",
+              "1      Tuesday        30     77        43\n",
+              "2  Wednesday45        28     75        21\n",
+              "3  Thursday 38        22     82        23\n",
+              "4       Friday        30     83        22\n",
+              "5  Saturday 45        20     81        21\n",
+              "6       Sunday        25     77        47"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 700
+        },
+        "id": "syVMmjMRArdd",
+        "outputId": "94585db9-d7bc-4cde-81f3-4b3dfb9cfa45"
+      },
+      "source": [
+        "df1 = pd.melt(df, id_vars=[\"days\"])\n",
+        "df1"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>days</th>\n",
+              "      <th>variable</th>\n",
+              "      <th>value</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>28</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>22</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>20</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>25</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>75</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>77</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>9</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>75</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>10</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>82</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>11</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>83</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>12</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>81</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>13</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>77</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>14</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>41</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>15</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>43</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>16</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>21</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>17</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>23</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>18</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>22</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>19</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>21</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>20</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>47</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "           days  variable  value\n",
+              "0        Monday  Peshawer     32\n",
+              "1       Tuesday  Peshawer     30\n",
+              "2   Wednesday45  Peshawer     28\n",
+              "3   Thursday 38  Peshawer     22\n",
+              "4        Friday  Peshawer     30\n",
+              "5   Saturday 45  Peshawer     20\n",
+              "6        Sunday  Peshawer     25\n",
+              "7        Monday     Karak     75\n",
+              "8       Tuesday     Karak     77\n",
+              "9   Wednesday45     Karak     75\n",
+              "10  Thursday 38     Karak     82\n",
+              "11       Friday     Karak     83\n",
+              "12  Saturday 45     Karak     81\n",
+              "13       Sunday     Karak     77\n",
+              "14       Monday  islambad     41\n",
+              "15      Tuesday  islambad     43\n",
+              "16  Wednesday45  islambad     21\n",
+              "17  Thursday 38  islambad     23\n",
+              "18       Friday  islambad     22\n",
+              "19  Saturday 45  islambad     21\n",
+              "20       Sunday  islambad     47"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 266
+        },
+        "id": "Q7DsbdZzA9rO",
+        "outputId": "ba0f11b4-b865-43b4-9efd-81252832a360"
+      },
+      "source": [
+        "#if you want to felter specific data\n",
+        "df1[df1[\"variable\"] == \"Peshawer\"]"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>days</th>\n",
+              "      <th>variable</th>\n",
+              "      <th>value</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>28</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>22</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>20</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>25</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "          days  variable  value\n",
+              "0       Monday  Peshawer     32\n",
+              "1      Tuesday  Peshawer     30\n",
+              "2  Wednesday45  Peshawer     28\n",
+              "3  Thursday 38  Peshawer     22\n",
+              "4       Friday  Peshawer     30\n",
+              "5  Saturday 45  Peshawer     20\n",
+              "6       Sunday  Peshawer     25"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 700
+        },
+        "id": "ZhonDMfOB9HD",
+        "outputId": "a49828a2-aef9-44b1-9b60-e7acb4766058"
+      },
+      "source": [
+        "melted = pd.melt(df, id_vars=[\"days\"], var_name='city', value_name='temperature')\n",
+        "melted"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>days</th>\n",
+              "      <th>city</th>\n",
+              "      <th>temperature</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>32</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>28</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>22</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>30</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>5</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>20</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>6</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>Peshawer</td>\n",
+              "      <td>25</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>7</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>75</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>77</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>9</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>75</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>10</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>82</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>11</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>83</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>12</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>81</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>13</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>Karak</td>\n",
+              "      <td>77</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>14</th>\n",
+              "      <td>Monday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>41</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>15</th>\n",
+              "      <td>Tuesday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>43</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>16</th>\n",
+              "      <td>Wednesday45</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>21</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>17</th>\n",
+              "      <td>Thursday 38</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>23</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>18</th>\n",
+              "      <td>Friday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>22</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>19</th>\n",
+              "      <td>Saturday 45</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>21</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>20</th>\n",
+              "      <td>Sunday</td>\n",
+              "      <td>islambad</td>\n",
+              "      <td>47</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>"
+            ],
+            "text/plain": [
+              "           days      city  temperature\n",
+              "0        Monday  Peshawer           32\n",
+              "1       Tuesday  Peshawer           30\n",
+              "2   Wednesday45  Peshawer           28\n",
+              "3   Thursday 38  Peshawer           22\n",
+              "4        Friday  Peshawer           30\n",
+              "5   Saturday 45  Peshawer           20\n",
+              "6        Sunday  Peshawer           25\n",
+              "7        Monday     Karak           75\n",
+              "8       Tuesday     Karak           77\n",
+              "9   Wednesday45     Karak           75\n",
+              "10  Thursday 38     Karak           82\n",
+              "11       Friday     Karak           83\n",
+              "12  Saturday 45     Karak           81\n",
+              "13       Sunday     Karak           77\n",
+              "14       Monday  islambad           41\n",
+              "15      Tuesday  islambad           43\n",
+              "16  Wednesday45  islambad           21\n",
+              "17  Thursday 38  islambad           23\n",
+              "18       Friday  islambad           22\n",
+              "19  Saturday 45  islambad           21\n",
+              "20       Sunday  islambad           47"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XhMsVdP3QCQr"
+      },
+      "source": [
+        "#**References**\n",
+        "\n",
+        "[[1]File Handling in Python; Read, Write, Create, Append, Open Files](https://skilllx.com/file-handling-in-python-read-write-create-append-open-files/?fbclid=IwAR0sPMIifrXmXjIIdcYaPImr5nOhFKNAlRyU6Cw4zgqppkUjFmQxpd4n5Gs)\n",
+        "\n",
+        "[[2]Python GUI Projects](https://amankharwal.medium.com/7-python-gui-projects-for-beginners-87ae2c695d78)\n",
+        "\n",
+        "[[3]Pandas](https://pandaspractice.com/exercise/1-welcome)\n",
+        "\n"
+      ]
+    }
+  ]
+}
