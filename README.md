@@ -268,6 +268,13 @@ uvicorn main:app --reload
 | **✅5-Dependency Injection in FastAPI**|[1](https://www.youtube.com/watch?v=qQD2MYf1pF8&list=PLLC7bmONapvCIeZGA6eM3Jj_b1RcIinWM&index=7)[-2](https://www.youtube.com/watch?v=8zPjUgvrI4U&list=PLLC7bmONapvCIeZGA6eM3Jj_b1RcIinWM&index=3)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/%F0%9F%93%9AChapter%202%20Building%20REST%20APIs%20with%20FastAPI/HTTPException.py) |[Doc](https://coursesteach.com/mod/page/view.php?id=10507)|
 | **✅3-Authentication (OAuth2, JWT tokens)**|[1](https://www.youtube.com/watch?v=jFELsjLotaQ&list=PLLC7bmONapvCIeZGA6eM3Jj_b1RcIinWM&index=9)[-2](https://www.youtube.com/watch?v=8zPjUgvrI4U&list=PLLC7bmONapvCIeZGA6eM3Jj_b1RcIinWM&index=3)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/%F0%9F%93%9AChapter%202%20Building%20REST%20APIs%20with%20FastAPI/HTTPException.py) |[Doc](https://coursesteach.com/mod/page/view.php?id=10516)|
 
+## 📚Chapter: 3  Advanced FastAPI Features (Upper Intermediate) **
+🎯 Target Audience
+
+| Tutorial | Video | Code |Notes|Extra Reading|
+|---|---|---|---|---|
+| **✅1-Asynchronous programming with FastAPI (async/await)**|[1](https://www.youtube.com/watch?v=zq0_g3BKltE_)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/%F0%9F%93%9A%20FastAPI/%F0%9F%93%9AChapter%202%20Building%20REST%20APIs%20with%20FastAPI/request_bodies.py) |[Note](https://coursesteach.com/mod/page/view.php?id=10531&forceview=1)|
+
 </details>
 
 </details>
