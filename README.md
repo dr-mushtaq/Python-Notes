@@ -133,6 +133,10 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 | [**🌐14-Modules**](https://medium.com/@Coursesteach/python-part-13-modules-67fb6af59301)| [1](https://drive.google.com/file/d/1j7hY_A9Y0XEGttb97PBQh3o8-ZXJQUnv/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/5_31_24_Python_Notes.ipynb) |
 | [**🌐15-Packages**](https://medium.com/@Coursesteach/python-part-14-packages-e0206e76c07f)| [1](https://drive.google.com/file/d/1fsQCz7rSnBe4HDGofD322VTLbLmveoA6/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/5_31_24_Python_Notes.ipynb) |
 | [**🌐16-File handling**](https://medium.com/@Coursesteach/python-part-15-file-handling-7caf50e6fa83)| --| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python-Notes/blob/master/5_31_24_Python_Notes.ipynb) |
+
+#### Github
+- **[30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)** - FREE
+
 </details>
 
 <details> 
