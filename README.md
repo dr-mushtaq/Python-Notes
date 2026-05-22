@@ -142,6 +142,11 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 #### Github
 - **[30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)** - FREE
 
+#### Tutorial 
+- **[Python learning path for building Agentic AI](https://howtobuildagenticai.substack.com/p/python-learning-path-for-building?utm_source=share&utm_medium=android&r=f2squ&triedRedirect=true)** - FREE
+
+
+
 </details>
 
 <details> 
