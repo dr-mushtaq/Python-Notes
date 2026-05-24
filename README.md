@@ -197,6 +197,9 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 
 ## 📚Chapter: 5  - **Explainable AI (XAI) techniques**
 
+## Youtube 
+- [Explainable AI](https://www.youtube.com/playlist?list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU)
+
 | Tutorial | Video | Code | Resources|
 |---|---|---|---|
 | [**🌐1-ExplainerDashboard**](https://medium.com/@Coursesteach/explainerdashboard-tutorial-visualizing-decision-tree-models-in-python-ml-libraries-21-8b10324c65c3) |[1](https://www.youtube.com/watch?v=ZgypAMRcmw8)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
