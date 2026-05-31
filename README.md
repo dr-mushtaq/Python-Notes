@@ -148,6 +148,8 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 #### Coures
 - **[Python for Beginners by miscorfot](https://learn.microsoft.com/en-us/shows/intro-to-python-development/)** - FREE
 - **[Python for Data Science by IBM ](https://www.coursera.org/learn/python-for-applied-data-science-ai)** - FREE
+- **[Learn Advanced Python 3](https://www.codecademy.com/learn/learn-advanced-python)** - FREE
+- **[Python for Data Science, AI & Development](https://www.coursera.org/learn/python-for-applied-data-science-ai)** - FREE
 
 
 
