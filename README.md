@@ -145,6 +145,10 @@ Never miss a tutorial! Get weekly insights, updates, and bonus content straight 
 #### Tutorial 
 - **[Python learning path for building Agentic AI](https://howtobuildagenticai.substack.com/p/python-learning-path-for-building?utm_source=share&utm_medium=android&r=f2squ&triedRedirect=true)** - FREE
 
+#### Coures
+- **[Python for Beginners by miscorfot](https://learn.microsoft.com/en-us/shows/intro-to-python-development/)** - FREE
+- **[Python for Data Science by IBM ](https://www.coursera.org/learn/python-for-applied-data-science-ai)** - FREE
+
 
 
 </details>
