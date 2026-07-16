@@ -145,11 +145,15 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 <details> 
 <summary> <h2>📕 Course 02 - 🛠️Machine Learning Libraries </h2> </summary>
 
+#### Tutorial 
+- **[Scikit-Ollama for Scikit-LLM/Ollama Integration](https://machinelearningmastery.com/scikit-ollama-for-scikit-llm-ollama-integration/?fbclid=IwY2xjawTFOXBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEewTv1k1Qnhii3iQU92660xb4zFtnw079Fmmn1LUA0sZk_CK7yfPG7W-llJ6g_aem_qZW-OWqRjsMdosddBEkDNA)** - FREE
+
+
 ## 📚Chapter: 1  - **NumPy**
 
 | Tutorial | Video | Code |Extra Resources|
 |---|---|---|---|
-| [**✅1- Exploring the Power of Machine Learning Libraries in Python-G**](https://substack.com/@coursesteach/p-156102438) | [1](https://www.youtube.com/watch?v=8TiCmhwi8dY) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |[1](https://www.youtube.com/@rushikesh_dane/playlists)|
+| [**✅1- Exploring the Power of Machine Learning Libraries in Python-G**](https://substack.com/@coursesteach/p-156102438) | [1](https://www.youtube.com/watch?v=8TiCmhwi8dY)[-2](https://youtu.be/Y2XnfH2F5Vk?si=Y5Q-oA7Sonpg8QK6) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |[1](https://www.youtube.com/@rushikesh_dane/playlists)|
 | [**✅2- NumPy-Create Array**](https://open.substack.com/pub/mushtaqmsit/p/numpy-array-creation-essential-guide?r=f2squ&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false) |[1](https://drive.google.com/file/d/1_dSVDwaec1RDo9Jcww3-jGEJGIdgzJM1/view?usp=sharing) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**✅3- NumPy-Arithmetic Operation**](https://substack.com/profile/25324806-coursesteach/note/c-93137228?utm_source=notes-share-action&r=f2squ) |--| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
 | [**✅4- NumPy-Basics operations**](https://mushtaqmsit.substack.com/p/numpy-basics-guide-efficient-array) |[1](https://www.youtube.com/watch?v=lLRBYKwP8GQ)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Python/blob/master/NumPy_101.ipynb) |
