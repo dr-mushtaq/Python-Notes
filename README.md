@@ -5,10 +5,6 @@ A comprehensive and beginner-friendly collection of Python programming notes, ex
 
  # If you found this helpful, Please Start it to help other discover these tutorials ⭐
 
-<a href="https://app.commanddash.io/agent?github=https://github.com/hussain0048/Python-Notes"><img src="https://img.shields.io/badge/AI-Code%20Gen-EB9FDA"></a>
-<p align="center">
-<img src="https://github.com/dr-mushtaq/Python-Notes/blob/master/Media.jpg"></a>
-</p>
 Welcome to the A-Z Guide to Python in Data Science repository! This comprehensive supplement offers an exhaustive exploration of Python in the context of Data Science, covering topics from basic to advanced levels of proficiency.
 
 
