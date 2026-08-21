@@ -133,6 +133,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 - **[Python for Data Science by IBM ](https://www.coursera.org/learn/python-for-applied-data-science-ai)** - FREE
 - **[Learn Advanced Python 3](https://www.codecademy.com/learn/learn-advanced-python)** - FREE
 - **[Python for Data Science, AI & Development](https://www.coursera.org/learn/python-for-applied-data-science-ai)** - FREE
+- **[Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?irclickid=RIMwY4SGUxycUVyXND0fZwm4Ukr0aCQA73AAU80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=4838646&utm_content=b2c&utm_campaignid=clcoding&utm_term=14726_SI_1164545_#modules)** - FREE
 
 
 
