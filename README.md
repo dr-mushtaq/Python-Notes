@@ -131,6 +131,8 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 #### Coures
 - **[Python for Beginners by miscorfot](https://learn.microsoft.com/en-us/shows/intro-to-python-development/)** - FREE
 - **[Python for Data Science by IBM ](https://www.coursera.org/learn/python-for-applied-data-science-ai)** - FREE
+- **[Using Python for Research ](https://pll.harvard.edu/course/using-python-research)** - FREE
+- **[Introduction to Data Science with Python](https://pll.harvard.edu/course/introduction-data-science-python)** - FREE
 - **[CS50's Introduction to Programming with Scratch by harvard ](https://pll.harvard.edu/course/cs50s-introduction-programming-scratch)** - FREE
 - **[Learn Advanced Python 3](https://www.codecademy.com/learn/learn-advanced-python)** - FREE
 - **[CS50's Introduction to Programming with Python](https://pll.harvard.edu/course/cs50s-introduction-programming-python)** - FREE
