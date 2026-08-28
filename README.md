@@ -124,6 +124,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 
 #### Github
 - **[30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)** - FREE
+- **[31-MOOC-Introduction-to-Python](https://github.com/KAUST-Academy/MOOC-Introduction-to-Python/tree/main)** - FREE
 
 #### Tutorial 
 - **[Python learning path for building Agentic AI](https://howtobuildagenticai.substack.com/p/python-learning-path-for-building?utm_source=share&utm_medium=android&r=f2squ&triedRedirect=true)** - FREE
