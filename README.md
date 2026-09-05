@@ -207,7 +207,7 @@ Contributions are welcome! Whether it's fixing a bug, enhancing existing content
 | [**🌐4-Dalex**](https://medium.com/@Coursesteach/dalex-python-library-unlocking-machine-learning-model-interpretability-with-explanatory-analysis-ce8d9dbfc1aa) |[1](https://www.youtube.com/watch?v=sezHr78xxoM)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 |**🌐5-LINE**|[1](https://www.youtube.com/watch?v=dQ_jvRkzN1Q)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
 |**🌐6-eli5 library**|[1](https://www.youtube.com/watch?v=s-yT5Is1G1A)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |
-|**🌐7-3 Powerful Ways to Improve AI Model Interpretability**|[1](https://www.youtube.com/watch?v=s-yT5Is1G1A)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |[1]()
+|**🌐7-3 Powerful Ways to Improve AI Model Interpretability**|[1](https://youtu.be/nU1Bk7nLOhw?si=mCZD00pnuQcile-F)| [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Python-Notes/blob/master/Model_Interpretability.ipynb) |[1](https://machinelearningmastery.com/3-ways-to-enhance-your-ai-models-interpretability/)|
 
 ## 📚Chapter: 6  - **Auto Machine Learning**
 
